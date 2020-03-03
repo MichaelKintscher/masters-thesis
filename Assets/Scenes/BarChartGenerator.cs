@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class BarChartGenerator : MonoBehaviour
 {
+    // Parameters to set in Unity editor for testing.
+    public bool TestMode = false;
     public int NumOfColumns;
     public int NumOfRows;
 
+    // The size of the chart, configured in the Unity editor.
     public Vector3 ChartSize;
 
     // Stores the bars in the chart.
@@ -23,7 +26,14 @@ public class BarChartGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.InitializeBars();
+        if (this.TestMode)
+        {
+            this.InitializeBarsTest();
+        }
+        else
+        {
+            this.InitializeBars();
+        }
         this.InitializeAxes();
     }
 
@@ -135,6 +145,8 @@ public class BarChartGenerator : MonoBehaviour
 
         // Measure the number of bars needed in each dimension.
         //      This code currently assumes all values are positive.
+        this.NumOfRows = 0;
+        this.NumOfColumns = 0;
         foreach (Vector3 barData in data)
         {
             if (barData.x > this.NumOfRows)
@@ -154,9 +166,11 @@ public class BarChartGenerator : MonoBehaviour
         // Calculate the size of each bar. Bars are evenly distributed across the
         //      total given space, so the size of an individual bar is simply the
         //      total divided by the number of bars.
+        //      Note that one must be added to the row and column numbers, since
+        //          the input data is zero indexed.
         this.BarSize = new Vector2(
-            this.ChartSize.x / this.NumOfRows,
-            this.ChartSize.z / this.NumOfColumns
+            this.ChartSize.x / (this.NumOfRows + 1),
+            this.ChartSize.z / (this.NumOfColumns + 1)
             );
 
         // Generate the bars.
