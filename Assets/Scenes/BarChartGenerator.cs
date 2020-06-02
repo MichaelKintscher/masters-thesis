@@ -42,6 +42,7 @@ public class BarChartGenerator : MonoBehaviour
     {
         this.InitializeBars();
         this.InitializeAxes();
+        this.InitializeBoundingBox();
     }
 
     // Update is called once per frame
@@ -290,5 +291,94 @@ public class BarChartGenerator : MonoBehaviour
         this.YAxisRenderer.endWidth = 0.005f;
         this.ZAxisRenderer.startWidth = 0.005f;
         this.ZAxisRenderer.endWidth = 0.005f;
+    }
+
+    public void InitializeBoundingBox()
+    {
+        // Get the line renderers for each bounding box side.
+        GameObject leftSide = this.transform.Find("LeftBoundingBoxSide").gameObject;
+        GameObject rightSide = this.transform.Find("RightBoundingBoxSide").gameObject;
+        GameObject frontSide = this.transform.Find("FrontBoundingBoxSide").gameObject;
+        GameObject backSide = this.transform.Find("BackBoundingBoxSide").gameObject;
+        GameObject topSide = this.transform.Find("TopBoundingBoxSide").gameObject;
+        GameObject bottomSide = this.transform.Find("BottomBoundingBoxSide").gameObject;
+        LineRenderer leftSideRenderer = leftSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+        LineRenderer rightSideRenderer = rightSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+        LineRenderer frontSideRenderer = frontSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+        LineRenderer backSideRenderer = backSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+        LineRenderer topSideRenderer = topSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+        LineRenderer bottomSideRenderer = bottomSide.GetComponent(typeof(LineRenderer)) as LineRenderer;
+
+        // Define the edge endpoint positions for each side.
+        Vector3[] leftPositions = new Vector3[3]
+        {
+            new Vector3(0f, this.ChartSize.y, 0f),
+            new Vector3(0f, this.ChartSize.y, this.ChartSize.z),
+            new Vector3(0f, 0f, this.ChartSize.z)
+        };
+        Vector3[] rightPositions = new Vector3[3]
+        {
+            new Vector3(this.ChartSize.x, this.ChartSize.y, 0f),
+            new Vector3(this.ChartSize.x, this.ChartSize.y, this.ChartSize.z),
+            new Vector3(this.ChartSize.x, 0f, this.ChartSize.z)
+        };
+        Vector3[] frontPositions = new Vector3[3]
+        {
+            new Vector3(0f, this.ChartSize.y, 0f),
+            new Vector3(this.ChartSize.x, this.ChartSize.y, 0f),
+            new Vector3(this.ChartSize.x, 0f, 0f)
+        };
+        Vector3[] backPositions = new Vector3[2]
+        {
+            new Vector3(0f, 0f, this.ChartSize.z),
+            new Vector3(this.ChartSize.x, 0f, this.ChartSize.z)
+        };
+        Vector3[] topPositions = new Vector3[2]
+        {
+            new Vector3(0f, this.ChartSize.y, this.ChartSize.z),
+            new Vector3(this.ChartSize.x, this.ChartSize.y, this.ChartSize.z)
+        };
+        Vector3[] bottomPositions = new Vector3[2]
+        {
+            new Vector3(this.ChartSize.x, 0f, 0f),
+            new Vector3(this.ChartSize.x, 0f, this.ChartSize.z)
+        };
+
+        // Set the bounding box edge endpoint positions.
+        leftSideRenderer.positionCount = leftPositions.Length;
+        rightSideRenderer.positionCount = rightPositions.Length;
+        frontSideRenderer.positionCount = frontPositions.Length;
+        backSideRenderer.positionCount = backPositions.Length;
+        topSideRenderer.positionCount = topPositions.Length;
+        bottomSideRenderer.positionCount = bottomPositions.Length;
+        leftSideRenderer.SetPositions(leftPositions);
+        rightSideRenderer.SetPositions(rightPositions);
+        frontSideRenderer.SetPositions(frontPositions);
+        backSideRenderer.SetPositions(backPositions);
+        topSideRenderer.SetPositions(topPositions);
+        bottomSideRenderer.SetPositions(bottomPositions);
+
+        // Put the renderers in a list, for easy iteration over to set the
+        //      remaining properties that apply to all.
+        List<LineRenderer> lineRenderers = new List<LineRenderer>()
+        {
+            leftSideRenderer,
+            rightSideRenderer,
+            frontSideRenderer,
+            backSideRenderer,
+            topSideRenderer,
+            bottomSideRenderer
+        };
+
+        foreach (LineRenderer renderer in lineRenderers)
+        {
+            // Set the start and end colors for each side's edges.
+            renderer.startColor = Color.yellow;
+            renderer.endColor = Color.yellow;
+
+            // Set the start and end widths for each side's edges.
+            renderer.startWidth = 0.01f;
+            renderer.endWidth = 0.01f;
+        }
     }
 }
