@@ -189,6 +189,9 @@ public class ScatterPlotGenerator : MonoBehaviour
             // Create a new sphere to model the point.
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 
+            // Make the point a child of the chart.
+            sphere.transform.parent = this.gameObject.transform;
+
             // Scale the point according to the point scale set in the Unity editor.
             sphere.transform.localScale = new Vector3(this.PointScale, this.PointScale, this.PointScale);
 
