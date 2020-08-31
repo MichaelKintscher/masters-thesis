@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2197,6 +2197,49 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!1 &1490549725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1490549727}
+  - component: {fileID: 1490549726}
+  m_Layer: 0
+  m_Name: LoggerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1490549726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490549725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ed5938cca753844b44b257b15b7067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1490549727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490549725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.51549554, y: 0.27684963, z: 3.092801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578963705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,12 +2782,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da04a83d83439744a91c102b0ad1db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestMode: 1
+  TestMode: 0
   NumNodes: 40
   NumEdges: 64
-  PointScale: 0.5
-  EdgeScale: 0.07
-  ChartSize: {x: 10, y: 10, z: 10}
+  PointScale: 0.2
+  EdgeScale: 0.01
+  ChartSize: {x: 25, y: 25, z: 25}
 --- !u!114 &1765538595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2757,7 +2800,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12aa80e79ba07e64f9850f42328a4698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Asset: {fileID: 0}
+  Asset: {fileID: 4900000, guid: 0f9b15b63f92f004a9a0d88ab1803121, type: 3}
+  PrecalculatedPosition: 1
 --- !u!4 &1765538596
 Transform:
   m_ObjectHideFlags: 0

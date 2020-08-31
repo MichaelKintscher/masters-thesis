@@ -84,9 +84,17 @@ public class NetworkGenerator : MonoBehaviour
         this.FileDataReader = this.GetComponent(typeof(GraphDataReader)) as GraphDataReader;
         GraphData graphData = this.TestMode ? this.GenerateTestGraph() : this.FileDataReader.GetData();
 
+        // To hold the maximums and minimums.
+        float xMax = float.MinValue;
+        float xMin = float.MaxValue;
+        float yMax = float.MinValue;
+        float yMin = float.MaxValue;
+        float zMax = float.MinValue;
+        float zMin = float.MaxValue;
+
         // Generate a sphere to represent each node.
         System.Random rand = new System.Random();
-        foreach (string nodeData in graphData.Nodes)
+        foreach (GraphDataNode nodeData in graphData.Nodes)
         {
             // Create a new sphere to model the point.
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
@@ -98,20 +106,89 @@ public class NetworkGenerator : MonoBehaviour
             sphere.transform.localScale = new Vector3(this.PointScale, this.PointScale, this.PointScale);
 
             // Position the sphere randomly within the chart size.
+            //sphere.transform.position = new Vector3(
+            //    rand.Next(0, Mathf.RoundToInt(this.ChartSize.x)),
+            //    rand.Next(0, Mathf.RoundToInt(this.ChartSize.y)),
+            //    rand.Next(0, Mathf.RoundToInt(this.ChartSize.z))
+            //    );
+
+            // Update the maximum and minimum position values.
+            if (nodeData.X > xMax)
+            {
+                xMax = nodeData.X;
+            }
+            if (nodeData.X < xMin)
+            {
+                xMin = nodeData.X;
+            }
+            if (nodeData.Y > yMax)
+            {
+                yMax = nodeData.Y;
+            }
+            if (nodeData.Y < yMin)
+            {
+                yMin = nodeData.Y;
+            }
+            if (nodeData.Z > zMax)
+            {
+                zMax = nodeData.Z;
+            }
+            if (nodeData.Z < zMin)
+            {
+                zMin = nodeData.Z;
+            }
+
             sphere.transform.position = new Vector3(
-                rand.Next(0, Mathf.RoundToInt(this.ChartSize.x)),
-                rand.Next(0, Mathf.RoundToInt(this.ChartSize.y)),
-                rand.Next(0, Mathf.RoundToInt(this.ChartSize.z))
+                nodeData.X,
+                nodeData.Y,
+                nodeData.Z
                 );
 
+            //string message = "Placed node " + nodeData.Name + " initially at: " + sphere.transform.position.ToString();
+            //Debug.Log(message);
+
             // Add the node to the dictionary, indexed by it's name.
-            this.Nodes.Add(nodeData, sphere);
+            this.Nodes.Add(nodeData.Name, sphere);
+        }
+
+        //Debug.Log("Position Stats: ");
+        //Debug.Log(xMax);
+        //Debug.Log(xMin);
+        //Debug.Log(yMax);
+        //Debug.Log(yMin);
+        //Debug.Log(zMax);
+        //Debug.Log(zMin);
+        // Adjust the position position of each sphere based on the pre-calculated layout,
+        //      scaled for the size of the chart.
+        float xRange = xMax - xMin;
+        float yRange = yMax - yMin;
+        float zRange = zMax - zMin;
+        foreach (KeyValuePair<string, GameObject> pair in this.Nodes)
+        {
+            pair.Value.transform.position = new Vector3(
+                pair.Value.transform.position.x / xRange * this.ChartSize.x,
+                pair.Value.transform.position.y / yRange * this.ChartSize.y,
+                pair.Value.transform.position.z / zRange * this.ChartSize.z
+                );
+
+            //string message = "Placed node " + pair.Key + " at: " + pair.Value.transform.position.ToString();
+            //Debug.Log(message);
         }
 
         // Now build out the edges.
         foreach (GraphDataEdge edge in graphData.EdgeList)
         {
             // The points the edge must connect.
+            if (this.Nodes.ContainsKey(edge.From) == false)
+            {
+                Debug.Log("Missing FROM key: " + edge.From + "for edge to " + edge.To);
+                continue;
+            }
+            if (this.Nodes.ContainsKey(edge.To) == false)
+            {
+                Debug.Log("Missing TO key: " + edge.To + "for edge from " + edge.From);
+                continue;
+            }
             Vector3 fromPoint = this.Nodes[edge.From].transform.localPosition;
             Vector3 toPoint = this.Nodes[edge.To].transform.localPosition;
 
@@ -148,7 +225,7 @@ public class NetworkGenerator : MonoBehaviour
         {
             // Put the number in as the node name. This ensures
             //      they are unique.
-            data.Nodes.Add(i.ToString());
+            data.Nodes.Add(new GraphDataNode(i.ToString()));
         }
 
         for (int j = 0; j < this.NumEdges; j++)

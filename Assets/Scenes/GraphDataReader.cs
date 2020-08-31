@@ -2,11 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using UnityEngine;
 
 public class GraphDataReader : MonoBehaviour
 {
     public TextAsset Asset;
+
+    // Whether the second through fourth item on each line represents a position
+    //      for the node or not. If not, then all items after the first are assumed
+    //      to be nodes the first node is connected to.
+    public bool PrecalculatedPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -53,35 +59,80 @@ public class GraphDataReader : MonoBehaviour
             // Extract the values on that line.
             string[] values = line.Split(',');
 
+            // Skip any extra new line characters.
+            if (String.IsNullOrWhiteSpace(values[0]))
+            {
+                continue;
+            }
+
+            //Debug.Log(Uri.EscapeDataString(line.TrimEnd()));
+
             // The first value on the line is the from node, and
+            //      if the precalculated position flag is NOT set,
             //      the remaining values on the line are the to
-            //      nodes.
+            //      nodes. Otherwise, the next three values are the
+            //      position of the node in XYZ space, and the
+            //      remaining values after that are the to nodes.
             string fromNode = values[0];
-            string[] toNodes = values.Skip(1).ToArray();
+            int startPositionForToNodes = this.PrecalculatedPosition ? 4 : 1;
+            string[] toNodes = values.Skip(startPositionForToNodes).ToArray();
 
             // Add only new nodes to the node list.
-            if (!data.Nodes.Contains(fromNode))
+            if (data.Nodes.Where(n => n.Name == fromNode).FirstOrDefault() == null)
             {
-                data.Nodes.Add(fromNode);
+                GraphDataNode node = new GraphDataNode(fromNode);
+
+                // Populate the position data if the precomputed
+                //      positions flag is set.
+                if (this.PrecalculatedPosition)
+                {
+                    try
+                    {
+                        //string xPos = "X POS: " + float.Parse(values[1]).ToString();
+                        //string yPos = "Y POS: " + float.Parse(values[2]).ToString();
+                        //string zPos = "Z POS: " + float.Parse(values[3]).ToString();
+                        //string myMessage = "Node position read at: (" + xPos + " , " + yPos + " , " + zPos + ")";
+                        //Debug.Log(myMessage);
+                        node.X = float.Parse(values[1]);
+                        node.Y = float.Parse(values[2]);
+                        node.Z = float.Parse(values[3]);
+                    }
+                    catch(Exception ex)
+                    {
+                        string message = "ERROR ON NODE ROW " + fromNode.ToString() + " File Line: " + lines.ToList().IndexOf(line);
+                        Debug.Log(message);
+                    }
+                }
+
+                data.Nodes.Add(node);
             }
 
             // For each To node in the list...
             foreach (string toNode in toNodes)
             {
                 // Add only new nodes to the node list.
-                if (!data.Nodes.Contains(toNode))
+                //if (data.Nodes.Where(n => n.Name == toNode).FirstOrDefault() == null)
+                //{
+                //    data.Nodes.Add(new GraphDataNode(toNode));
+                //}
+
+                // Skip any extra new line characters.
+                if (String.IsNullOrWhiteSpace(toNode))
                 {
-                    data.Nodes.Add(toNode);
+                    continue;
                 }
 
                 // Create and add the edge to the edge list.
                 GraphDataEdge edge = new GraphDataEdge()
                 {
                     From = fromNode,
-                    To = toNode
+                    To = toNode.TrimEnd()
                 };
                 data.EdgeList.Add(edge);
             }
+
+            //string newMessage = "Total Nodes: " + data.Nodes.Count + " Total Edges: " + data.EdgeList.Count;
+            //Debug.Log(newMessage);
         }
 
         return data;
@@ -90,12 +141,12 @@ public class GraphDataReader : MonoBehaviour
 
 public class GraphData
 {
-    public List<string> Nodes { get; set; }
+    public List<GraphDataNode> Nodes { get; set; }
     public List<GraphDataEdge> EdgeList { get; set; }
 
     public GraphData()
     {
-        this.Nodes = new List<string>();
+        this.Nodes = new List<GraphDataNode>();
         this.EdgeList = new List<GraphDataEdge>();
     }
 }
@@ -109,5 +160,21 @@ public class GraphDataEdge
     public GraphDataEdge()
     {
         this.Weight = 1;
+    }
+}
+
+public class GraphDataNode
+{
+    public string Name { get; set; }
+    public float X { get; set; }
+    public float Y { get; set; }
+    public float Z { get; set; }
+
+    public GraphDataNode(string name)
+    {
+        this.Name = name;
+        this.X = 0;
+        this.Y = 0;
+        this.Z = 0;
     }
 }
