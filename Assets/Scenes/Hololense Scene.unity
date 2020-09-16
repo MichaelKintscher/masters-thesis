@@ -1684,7 +1684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1110086011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1697,7 +1697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31625b35a87a8c40a725d396026dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Asset: {fileID: 4900000, guid: 058ed54a60a2f394e95f20ce3e2d5fd6, type: 3}
+  Asset: {fileID: 4900000, guid: 11a247434bdce344eb21feca3de95fec, type: 3}
 --- !u!4 &1110086012
 Transform:
   m_ObjectHideFlags: 0
@@ -1733,13 +1733,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343dbecaebb51484bb2ec41281143da3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestMode: 1
+  TestMode: 0
   NumPoints: 35
   PointMaxXValue: 10
   PointMaxYValue: 10
   PointMaxZValue: 10
   PointScale: 0.1
   ChartSize: {x: 2, y: 2, z: 2}
+  MinPointSize: 0.005
+  MaxPointSize: 0.05
 --- !u!1 &1120126696
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,7 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3f8ba1df62adc48917c095fd82a107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestMode: 1
+  TestMode: 0
   NumOfColumns: 14
   NumOfRows: 10
   ChartSize: {x: 2, y: 1, z: 2}
@@ -1812,7 +1814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31625b35a87a8c40a725d396026dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Asset: {fileID: 4900000, guid: 058ed54a60a2f394e95f20ce3e2d5fd6, type: 3}
+  Asset: {fileID: 4900000, guid: 528eee90c7c4cce4f8f504bb5df44829, type: 3}
 --- !u!1 &1239212031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,7 +2771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1765538594
 MonoBehaviour:
   m_ObjectHideFlags: 0

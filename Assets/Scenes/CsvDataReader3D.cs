@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CsvDataReader3D : MonoBehaviour
@@ -18,14 +20,14 @@ public class CsvDataReader3D : MonoBehaviour
         
     }
 
-    public List<Vector3> GetData()
+    public List<Vector4> GetData()
     {
         if (this.Asset == null)
         {
-            return new List<Vector3>();
+            return new List<Vector4>();
         }
 
-        List<Vector3> data = new List<Vector3>();
+        List<Vector4> data = new List<Vector4>();
 
         // Extract the lines from the CSV file.
         string[] lines = this.Asset.text.Split('\n');
@@ -45,7 +47,7 @@ public class CsvDataReader3D : MonoBehaviour
             string[] values = line.Split(',');
 
             // If the line doesn't contain exactly three values, move on to the next.
-            if (values.Length != 3)
+            if (values.Length != 3 && values.Length != 4)
             {
                 // Print an error message to Unity console showing line number and content
                 //      that caused the error.
@@ -57,12 +59,20 @@ public class CsvDataReader3D : MonoBehaviour
             float x;
             float y;
             float z;
+            float w = 1f; // Defaults to one, so all values are the same, if the file does not specify any.
 
             try
             {
                 x = float.Parse(values[0]);
                 y = float.Parse(values[1]);
                 z = float.Parse(values[2]);
+
+                // Only parse the 4th value if one exists.
+                if (values.Count() > 3)
+                {
+                    // Trim End is necessary to get rid of the carriage return character.
+                    w = float.Parse(values[3].TrimEnd());
+                }
             }
             catch
             {
@@ -74,7 +84,7 @@ public class CsvDataReader3D : MonoBehaviour
 
             // Add a new vector containing the parsed data from the line to the list of
             //      vectors.
-            data.Add(new Vector3(x, y, z));
+            data.Add(new Vector4(x, y, z, w));
         }
 
         // Return the completed list of vectors.

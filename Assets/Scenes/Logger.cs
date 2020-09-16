@@ -22,18 +22,15 @@ public class Logger : MonoBehaviour
         // See https://blog.mzikmund.com/2020/01/how-to-stream-ify-a-uwp-storagefile/
         // Also see https://forums.hololens.com/discussion/comment/7133/#Comment_7133
         // And finally see https://forums.hololens.com/discussion/3290/save-a-string-to-a-text-or-cvs-file-on-hololens
-        Stream logFileStream;
 
         // Get a reference to the file.
-        Task<string> task = new Task<string>(async () =>
+        Task<Stream> task = Task<Stream>.Run(async () =>
         {
             StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///LoggedData/" + fileName + ".csv"));
-            logFileStream = await file.OpenStreamForWriteAsync();
-
-        Debug.Log(file.Path);
+            Debug.Log(file.Path);
+            return await file.OpenStreamForWriteAsync();
         });
-
-        Task.Run();
+        Stream logFileStream = task.Result;
         Task.WaitAll();
 
         this.logFileWriter = new StreamWriter(logFileStream);

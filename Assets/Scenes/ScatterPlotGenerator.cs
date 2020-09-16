@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class ScatterPlotGenerator : MonoBehaviour
 {
@@ -16,6 +18,10 @@ public class ScatterPlotGenerator : MonoBehaviour
 
     // The size of the chart, configured in the Unity editor.
     public Vector3 ChartSize;
+
+    // The minimum and maximum point sizes to scale all points between.
+    public float MinPointSize;
+    public float MaxPointSize;
 
     // Stores the points in the plot.
     private List<GameObject> Points { get; set; }
@@ -160,31 +166,12 @@ public class ScatterPlotGenerator : MonoBehaviour
         }
 
         // Get the data from the file data reader.
-        List<Vector3> data = this.FileDataReader.GetData();
+        List<Vector4> data = this.FileDataReader.GetData();
 
-        // Measure the scale factor of the chart to fit all points in the chart size.
-        //      This code currently assumes all values are positive.
-        float xGreatest = 0f;
-        float yGreatest = 0f;
-        float zGreatest = 0f;
-        foreach(Vector3 pointData in data)
-        {
-            if (pointData.x > xGreatest)
-            {
-                xGreatest = pointData.x;
-            }
-            if (pointData.y > yGreatest)
-            {
-                yGreatest = pointData.y;
-            }
-            if (pointData.z > zGreatest)
-            {
-                zGreatest = pointData.z;
-            }
-        }
+        List<Vector4> scaledData = this.ScalePointsToChart(data);
 
         // Generate the points.
-        foreach (Vector3 pointData in data)
+        foreach (Vector4 pointData in scaledData)
         {
             // Create a new sphere to model the point.
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
@@ -193,21 +180,76 @@ public class ScatterPlotGenerator : MonoBehaviour
             sphere.transform.parent = this.gameObject.transform;
 
             // Scale the point according to the point scale set in the Unity editor.
-            sphere.transform.localScale = new Vector3(this.PointScale, this.PointScale, this.PointScale);
+            sphere.transform.localScale = new Vector3(pointData.w, pointData.w, pointData.w);
 
             // Position the sphere based on the data, relative to the size of the chart.
             //      Note that the "Z" value of the data is placed in the "Y"
             //      position. This is because Unity has the Y axis pointing
             //      up instead of the Z axis.
-            sphere.transform.position = new Vector3(
-                (pointData.x / xGreatest) * this.ChartSize.x,
-                (pointData.z / zGreatest) * this.ChartSize.z,
-                (pointData.y / yGreatest) * this.ChartSize.y
-                );
+            sphere.transform.position = (Vector3)pointData + (this.ChartSize / 2f);
 
             // Add the point to the list.
             this.Points.Add(sphere);
         }
+    }
+
+    private List<Vector4> ScalePointsToChart(List<Vector4> unscaledPoints)
+    {
+        // Return an empty list if given an empty list.
+        if (unscaledPoints.Count == 0)
+        {
+            return new List<Vector4>();
+        }
+
+        // Measure the scale factor of the chart to fit all points in the chart size.
+        List<float> xValues = new List<float>();
+        List<float> yValues = new List<float>();
+        List<float> zValues = new List<float>();
+        List<float> wValues = new List<float>();
+        foreach (Vector4 pointData in unscaledPoints)
+        {
+            xValues.Add(pointData.x);
+            yValues.Add(pointData.y);
+            zValues.Add(pointData.z);
+            wValues.Add(pointData.w);
+        }
+
+        // Get references to the min and max valus (doing this in advance of the
+        //      loop for performance).
+        float xMin = xValues.Min();
+        float yMin = yValues.Min();
+        float zMin = zValues.Min();
+        float wMin = wValues.Min();
+        float xMax = xValues.Max();
+        float yMax = yValues.Max();
+        float zMax = zValues.Max();
+        float wMax = wValues.Max();
+
+        // Find the dimension with the greatest range, as the chart will be scaled
+        //      to fit this dimension. Attempting to scale by each dimension
+        //      independently would lead to visual distortion (different scales on
+        //      each axis relative to physical realtiy and each other).
+        float[] ranges = { Mathf.Abs(xMax - xMin), Mathf.Abs(yMax - yMin), Mathf.Abs(zMax - zMin) };
+        float maxRange = Mathf.Max(ranges);
+
+        // Precompute some scaling values for efficiency.
+        float chartRange = this.ChartSize[ranges.ToList().IndexOf(maxRange)];
+        float scaleFactor = chartRange / maxRange;
+
+        // Scale each point.
+        List<Vector4> scaledPoints = new List<Vector4>();
+        foreach (Vector4 unscaledPoint in unscaledPoints)
+        {
+            // Note that w is scaled independently of the spatial dimensions.
+            scaledPoints.Add(new Vector4(
+                ((unscaledPoint.x - xMin) * scaleFactor) - (this.ChartSize.x / 2f),
+                ((unscaledPoint.y - yMin) * scaleFactor) - (this.ChartSize.y / 2f),
+                ((unscaledPoint.z - zMin) * scaleFactor) - (this.ChartSize.z / 2f),
+                ((unscaledPoint.w - wMin) * (this.MaxPointSize - this.MinPointSize) / (wMax - wMin)) + this.MinPointSize
+                ));
+        }
+
+        return scaledPoints;
     }
 
     private void InitializeAxes()
@@ -244,6 +286,22 @@ public class ScatterPlotGenerator : MonoBehaviour
         this.XAxisRenderer.SetPositions(xAxispositions);
         this.YAxisRenderer.SetPositions(yAxispositions);
         this.ZAxisRenderer.SetPositions(zAxispositions);
+
+        // Set the start and end colors for each axis.
+        this.XAxisRenderer.startColor = Color.red;
+        this.XAxisRenderer.endColor = Color.red;
+        this.YAxisRenderer.startColor = Color.green;
+        this.YAxisRenderer.endColor = Color.green;
+        this.ZAxisRenderer.startColor = Color.blue;
+        this.ZAxisRenderer.endColor = Color.blue;
+
+        // Set the start and end widths for each axis.
+        this.XAxisRenderer.startWidth = 0.005f;
+        this.XAxisRenderer.endWidth = 0.005f;
+        this.YAxisRenderer.startWidth = 0.005f;
+        this.YAxisRenderer.endWidth = 0.005f;
+        this.ZAxisRenderer.startWidth = 0.005f;
+        this.ZAxisRenderer.endWidth = 0.005f;
     }
 
     public void InitializeBoundingBox()

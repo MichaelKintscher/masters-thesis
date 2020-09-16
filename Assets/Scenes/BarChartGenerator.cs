@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class BarChartGenerator : MonoBehaviour
@@ -74,7 +75,7 @@ public class BarChartGenerator : MonoBehaviour
             return;
         }
 
-        List<Vector3> data = new List<Vector3>();
+        List<Vector4> data = new List<Vector4>();
 
         if (this.TestMode)
         {
@@ -84,10 +85,11 @@ public class BarChartGenerator : MonoBehaviour
                 for (int column = 0; column < this.NumOfColumns; column++)
                 {
                     // Set the height to a random number.
-                    data.Add(new Vector3(
+                    data.Add(new Vector4(
                         row,
                         column,
-                        Random.value * this.ChartSize.y
+                        Random.value * this.ChartSize.y,
+                        1f
                         ));
                 }
             }
@@ -127,10 +129,6 @@ public class BarChartGenerator : MonoBehaviour
                 {
                     this.NumOfColumns = Mathf.RoundToInt(barData.y);
                 }
-                if (barData.z > tallestBarHeight)
-                {
-                    tallestBarHeight = barData.z;
-                }
             }
 
             // Accounts for zero-indexed file.
@@ -146,6 +144,13 @@ public class BarChartGenerator : MonoBehaviour
             this.ChartSize.z / this.NumOfColumns
             );
 
+        // Calculate the vertical offset for the bars.
+        List<float> heightValues = new List<float>();
+        data.ForEach(b => heightValues.Add(b.z));
+        float minHeight = heightValues.Min();
+        float maxHeight = heightValues.Max();
+        tallestBarHeight = maxHeight - minHeight;
+
         // Generate the bars.
         foreach (Vector3 barData in data)
         {
@@ -155,69 +160,12 @@ public class BarChartGenerator : MonoBehaviour
             // Make the bar a child of the chart.
             cube.transform.parent = this.gameObject.transform;
 
-            float height = barData.z;
+            float height = (minHeight > 0) ? barData.z : barData.z + Mathf.Abs(minHeight);
 
             // Display the tick marks on the bar.
             if (this.DisplayTicksOnBars)
             {
-                // The bar needs a tick for each tick frequency, plus one for the 
-                //      bottom of the bar. Take the floor of this number, because
-                //      whatever is left at the top will not have a tick above it.
-                int numOfTicks = Mathf.FloorToInt(height / this.TickFrequency) + 1;
-
-                // For each tick on the bar...
-                for (int i = 0; i < numOfTicks; i++)
-                {
-                    // Create a game object to hold the tick.
-                    GameObject tickObject = new GameObject();
-
-                    // Parent the bar to the tick game object.
-                    tickObject.transform.parent = cube.transform;
-
-                    // Create the line renderer components on the tick object, 
-                    //      one for each side of the bar.
-                    LineRenderer tickRenderer = tickObject.AddComponent(typeof(LineRenderer)) as LineRenderer;
-                    tickRenderer.useWorldSpace = false;
-
-                    // Define the tick endpoint positions for each side.
-                    //      The Y starts at negative half of the scale, and goes up in
-                    //          increments based on the tick frequency. The division by
-                    //          height is to account for the scaling later (code is in
-                    //          wrong order... should have been scaled first).
-                    //      The X and Z are going to be offset by half of the cube size
-                    //          in their respective directions, depending on which side
-                    //          of the bar.
-                    Vector3[] leftPositions = new Vector3[5]
-                    {
-                            new Vector3(-cube.transform.localScale.x / 2 - this.BarTickOffset,
-                                        -cube.transform.localScale.y / 2 + (this.TickFrequency /height) * i,
-                                        -cube.transform.localScale.z / 2 - this.BarTickOffset),
-                            new Vector3(-cube.transform.localScale.x / 2 - this.BarTickOffset,
-                                        -cube.transform.localScale.y / 2 + (this.TickFrequency /height) * i,
-                                        cube.transform.localScale.z / 2 + this.BarTickOffset),
-                            new Vector3(cube.transform.localScale.x / 2 + this.BarTickOffset,
-                                        -cube.transform.localScale.y / 2 + (this.TickFrequency /height) * i,
-                                        cube.transform.localScale.z / 2 + this.BarTickOffset),
-                            new Vector3(cube.transform.localScale.x / 2 + this.BarTickOffset,
-                                        -cube.transform.localScale.y / 2 + (this.TickFrequency /height) * i,
-                                        -cube.transform.localScale.z / 2 - this.BarTickOffset),
-                            new Vector3(-cube.transform.localScale.y / 2 - this.BarTickOffset,
-                                        -cube.transform.localScale.x / 2 + (this.TickFrequency /height) * i,
-                                        -cube.transform.localScale.z / 2 - this.BarTickOffset),
-                    };
-
-                    // Set the tick endpoint positions.
-                    tickRenderer.positionCount = leftPositions.Length;
-                    tickRenderer.SetPositions(leftPositions);
-
-                    // Set the start and end colors for each side.
-                    tickRenderer.startColor = Color.red;
-                    tickRenderer.endColor = Color.red;
-
-                    // Set the start and end widths for each side.
-                    tickRenderer.startWidth = 0.01f;
-                    tickRenderer.endWidth = 0.01f;
-                }
+                this.GenerateBarTicks(cube, height);
             }
 
             // Scale the bar based on the the previously calculated bar size.
@@ -238,6 +186,68 @@ public class BarChartGenerator : MonoBehaviour
 
             // Add the bar to the list.
             this.Bars.Add(cube);
+        }
+    }
+
+    private void GenerateBarTicks(GameObject bar, float barHeight)
+    {
+        // The bar needs a tick for each tick frequency, plus one for the 
+        //      bottom of the bar. Take the floor of this number, because
+        //      whatever is left at the top will not have a tick above it.
+        int numOfTicks = Mathf.FloorToInt(barHeight / this.TickFrequency) + 1;
+
+        // For each tick on the bar...
+        for (int i = 0; i < numOfTicks; i++)
+        {
+            // Create a game object to hold the tick.
+            GameObject tickObject = new GameObject();
+
+            // Parent the bar to the tick game object.
+            tickObject.transform.parent = bar.transform;
+
+            // Create the line renderer components on the tick object, 
+            //      one for each side of the bar.
+            LineRenderer tickRenderer = tickObject.AddComponent(typeof(LineRenderer)) as LineRenderer;
+            tickRenderer.useWorldSpace = false;
+
+            // Define the tick endpoint positions for each side.
+            //      The Y starts at negative half of the scale, and goes up in
+            //          increments based on the tick frequency. The division by
+            //          height is to account for the scaling later (code is in
+            //          wrong order... should have been scaled first).
+            //      The X and Z are going to be offset by half of the cube size
+            //          in their respective directions, depending on which side
+            //          of the bar.
+            Vector3[] leftPositions = new Vector3[5]
+            {
+                            new Vector3(-bar.transform.localScale.x / 2 - this.BarTickOffset,
+                                        -bar.transform.localScale.y / 2 + (this.TickFrequency / barHeight) * i,
+                                        -bar.transform.localScale.z / 2 - this.BarTickOffset),
+                            new Vector3(-bar.transform.localScale.x / 2 - this.BarTickOffset,
+                                        -bar.transform.localScale.y / 2 + (this.TickFrequency / barHeight) * i,
+                                        bar.transform.localScale.z / 2 + this.BarTickOffset),
+                            new Vector3(bar.transform.localScale.x / 2 + this.BarTickOffset,
+                                        -bar.transform.localScale.y / 2 + (this.TickFrequency / barHeight) * i,
+                                        bar.transform.localScale.z / 2 + this.BarTickOffset),
+                            new Vector3(bar.transform.localScale.x / 2 + this.BarTickOffset,
+                                        -bar.transform.localScale.y / 2 + (this.TickFrequency / barHeight) * i,
+                                        -bar.transform.localScale.z / 2 - this.BarTickOffset),
+                            new Vector3(-bar.transform.localScale.y / 2 - this.BarTickOffset,
+                                        -bar.transform.localScale.x / 2 + (this.TickFrequency / barHeight) * i,
+                                        -bar.transform.localScale.z / 2 - this.BarTickOffset),
+            };
+
+            // Set the tick endpoint positions.
+            tickRenderer.positionCount = leftPositions.Length;
+            tickRenderer.SetPositions(leftPositions);
+
+            // Set the start and end colors for each side.
+            tickRenderer.startColor = Color.red;
+            tickRenderer.endColor = Color.red;
+
+            // Set the start and end widths for each side.
+            tickRenderer.startWidth = 0.01f;
+            tickRenderer.endWidth = 0.01f;
         }
     }
 
