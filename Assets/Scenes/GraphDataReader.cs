@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Security.Policy;
 using UnityEngine;
 
 public class GraphDataReader : MonoBehaviour
 {
-    public TextAsset Asset;
+    public string FileName;
 
     // Whether the second through fourth item on each line represents a position
     //      for the node or not. If not, then all items after the first are assumed
@@ -37,13 +37,27 @@ public class GraphDataReader : MonoBehaviour
     {
         GraphData data = new GraphData();
 
-        if (this.Asset == null)
+        string asset = null;
+        string path = Path.Combine(Application.streamingAssetsPath + "/" + this.FileName);
+
+        try
+        {
+            asset = File.ReadAllText(path);
+        }
+        catch (Exception ex)
+        {
+            // Nothing to do but continue...
+            // Please don't ask about this debug log, it was a rough time.
+            Debug.Log("Error lolz " + path);
+        }
+
+        if (asset == null)
         {
             return data;
         }
 
         // Extract the lines from the CSV file.
-        string[] lines = this.Asset.text.Split('\n');
+        string[] lines = asset.Split('\n');
 
         // Print a warning to the Unity console if the file is found to be empty.
         //      Note that the foreach loop below will not execute in this case,

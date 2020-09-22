@@ -8,4 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/Startup Scene.unity
+    guid: 6e80d9f1b192193409cc74b8090d4848
+  - enabled: 1
+    path: Assets/Scenes/Desktop Scene.unity
+    guid: 6c1cdf10796fde843a36b1a9fc645400
+  - enabled: 1
+    path: Assets/Scenes/Hololense Scene.unity
+    guid: 270f27edd656c9346912811736e3febf
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74f6b3350b5c12940bcd239df5db77f8,
+      type: 2}

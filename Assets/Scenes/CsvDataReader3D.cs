@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 
 public class CsvDataReader3D : MonoBehaviour
 {
-    public TextAsset Asset;
+    public string FileName;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,21 @@ public class CsvDataReader3D : MonoBehaviour
 
     public List<Vector4> GetData()
     {
-        if (this.Asset == null)
+        string asset = null;
+        string path = Path.Combine(Application.streamingAssetsPath + "/" + this.FileName);
+
+        try
+        {
+            asset = File.ReadAllText(path);
+        }
+        catch (Exception ex)
+        {
+            // Nothing to do but continue...
+            // Please don't ask about this debug log, it was a rough time.
+            Debug.Log("Error lolz " + path);
+        }
+
+        if (asset == null)
         {
             return new List<Vector4>();
         }
@@ -30,7 +45,7 @@ public class CsvDataReader3D : MonoBehaviour
         List<Vector4> data = new List<Vector4>();
 
         // Extract the lines from the CSV file.
-        string[] lines = this.Asset.text.Split('\n');
+        string[] lines = asset.Split('\n');
 
         // Print a warning to the Unity console if the file is found to be empty.
         //      Note that the foreach loop below will not execute in this case,
