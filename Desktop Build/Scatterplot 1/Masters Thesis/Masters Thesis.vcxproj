@@ -7,11 +7,10 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <PackageCertificateKeyFile>WSATestCertificate.pfx</PackageCertificateKeyFile>
-    <UseSubFolderForOutputDirDuringMultiPlatformBuild>false</UseSubFolderForOutputDirDuringMultiPlatformBuild>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ItemGroup Label="ProjectConfigurations">
@@ -113,7 +112,7 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4447;4453;4451;4691;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions);UNITY_HOLOGRAPHIC=1</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir);$(GeneratedFilesDir);$(IntDir);$(SolutionDir)Il2CppOutputProject\Source\CppPlugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -160,7 +159,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="WindowsMobile, Version=10.0.18362.0" />
+    <SDKReference Include="WindowsMobile, Version=10.0.19041.0" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="Unity Data.vcxitems" Label="Unity Data" />

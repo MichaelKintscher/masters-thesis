@@ -177,6 +177,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Management_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AIModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AndroidJNIModule_CodeGen.c">
@@ -715,6 +717,8 @@
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro3.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Management.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.AIModule.cpp">
     </ClCompile>
@@ -4013,7 +4017,7 @@
     <ProjectGuid>{EA17D85E-DA6F-49EA-A879-8F48265B121D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>

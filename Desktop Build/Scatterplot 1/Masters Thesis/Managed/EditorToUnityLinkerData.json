@@ -7,27 +7,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NamedObject",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -37,7 +18,30 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NamedObject",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -47,7 +51,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -57,7 +62,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -67,7 +73,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -77,7 +84,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -101,7 +109,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -125,8 +134,62 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioManager",
+            "fullManagedTypeName": "UnityEditor.AudioManager",
+            "moduleName": "Audio",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "BuildSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PlayerSettings",
+            "fullManagedTypeName": "UnityEditor.PlayerSettings",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TextAsset",
+            "fullManagedTypeName": "UnityEngine.TextAsset",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PhysicsManager",
+            "fullManagedTypeName": "UnityEditor.PhysicsManager",
+            "moduleName": "Physics",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TimeManager",
+            "fullManagedTypeName": "UnityEditor.TimeManager",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "InputManager",
+            "fullManagedTypeName": "UnityEditor.InputManager",
+            "moduleName": "Core",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -157,37 +220,9 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "",
-            "nativeClass": "BuildSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "PlayerSettings",
-            "fullManagedTypeName": "UnityEditor.PlayerSettings",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "TimeManager",
-            "fullManagedTypeName": "UnityEditor.TimeManager",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "InputManager",
-            "fullManagedTypeName": "UnityEditor.InputManager",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "ResourceManager",
-            "fullManagedTypeName": "",
+            "nativeClass": "QualitySettings",
+            "fullManagedTypeName": "UnityEngine.QualitySettings",
             "moduleName": "Core",
             "usedInScenes": []
         },
@@ -200,26 +235,16 @@
         },
         {
             "managedAssemblyName": "",
-            "nativeClass": "ScriptMapper",
+            "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "TextAsset",
-            "fullManagedTypeName": "UnityEngine.TextAsset",
+            "managedAssemblyName": "",
+            "nativeClass": "ScriptMapper",
+            "fullManagedTypeName": "",
             "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "PhysicsManager",
-            "fullManagedTypeName": "UnityEditor.PhysicsManager",
-            "moduleName": "Physics",
             "usedInScenes": []
         },
         {
@@ -231,34 +256,10 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioManager",
-            "fullManagedTypeName": "UnityEditor.AudioManager",
-            "moduleName": "Audio",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Physics2DSettings",
             "fullManagedTypeName": "UnityEditor.Physics2DSettings",
             "moduleName": "Physics2D",
             "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "QualitySettings",
-            "fullManagedTypeName": "UnityEngine.QualitySettings",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -267,17 +268,19 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -287,25 +290,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -315,7 +301,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -325,34 +312,19 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
+            "nativeClass": "Texture",
+            "fullManagedTypeName": "UnityEngine.Texture",
+            "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CapsuleCollider",
-            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -362,7 +334,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -372,7 +345,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -386,41 +360,13 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture",
-            "fullManagedTypeName": "UnityEngine.Texture",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Texture2D",
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "LevelGameManager",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -430,14 +376,15 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
+            "nativeClass": "CGProgram",
+            "fullManagedTypeName": "UnityEngine.TextAsset",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity"
             ]
@@ -449,16 +396,29 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
             "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
+            "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
-            "moduleName": "Audio",
+            "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity"
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -467,7 +427,107 @@
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Desktop Scene.unity"
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Avatar",
+            "fullManagedTypeName": "UnityEngine.Avatar",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Cubemap",
+            "fullManagedTypeName": "UnityEngine.Cubemap",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightProbes",
+            "fullManagedTypeName": "UnityEngine.LightProbes",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Hololense Scene.unity"
             ]
         },
         {
@@ -501,6 +561,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ExitAppScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "GraphDataReader",
             "moduleName": "",
             "usedInScenes": []
@@ -523,6 +590,328 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ScatterPlotGenerator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.AnimatedCursor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.FingerCursor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.GGVPointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MeshCursor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MousePointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.PokePointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.SpherePointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.SpherePointerVisual",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.TouchPointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.GazeProvider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMappingProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityGesturesProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityHandTrackingProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionsProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystemProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealitySpeechCommandsProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.MixedRealityCameraProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.MixedRealityRegisteredServiceProvidersProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.MixedRealityToolkit",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.MixedRealityToolkitConfigurationProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Physics.DistorterGravity",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.BezierInertia",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.HoverLight",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.ProximityLight",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.SimpleLineDataProvider",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -569,30 +958,16 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRBuildSettings",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "managedAssemblyName": "com.unity.multiplayer-hlapi.Runtime.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRLoader",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRSettings",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
+            "fullManagedTypeName": "UnityEngine.Networking.NetworkCallbacks",
             "moduleName": "",
             "usedInScenes": []
         }
@@ -679,12 +1054,6 @@
         {
             "name": "Animator",
             "module": "Animation",
-            "baseName": "Behaviour",
-            "baseModule": "Core"
-        },
-        {
-            "name": "ArticulationBody",
-            "module": "Physics",
             "baseName": "Behaviour",
             "baseModule": "Core"
         },
@@ -1589,12 +1958,6 @@
             "baseModule": "Editor"
         },
         {
-            "name": "SpriteAtlasImporter",
-            "module": "Editor",
-            "baseName": "AssetImporter",
-            "baseModule": "Editor"
-        },
-        {
             "name": "SubstanceImporter",
             "module": "SubstanceEditor",
             "baseName": "AssetImporter",
@@ -1793,12 +2156,6 @@
             "baseModule": "Core"
         },
         {
-            "name": "LightingSettings",
-            "module": "Core",
-            "baseName": "NamedObject",
-            "baseModule": "Core"
-        },
-        {
             "name": "LightmapParameters",
             "module": "Editor",
             "baseName": "NamedObject",
@@ -1951,12 +2308,6 @@
         {
             "name": "SpriteAtlas",
             "module": "Core",
-            "baseName": "NamedObject",
-            "baseModule": "Core"
-        },
-        {
-            "name": "SpriteAtlasAsset",
-            "module": "Editor",
             "baseName": "NamedObject",
             "baseModule": "Core"
         },
@@ -2399,12 +2750,6 @@
             "baseModule": "Core"
         },
         {
-            "name": "ScenesUsingAssets",
-            "module": "Editor",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
             "name": "SerializableManagedHost",
             "module": "Core",
             "baseName": "Object",
@@ -2467,12 +2812,6 @@
         {
             "name": "TestObjectWithSpecialLayoutTwo",
             "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "VersionControlSettings",
-            "module": "Editor",
             "baseName": "Object",
             "baseModule": "Core"
         },
@@ -2552,7 +2891,6 @@
     "forceIncludeModules": [],
     "forceExcludeModules": [
         "ClusterInput",
-        "ClusterRenderer",
-        "VirtualTexturing"
+        "ClusterRenderer"
     ]
 }

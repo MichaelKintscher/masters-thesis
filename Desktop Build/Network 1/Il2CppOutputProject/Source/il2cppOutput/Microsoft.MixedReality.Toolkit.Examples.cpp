@@ -563,11 +563,11 @@ struct Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439;
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_tA56001ED5270173CA1432EDFCD84EABB1024BC09;
 // System.Threading.Tasks.Task`1<Windows.Storage.StorageFile>
-struct Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E;
+struct Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3;
 // System.Threading.Tasks.Task`1<Windows.Storage.StorageFolder>
-struct Task_1_t85E1925C9E5DDD0794DFB6F7B5F81ECF9F287C11;
+struct Task_1_tE0B4DE59EB9763E86A06779D0BDE6BDAAD6D3702;
 // System.Threading.Tasks.Task`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>
-struct Task_1_t386935DFBD5985C1737D825F4FEB946DB60B1D25;
+struct Task_1_tA90BBE3C728D0995DD126F09CE2B5750CB1AD5E7;
 // System.Tuple`2<System.Object,System.Object>
 struct Tuple_2_t66BEEC45F61266028F5253B4045F569CB4C812F5;
 // System.Tuple`2<System.Threading.SendOrPostCallback,System.Object>
@@ -725,17 +725,21 @@ struct IAsyncAction_t763952C2BD8AC50CEB26803FF37B2111537736CB;
 // Windows.Foundation.IAsyncOperation`1<System.Object>
 struct IAsyncOperation_1_t8458F3AE31378AC0283AEFB66F34243CDFF9BBC1;
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile>
-struct IAsyncOperation_1_t6EA330A53A909E9F2B9F67746A149A998EEDEF44;
+struct IAsyncOperation_1_t61C1B9D46A10A27AE3254EA8750586B540A72BDB;
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFolder>
-struct IAsyncOperation_1_t19B38D69F737BA184C303FB370B9FA40BA14F3A9;
+struct IAsyncOperation_1_t6992292A56DFB415A1D66834F796BD312E70B3F1;
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>
-struct IAsyncOperation_1_tC65D5FD4E53D53ECDFE9428721B523F309EAB531;
+struct IAsyncOperation_1_t9F1E4382FB3D44171E9D1E38E3C963E95AA188D7;
 // Windows.Storage.IStorageFile
 struct IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45;
 // Windows.Storage.IStorageFileStatics
 struct IStorageFileStatics_t25E75A0432A434B3DA67DB3125AFA71CFDC252BF;
+// Windows.Storage.IStorageFileStatics2
+struct IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4;
 // Windows.Storage.IStorageFolderStatics
 struct IStorageFolderStatics_tC113EFCB055B7484EBCC2766AADC5BFC50A69945;
+// Windows.Storage.IStorageFolderStatics2
+struct IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3;
 // Windows.Storage.StorageFile
 struct StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A;
 // Windows.Storage.StorageFolder
@@ -982,9 +986,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFEE25A4E9FE10FD77F3269E5E1C854080CF697B7
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisString_t_m8C948518173B7C6ECA530D0FB4D3F1118D80AD62_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncHelpers_RunSync_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_m01B53C5ACE7653C1155030DEF3F91C35B80C6556_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m4B903D37A5990C4ABED8E25A7D5D96753D46568B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m1752634ADC2A1F576AB03D3F36CA9C51253E398C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m718BC2AF02A5AA918588C772711A313A395707E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mD587EA246D5BD39598444330E8721E1C0156E0F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m6F170C0302FA5C8CC311309D3C33223E780E8A24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m3ECAEB9D25DF76FD28ABF12F43C085EEEC9D4FC3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CUWP_LoadNewFileU3Ed__13_t2A4FF1848683BA26C0358977D6BE6775B48D438C_mCE3131A177EF7DAD2ED9462473CB74342E140D4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CUWP_LoadU3Ed__12_t04242716B6C0C08AE6FD483B8EC8FF85377C137B_m203C3D8B0C01D23FEE9D122428008A0D2CB17707_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_mEB49F32EAEB3E6C469F3A1194FBC34CD1D91CBBF_RuntimeMethod_var;
@@ -996,10 +1000,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUWP_Lo
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUWP_LoadU3Ed__12_t04242716B6C0C08AE6FD483B8EC8FF85377C137B_mB3EB2C344E97CAE8A03AA91A4575258C3D4D9240_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_mDCF22C3C667EC15F053023B3BD285F191D1893A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_mE71F3C1D2587BE90812781280F0175E9CE14BA66_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mD2F1D412AADF7D9DF2CF586DC52DBD515AD5A4A8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m05735DB4BAE840B2C2AF130C872B3B9E8ACB0B51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0EB892B3AA89E95965D5BEB3CF66079D9740BEC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9278F2C93A0CF5608DF058D9B27EAF60D2E56018_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CLoadInUWPU3Ed__21_tFE00F85B88B8FDCE8B1FD48C4A81EE410CC16459_mD327337FBDF20CF4097A235508057586D5E3EE7F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CSaveLogsU3Ed__22_t87A69C734303F1840CA7D2E6D9672E72C8696167_mA77F2A6AEEB488419C03AE4F4F2B16105CE443E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CU3CRunSyncU3Eb__0U3Ed_t9425418D0C9476393DB8B523034CC95DC7D176CE_m671B73898C664398A8204D08D1C90090CE9F684D_RuntimeMethod_var;
@@ -1088,14 +1092,14 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_m9A6E8E0B0DD476EF1EDC649C43
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_mA0382B9ED3040E72C9972610D06845B269D7D246_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m2239874DCF9EC954527B751656498EF38FFBEED7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mB1C0D380396327FEF65B48DA9C72435BC39A5F76_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m71B569921E0DE40A0D1C2CA4B0E4928C9D5E657E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m77546DD82B46E6BAAAA79AB5F1BBCD2567E0F7F8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mACA64B01CBDB6D0C61A92B727464E126C8F0AF5D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_m801B3398DE8ED4915938FB5143ADE4006A3487BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_m377C8A99E243AB5EA0D128D4983A086272E45D92_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mADFCD1141BE8AD9F20010035851BF77B6F1A0B75_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mACFDCEB6FCFDFCFADAD84AB06A6DC16BAE77948E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item1_m0386EB625F0C92F7B1FDB244E7459CF5DD436E41_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item2_mE4FC795690DF6F47EA23897B40AC87D7B07C30CB_RuntimeMethod_var;
@@ -1114,9 +1118,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitForSpeechCommandU3Ed__14_System_Coll
 IL2CPP_EXTERN_C const RuntimeMethod* UnityAction_1__ctor_m9DFCBB92D591349179E86DD7632ED58DF84316F3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m1FB0C94138D04010C6022C3711AD443F4598BB4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UserInputPlayback_U3CShowAllAndFreezeU3Eb__34_0_mDCA1989FEF13869A81B1C2C1CD96623012315AE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m9EFF0BD922248201E0EEA5D5C6F1CB6AF8608122_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m79E1FC29D5933EA85FBEEBD5A507E35B6FDA8207_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t AsyncHelpers_RunSync_mFB1C40DE30631D47F18E4AA4BD1924F8815E9973_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioFeedbackPlayer_PlaySound_m864CA4F669D5B4729383F308702D2FB5E393149E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AudioFeedbackPlayer_SetupAudioSource_mF833C6D7D01D734D7321AEB0E78DE782BD262B09_MetadataUsageId;
@@ -1357,7 +1361,7 @@ IL2CPP_EXTERN_C const uint32_t UserInputPlayback_ShowHeatmap_m0A189A03A0C27F5932
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UWP_FileExists_m87B9969C2C01748A67274934CF665840F52F8F31_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UWP_LoadNewFile_mBCA1730686004CAAF0AB6CF0595CE4157DA54889_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UWP_Load_mE416805E600E2044C1F70FA3B73DA49564F11D3F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UWP_ReadData_m6A15788923B45249BBCCE219E1F80A4F94D2335C_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UWP_ReadData_m5A930E58EB3318945BAD8704B35DEC6975A8E5CB_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UpdateEyeGazeSignal_m04D3C3EBE2032F97BE6FE6869F0CB68E7E632EED_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UpdateLoadingStatus_m423D1EAC21722B17AC5A606F71CED750475E6326_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UserInputPlayback_UpdateStatus_mAF0EDB925BD06E9DDC7AABB060996935E9BC9AE9_MetadataUsageId;
@@ -1399,16 +1403,16 @@ struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 struct IAsyncActionCompletedHandler_t1820A7A20AA2CF935463CD8EB21800005EFE488D_ComCallableWrapper;
-struct IAsyncOperationCompletedHandler_1_t9719B1FBF86256514DC5C3FDE7100119DB6990C5_ComCallableWrapper;
-struct IAsyncOperationCompletedHandler_1_tB565E509FB9B5C9776B9FCD486178046FC8BDF9B_ComCallableWrapper;
-struct IAsyncOperationCompletedHandler_1_tE0A2728988DD189FF15CA337D5B59B4274FB452C_ComCallableWrapper;
+struct IAsyncOperationCompletedHandler_1_t1322D303D2EA72E13A955617E0778C6012F24F1E_ComCallableWrapper;
+struct IAsyncOperationCompletedHandler_1_t37751734B3144FAB1C5C4BB800546C6835E77998_ComCallableWrapper;
+struct IAsyncOperationCompletedHandler_1_tD7286EF27C58522F82A60A749ED6E6578956E3A5_ComCallableWrapper;
 struct IAsyncOperationWithProgress_2_t9F077679BB6FBB6BF4C0E8B56C7FEF3D661EA792;
-struct IAsyncOperation_1_t33E63CDE7018CB5FFE0F48F2F1BA3CBBB287ACBD;
-struct IAsyncOperation_1_t6EA330A53A909E9F2B9F67746A149A998EEDEF44;
+struct IAsyncOperation_1_t61C1B9D46A10A27AE3254EA8750586B540A72BDB;
+struct IAsyncOperation_1_tD2C55874352E4E1522354D80EC6266220ACD13BB;
 struct IBuffer_t13BCDB1D6DE32F79AB9F9E149514026CA6B4AAEF;
 struct IRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51;
 struct IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45;
-struct IStorageFolder_t31B68B9E4E93DFA540D04A7F56412971CC7AB5EE;
+struct IStorageFolder_t5B47B5C064BBAB8BBD7C434C37B9FA41124C42EE;
 struct IUriRuntimeClass_tC01591D947FC17E12B1974E663E223A343F2389B;;
 
 struct DrawOnTextureU5BU5D_t0805F50D0F6747032C1ADB6C223F2AFC507A48AF;
@@ -1443,50 +1447,62 @@ public:
 struct NOVTABLE IAsyncAction_t763952C2BD8AC50CEB26803FF37B2111537736CB : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncAction_put_Completed_m0632776C609159F4E6D0D5F6DECCE64CC355B779(IAsyncActionCompletedHandler_t1820A7A20AA2CF935463CD8EB21800005EFE488D_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncAction_get_Completed_mEF447B408CEF9BD7882E596CF87C4355CC17E71B(IAsyncActionCompletedHandler_t1820A7A20AA2CF935463CD8EB21800005EFE488D_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncAction_put_Completed_mFA47FD762A357FA74B185A6CB2229B13A02B4F75(IAsyncActionCompletedHandler_t1820A7A20AA2CF935463CD8EB21800005EFE488D_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncAction_get_Completed_mECC654248B45FBEA0BBCBD4BF8C1952E1D7313E1(IAsyncActionCompletedHandler_t1820A7A20AA2CF935463CD8EB21800005EFE488D_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncAction_GetResults_m192BCF4CC6EE9E2E66722E3D2BFBBAEE124D7AD7() = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile>
-struct NOVTABLE IAsyncOperation_1_t6EA330A53A909E9F2B9F67746A149A998EEDEF44 : Il2CppIInspectable
+struct NOVTABLE IAsyncOperation_1_t61C1B9D46A10A27AE3254EA8750586B540A72BDB : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m4CA9953E74ADEBA9495C5AB4FCA1ACF05B368435(IAsyncOperationCompletedHandler_1_tE0A2728988DD189FF15CA337D5B59B4274FB452C_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m1A9CEAE8CB9F5B602D43FC034D9C510344EBA2EE(IAsyncOperationCompletedHandler_1_tE0A2728988DD189FF15CA337D5B59B4274FB452C_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m8844230AEBB92DE5EB6C2240632B0A2EE3076CE1(IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mA760FBFC1D83794AC0D09FCA00A2F75380D1F619(IAsyncOperationCompletedHandler_1_t37751734B3144FAB1C5C4BB800546C6835E77998_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m57484E32B535F96D33E2F04B865BBC2A76503FD8(IAsyncOperationCompletedHandler_1_t37751734B3144FAB1C5C4BB800546C6835E77998_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_mC32AB7216E36A46B1CF66BDFD11B11313154847D(IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45** comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFolder>
-struct NOVTABLE IAsyncOperation_1_t19B38D69F737BA184C303FB370B9FA40BA14F3A9 : Il2CppIInspectable
+struct NOVTABLE IAsyncOperation_1_t6992292A56DFB415A1D66834F796BD312E70B3F1 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m5B37A82E61F328C9DABAF4E77520534737EE925A(IAsyncOperationCompletedHandler_1_tB565E509FB9B5C9776B9FCD486178046FC8BDF9B_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m5108529E8E7886FE014DF1EF6E0678ED08055B48(IAsyncOperationCompletedHandler_1_tB565E509FB9B5C9776B9FCD486178046FC8BDF9B_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_mA3334BEB47429B19F3822E723CA90870DF9E7EE6(IStorageFolder_t31B68B9E4E93DFA540D04A7F56412971CC7AB5EE** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m9561306588A10087F718D9C507B9366BF41560C4(IAsyncOperationCompletedHandler_1_t1322D303D2EA72E13A955617E0778C6012F24F1E_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m966D1B434A00FF479158970386E0A6E8B819261A(IAsyncOperationCompletedHandler_1_t1322D303D2EA72E13A955617E0778C6012F24F1E_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m85AA5C5B7DF6F2A2A1B3C32AD893CDBAC0BBF6CA(IStorageFolder_t5B47B5C064BBAB8BBD7C434C37B9FA41124C42EE** comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>
-struct NOVTABLE IAsyncOperation_1_tC65D5FD4E53D53ECDFE9428721B523F309EAB531 : Il2CppIInspectable
+struct NOVTABLE IAsyncOperation_1_t9F1E4382FB3D44171E9D1E38E3C963E95AA188D7 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m63DF23B1337DDB27993C9A9F108F1BF1DAFF9FFD(IAsyncOperationCompletedHandler_1_t9719B1FBF86256514DC5C3FDE7100119DB6990C5_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m1222529504CACA8ECE076756BA9E5B17EE0006FD(IAsyncOperationCompletedHandler_1_t9719B1FBF86256514DC5C3FDE7100119DB6990C5_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m90EB2BCE4A21412290F11AEB7125C808B6A9872E(IRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mD0B70F8B6687FC884A2AC046B7CFF84054FBF0D0(IAsyncOperationCompletedHandler_1_tD7286EF27C58522F82A60A749ED6E6578956E3A5_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m3FFE1771B5A7D47F34F594D7A0974275B4DDE571(IAsyncOperationCompletedHandler_1_tD7286EF27C58522F82A60A749ED6E6578956E3A5_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_mB7CE336D7190BEBB7687A0B4D00F87821C712825(IRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51** comReturnValue) = 0;
 };
 // Windows.Storage.IStorageFileStatics
 struct NOVTABLE IStorageFileStatics_t25E75A0432A434B3DA67DB3125AFA71CFDC252BF : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_GetFileFromPathAsync_m2048B1527E7FCC8E8330BF1AD1F29D8FB5C7512F(Il2CppHString ___path0, IAsyncOperation_1_t6EA330A53A909E9F2B9F67746A149A998EEDEF44** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_GetFileFromApplicationUriAsync_m556A8992F9593590CBC3150BA1F8337A17EA4A0D(IUriRuntimeClass_tC01591D947FC17E12B1974E663E223A343F2389B* ___uri0, IAsyncOperation_1_t6EA330A53A909E9F2B9F67746A149A998EEDEF44** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_GetFileFromPathAsync_m89E9B9B4E35BB5C1877F80511FEDCAA1E3116D45(Il2CppHString ___path0, IAsyncOperation_1_t61C1B9D46A10A27AE3254EA8750586B540A72BDB** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_GetFileFromApplicationUriAsync_m4C9195C1356B067B2FC1A56967E7A49DC4BFC871(IUriRuntimeClass_tC01591D947FC17E12B1974E663E223A343F2389B* ___uri0, IAsyncOperation_1_t61C1B9D46A10A27AE3254EA8750586B540A72BDB** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_U24__Stripped0_CreateStreamedFileAsync_m9838704C2AE317FE1B92B571BECF7712F0B67ED8() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_U24__Stripped1_ReplaceWithStreamedFileAsync_m7B4AB643F8075C6D3D322437371DB3E591E3D037() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_U24__Stripped2_CreateStreamedFileFromUriAsync_m16F6166A196EBFE478D2A417855B3F53967ABA47() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFileStatics_U24__Stripped3_ReplaceWithStreamedFileFromUriAsync_mBE1EC6C7D1ADF0676D54390DBE9A28265EF4AC1D() = 0;
+};
+// Windows.Storage.IStorageFileStatics2
+struct NOVTABLE IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IStorageFileStatics2_U24__Stripped0_GetFileFromPathForUserAsync_m22BA08A48B5CBB33355EA6B1EC8E7060F982DD8E() = 0;
 };
 // Windows.Storage.IStorageFolderStatics
 struct NOVTABLE IStorageFolderStatics_tC113EFCB055B7484EBCC2766AADC5BFC50A69945 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IStorageFolderStatics_U24__Stripped0_GetFolderFromPathAsync_m12EE846C3ED6916FB74D0CE2DCCB6997E46FC04A() = 0;
+};
+// Windows.Storage.IStorageFolderStatics2
+struct NOVTABLE IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IStorageFolderStatics2_U24__Stripped0_GetFolderFromPathForUserAsync_m0D5E85735B12B77362BF03BA014BA5D278204F18() = 0;
 };
 // Windows.Storage.Streams.IRandomAccessStreamWithContentType
 struct NOVTABLE IRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51 : Il2CppIInspectable
@@ -3732,17 +3748,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>
-struct  TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E 
+struct  TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * ___m_task_0;
+	Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E, ___m_task_0)); }
-	inline Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7, ___m_task_0)); }
+	inline Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -3751,17 +3767,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>
-struct  TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 
+struct  TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t85E1925C9E5DDD0794DFB6F7B5F81ECF9F287C11 * ___m_task_0;
+	Task_1_tE0B4DE59EB9763E86A06779D0BDE6BDAAD6D3702 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5, ___m_task_0)); }
-	inline Task_1_t85E1925C9E5DDD0794DFB6F7B5F81ECF9F287C11 * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t85E1925C9E5DDD0794DFB6F7B5F81ECF9F287C11 ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t85E1925C9E5DDD0794DFB6F7B5F81ECF9F287C11 * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85, ___m_task_0)); }
+	inline Task_1_tE0B4DE59EB9763E86A06779D0BDE6BDAAD6D3702 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tE0B4DE59EB9763E86A06779D0BDE6BDAAD6D3702 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tE0B4DE59EB9763E86A06779D0BDE6BDAAD6D3702 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -3770,17 +3786,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>
-struct  TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB 
+struct  TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t386935DFBD5985C1737D825F4FEB946DB60B1D25 * ___m_task_0;
+	Task_1_tA90BBE3C728D0995DD126F09CE2B5750CB1AD5E7 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB, ___m_task_0)); }
-	inline Task_1_t386935DFBD5985C1737D825F4FEB946DB60B1D25 * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t386935DFBD5985C1737D825F4FEB946DB60B1D25 ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t386935DFBD5985C1737D825F4FEB946DB60B1D25 * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4, ___m_task_0)); }
+	inline Task_1_tA90BBE3C728D0995DD126F09CE2B5750CB1AD5E7 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tA90BBE3C728D0995DD126F09CE2B5750CB1AD5E7 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tA90BBE3C728D0995DD126F09CE2B5750CB1AD5E7 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -5173,6 +5189,8 @@ public:
 	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.Storage.IStorageFileStatics
 	IStorageFileStatics_t25E75A0432A434B3DA67DB3125AFA71CFDC252BF* ____istorageFileStatics_t25E75A0432A434B3DA67DB3125AFA71CFDC252BF;
+	// Cached pointer to Windows.Storage.IStorageFileStatics2
+	IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4* ____istorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4;
 
 public:
 	inline Il2CppIActivationFactory* get_activationFactory()
@@ -5208,6 +5226,23 @@ public:
 		}
 		return returnValue;
 	}
+
+	inline IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4* get_____istorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4()
+	{
+		IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4* returnValue = ____istorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IStorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4>((&____istorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____istorageFileStatics2_t82283CB376A445A46BACA0405275C5A2467FB3B4;
+			}
+		}
+		return returnValue;
+	}
 };
 
 
@@ -5226,6 +5261,8 @@ public:
 	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.Storage.IStorageFolderStatics
 	IStorageFolderStatics_tC113EFCB055B7484EBCC2766AADC5BFC50A69945* ____istorageFolderStatics_tC113EFCB055B7484EBCC2766AADC5BFC50A69945;
+	// Cached pointer to Windows.Storage.IStorageFolderStatics2
+	IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3* ____istorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3;
 
 public:
 	inline Il2CppIActivationFactory* get_activationFactory()
@@ -5257,6 +5294,23 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____istorageFolderStatics_tC113EFCB055B7484EBCC2766AADC5BFC50A69945;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3* get_____istorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3()
+	{
+		IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3* returnValue = ____istorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IStorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3>((&____istorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____istorageFolderStatics2_t3218972615FF1214053B4ABDA157B911DB9E72A3;
 			}
 		}
 		return returnValue;
@@ -8383,9 +8437,9 @@ public:
 	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<CreateNewLogFile>d__14::<>7__wrap1
 	int32_t ___U3CU3E7__wrap1_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<CreateNewLogFile>d__14::<>u__1
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  ___U3CU3Eu__1_4;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  ___U3CU3Eu__1_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<CreateNewLogFile>d__14::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_5;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_5;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7, ___U3CU3E1__state_0)); }
@@ -8432,18 +8486,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7, ___U3CU3Eu__1_4)); }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
-	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  value)
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  value)
 	{
 		___U3CU3Eu__1_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_5() { return static_cast<int32_t>(offsetof(U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7, ___U3CU3Eu__2_5)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
-	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
+	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_5))->___m_task_0), (void*)NULL);
@@ -8464,9 +8518,9 @@ public:
 	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<LoadLogs>d__21::<>7__wrap1
 	int32_t ___U3CU3E7__wrap1_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<LoadLogs>d__21::<>u__1
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  ___U3CU3Eu__1_4;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  ___U3CU3Eu__1_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger_<LoadLogs>d__21::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_5;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_5;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB, ___U3CU3E1__state_0)); }
@@ -8513,18 +8567,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB, ___U3CU3Eu__1_4)); }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
-	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  value)
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  value)
 	{
 		___U3CU3Eu__1_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_5() { return static_cast<int32_t>(offsetof(U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB, ___U3CU3Eu__2_5)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
-	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
+	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_5))->___m_task_0), (void*)NULL);
@@ -8667,9 +8721,9 @@ public:
 	// System.String Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback_<UWP_FileExists>d__14::filename
 	String_t* ___filename_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback_<UWP_FileExists>d__14::<>u__1
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  ___U3CU3Eu__1_5;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  ___U3CU3Eu__1_5;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback_<UWP_FileExists>d__14::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_6;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133, ___U3CU3E1__state_0)); }
@@ -8723,18 +8777,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133, ___U3CU3Eu__1_5)); }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  get_U3CU3Eu__1_5() const { return ___U3CU3Eu__1_5; }
-	inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * get_address_of_U3CU3Eu__1_5() { return &___U3CU3Eu__1_5; }
-	inline void set_U3CU3Eu__1_5(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  value)
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  get_U3CU3Eu__1_5() const { return ___U3CU3Eu__1_5; }
+	inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * get_address_of_U3CU3Eu__1_5() { return &___U3CU3Eu__1_5; }
+	inline void set_U3CU3Eu__1_5(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  value)
 	{
 		___U3CU3Eu__1_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133, ___U3CU3Eu__2_6)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
-	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
+	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_6))->___m_task_0), (void*)NULL);
@@ -8869,7 +8923,7 @@ public:
 	// Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback_<UWP_ReadData>d__15::<>4__this
 	UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * ___U3CU3E4__this_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback_<UWP_ReadData>d__15::<>u__1
-	TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  ___U3CU3Eu__1_4;
+	TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  ___U3CU3Eu__1_4;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF, ___U3CU3E1__state_0)); }
@@ -8914,9 +8968,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF, ___U3CU3Eu__1_4)); }
-	inline TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
-	inline TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
-	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  value)
+	inline TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  value)
 	{
 		___U3CU3Eu__1_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
@@ -9949,7 +10003,7 @@ struct NOVTABLE IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45 : Il2CppI
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IStorageFile_U24__Stripped0_get_FileType_m03415296127D27086D9608FD4DACD014A6B4D715() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFile_U24__Stripped1_get_ContentType_m77FCBF6360CED8022F0FA195CC82DF1A4E57D769() = 0;
-	virtual il2cpp_hresult_t STDCALL IStorageFile_OpenAsync_m6689E81BC891C2A767AED3D036CE809F99E0F819(int32_t ___accessMode0, IAsyncOperation_1_t33E63CDE7018CB5FFE0F48F2F1BA3CBBB287ACBD** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IStorageFile_OpenAsync_mF27A30FDD490134BA7DBE34D709835597B221E91(int32_t ___accessMode0, IAsyncOperation_1_tD2C55874352E4E1522354D80EC6266220ACD13BB** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFile_U24__Stripped2_OpenTransactedWriteAsync_m31F6EF9F85742886AA0837FDCB22C56583034111() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFile_U24__Stripped3_CopyAsync_m30AB5978DBE954CF2F0D610C91214ECDF9423C09() = 0;
 	virtual il2cpp_hresult_t STDCALL IStorageFile_U24__Stripped4_CopyAsync_m00E51A607B4D191E742DE1BF5706CB02DD9E870C() = 0;
@@ -9964,7 +10018,7 @@ struct NOVTABLE IStorageFile_t2C6B515C9259B5FBD1556D78511799444B66CC45 : Il2CppI
 struct NOVTABLE IInputStream_tE16D3C1553F5E6BAC4E7E8D7DE411ADD049B1B13 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IInputStream_ReadAsync_mCCC52942D8DECE2C743C51DD683483531F495C88(IBuffer_t13BCDB1D6DE32F79AB9F9E149514026CA6B4AAEF* ___buffer0, uint32_t ___count1, uint32_t ___options2, IAsyncOperationWithProgress_2_t9F077679BB6FBB6BF4C0E8B56C7FEF3D661EA792** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IInputStream_ReadAsync_m7A17A555C10E8C04E93EFF0C76C28A9496E814F4(IBuffer_t13BCDB1D6DE32F79AB9F9E149514026CA6B4AAEF* ___buffer0, uint32_t ___count1, uint32_t ___options2, IAsyncOperationWithProgress_2_t9F077679BB6FBB6BF4C0E8B56C7FEF3D661EA792** comReturnValue) = 0;
 };
 
 // Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile
@@ -20302,7 +20356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSaveL
 // !!0[] System.Array::Empty<System.Object>()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_gshared_inline (const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter`1<!!0> System.WindowsRuntimeSystemExtensions::GetAwaiter<System.Object>(Windows.Foundation.IAsyncOperation`1<!!0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977  WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_m1E2175CF410B96A4F467043697DA9DC4D231294C_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977  WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_mD084990E56A6524DAA9B2F4DEA4F5DABC6AFFDBD_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>::get_IsCompleted()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared (TaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<CreateNewLogFile>d__14>(!!0&,!!1&)
@@ -21273,7 +21327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BasicInputLogger_get_FormattedTimeS
 // System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger::SaveLogs()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicInputLogger_SaveLogs_mBA5C7FB0CD6F1F6FDBB25F7E0F3D5FE4D5FB4F1D (BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * __this, const RuntimeMethod* method);
 // Windows.Storage.StorageFolder Windows.Storage.KnownFolders::get_MusicLibrary()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * KnownFolders_get_MusicLibrary_m340C733773BC804A47FC8AF73032F5FC201E0398 (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * KnownFolders_get_MusicLibrary_mFC111EC1932A5DCB5A2A2A5C5C370B344E9ABBDC (const RuntimeMethod* method);
 // System.String Windows.Storage.StorageFolder::get_Path()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageFolder_get_Path_m554AF6FC4C2D85267A933F07812930C901B0ECE4 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, const RuntimeMethod* method);
 // System.String Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger::get_LogDirectory()
@@ -21286,52 +21340,52 @@ inline ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Array_Empty_TisRu
 	return ((  ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_gshared_inline)(method);
 }
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFolder> Windows.Storage.StorageFolder::CreateFolderAsync(System.String,Windows.Storage.CreationCollisionOption)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_CreateFolderAsync_m51031ACA6F47AC2885FD6405BFD267301890AA35 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___desiredName0, int32_t ___options1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_CreateFolderAsync_m01BAAE10EE99CDAC26C80BE93D3D154DAFA22EFB (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___desiredName0, int32_t ___options1, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter`1<!!0> System.WindowsRuntimeSystemExtensions::GetAwaiter<Windows.Storage.StorageFolder>(Windows.Foundation.IAsyncOperation`1<!!0>)
-inline TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862 (RuntimeObject* ___source0, const RuntimeMethod* method)
 {
-	return ((  TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_m1E2175CF410B96A4F467043697DA9DC4D231294C_gshared)(___source0, method);
+	return ((  TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_mD084990E56A6524DAA9B2F4DEA4F5DABC6AFFDBD_gshared)(___source0, method);
 }
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>::get_IsCompleted()
-inline bool TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7 (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * __this, const RuntimeMethod* method)
+inline bool TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
+	return ((  bool (*) (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<CreateNewLogFile>d__14>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * ___awaiter0, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * ___awaiter0, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mAF376D3DF25D3A328E607A3C35CAA47AD13876CA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mAF376D3DF25D3A328E607A3C35CAA47AD13876CA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // !0 System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>::GetResult()
-inline StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1 (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * __this, const RuntimeMethod* method)
+inline StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23 (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * __this, const RuntimeMethod* method)
 {
-	return ((  StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * (*) (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
+	return ((  StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * (*) (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
 }
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFolder> Windows.Storage.StorageFolder::GetFolderAsync(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_GetFolderAsync_mB3A1D9D51C38114DE488D0642EFA267A7C584959 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___name0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_GetFolderAsync_m5F817AF9072621A29DF24D78F20A74C7C509E844 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___name0, const RuntimeMethod* method);
 // System.String Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger::get_Filename()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BasicInputLogger_get_Filename_mB6EC105ADFDED908EA19F7F38718AD72BA3E41C9 (BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * __this, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFolder::CreateFileAsync(System.String,Windows.Storage.CreationCollisionOption)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_CreateFileAsync_m03F8C43977E395A4EE54118649C11520B553A4DE (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___desiredName0, int32_t ___options1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_CreateFileAsync_m46A1463BD87571B5EA78C2BAB022B7F62262E98B (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___desiredName0, int32_t ___options1, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter`1<!!0> System.WindowsRuntimeSystemExtensions::GetAwaiter<Windows.Storage.StorageFile>(Windows.Foundation.IAsyncOperation`1<!!0>)
-inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574 (RuntimeObject* ___source0, const RuntimeMethod* method)
 {
-	return ((  TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_m1E2175CF410B96A4F467043697DA9DC4D231294C_gshared)(___source0, method);
+	return ((  TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_mD084990E56A6524DAA9B2F4DEA4F5DABC6AFFDBD_gshared)(___source0, method);
 }
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>::get_IsCompleted()
-inline bool TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028 (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * __this, const RuntimeMethod* method)
+inline bool TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8 (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
+	return ((  bool (*) (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<CreateNewLogFile>d__14>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mD2F1D412AADF7D9DF2CF586DC52DBD515AD5A4A8 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * ___awaiter0, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0EB892B3AA89E95965D5BEB3CF66079D9740BEC3 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * ___awaiter0, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mAF376D3DF25D3A328E607A3C35CAA47AD13876CA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *, U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mAF376D3DF25D3A328E607A3C35CAA47AD13876CA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // !0 System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>::GetResult()
-inline StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897 (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * __this, const RuntimeMethod* method)
+inline StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * __this, const RuntimeMethod* method)
 {
-	return ((  StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * (*) (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
+	return ((  StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * (*) (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
 }
 // System.String Windows.Storage.StorageFolder::get_Name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StorageFolder_get_Name_mE9F2D7E1A765E3E7DF35E2FDCC1E5D65EB58646E (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, const RuntimeMethod* method);
@@ -21344,16 +21398,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewLogFileU3Ed__14_MoveNext_mC2
 // System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<CreateNewLogFile>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewLogFileU3Ed__14_SetStateMachine_m02BF824A013287D3A58E5930A1BC7E87CF4A492D (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<LoadLogs>d__21>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * ___awaiter0, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * ___awaiter0, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_mC1F825565FFC30179A284CEFAB4AD85A713EA165_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_mC1F825565FFC30179A284CEFAB4AD85A713EA165_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFolder::GetFileAsync(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_GetFileAsync_mD8C3D41300E9A1EA81D518285472B6C3375F40B4 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___name0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFolder_GetFileAsync_mCC11694B250F59E0B16CE4F91232DDA43FDED6C5 (StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * __this, String_t* ___name0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<LoadLogs>d__21>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m05735DB4BAE840B2C2AF130C872B3B9E8ACB0B51 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * ___awaiter0, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9278F2C93A0CF5608DF058D9B27EAF60D2E56018 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * ___awaiter0, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_mC1F825565FFC30179A284CEFAB4AD85A713EA165_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *, U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_mC1F825565FFC30179A284CEFAB4AD85A713EA165_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<LoadLogs>d__21::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadLogsU3Ed__21_MoveNext_m05EC68CC104FF56A2A8F7D0F60E0F951E79FEFDC (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB * __this, const RuntimeMethod* method);
@@ -21362,7 +21416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadLogsU3Ed__21_SetStateMachine_mD5E
 // System.Int32 System.Text.StringBuilder::get_Length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringBuilder_get_Length_m44BCD2BF32D45E9376761FF33AA429BFBD902F07 (StringBuilder_t * __this, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncAction Windows.Storage.FileIO::AppendTextAsync(Windows.Storage.IStorageFile,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileIO_AppendTextAsync_m5BCC79A14E6ADD76772F6E2BE28D1BD31CC51EB5 (RuntimeObject* ___file0, String_t* ___contents1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileIO_AppendTextAsync_mB9998C57A7A5B3F38BEB65A3258723240A61B69C (RuntimeObject* ___file0, String_t* ___contents1, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter System.WindowsRuntimeSystemExtensions::GetAwaiter(Windows.Foundation.IAsyncAction)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C (RuntimeObject* ___source0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.BasicInputLogger/<SaveLogs>d__22>(!!0&,!!1&)
@@ -21650,14 +21704,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_mE1590EE4E2DC950A9FC2437
 // UnityEngine.Collider UnityEngine.RaycastHit::get_collider()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF * RaycastHit_get_collider_mE70B84C4312B567344F60992A6067855F2C3A7A9 (RaycastHit_t19695F18F9265FE5425062BBA6A4D330480538C3 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFolder>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback/<UWP_FileExists>d__14>(!!0&,!!1&)
-inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m4B903D37A5990C4ABED8E25A7D5D96753D46568B (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * ___awaiter0, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m3ECAEB9D25DF76FD28ABF12F43C085EEEC9D4FC3 (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * ___awaiter0, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mA5AC97E9FE73BBA55DD9DF1B9D43DBE698E584AE_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mA5AC97E9FE73BBA55DD9DF1B9D43DBE698E584AE_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback/<UWP_FileExists>d__14>(!!0&,!!1&)
-inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m718BC2AF02A5AA918588C772711A313A395707E1 (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * ___awaiter0, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mD587EA246D5BD39598444330E8721E1C0156E0F8 (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * ___awaiter0, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mA5AC97E9FE73BBA55DD9DF1B9D43DBE698E584AE_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *, U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mA5AC97E9FE73BBA55DD9DF1B9D43DBE698E584AE_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetException(System.Exception)
 inline void AsyncTaskMethodBuilder_1_SetException_m21285A09F0A9D6C0F245EB498300064F66DAAF18 (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, Exception_t * ___exception0, const RuntimeMethod* method)
@@ -21697,32 +21751,32 @@ inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD
 	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090 *, U3CUWP_LoadNewFileU3Ed__13_t2A4FF1848683BA26C0358977D6BE6775B48D438C *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CUWP_LoadNewFileU3Ed__13_t2A4FF1848683BA26C0358977D6BE6775B48D438C_mCE3131A177EF7DAD2ED9462473CB74342E140D4E_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Threading.Tasks.Task`1<System.Boolean> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback::UWP_ReadData(Windows.Storage.StorageFile)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * UserInputPlayback_UWP_ReadData_m6A15788923B45249BBCCE219E1F80A4F94D2335C (UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * __this, StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * ___logfile0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * UserInputPlayback_UWP_ReadData_m5A930E58EB3318945BAD8704B35DEC6975A8E5CB (UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * __this, StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * ___logfile0, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback/<UWP_LoadNewFile>d__13::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUWP_LoadNewFileU3Ed__13_MoveNext_m9EB7C3758E583086B2E61922DED9946EDD193C26 (U3CUWP_LoadNewFileU3Ed__13_t2A4FF1848683BA26C0358977D6BE6775B48D438C * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback/<UWP_LoadNewFile>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUWP_LoadNewFileU3Ed__13_SetStateMachine_mE5C0FF24015FF97BED0DC2942B92D0F920B659D2 (U3CUWP_LoadNewFileU3Ed__13_t2A4FF1848683BA26C0358977D6BE6775B48D438C * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.Storage.StorageFile::OpenReadAsync()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFile_OpenReadAsync_m387A1257B972674675539257DF1AEE173AB1642E (StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StorageFile_OpenReadAsync_m30884ABB30E4AC745FE48FD8D5EE1BFFD06525D2 (StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * __this, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter`1<!!0> System.WindowsRuntimeSystemExtensions::GetAwaiter<Windows.Storage.Streams.IRandomAccessStreamWithContentType>(Windows.Foundation.IAsyncOperation`1<!!0>)
-inline TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m9EFF0BD922248201E0EEA5D5C6F1CB6AF8608122 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m79E1FC29D5933EA85FBEEBD5A507E35B6FDA8207 (RuntimeObject* ___source0, const RuntimeMethod* method)
 {
-	return ((  TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_m1E2175CF410B96A4F467043697DA9DC4D231294C_gshared)(___source0, method);
+	return ((  TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  (*) (RuntimeObject*, const RuntimeMethod*))WindowsRuntimeSystemExtensions_GetAwaiter_TisRuntimeObject_mD084990E56A6524DAA9B2F4DEA4F5DABC6AFFDBD_gshared)(___source0, method);
 }
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>::get_IsCompleted()
-inline bool TaskAwaiter_1_get_IsCompleted_mACA64B01CBDB6D0C61A92B727464E126C8F0AF5D (TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB * __this, const RuntimeMethod* method)
+inline bool TaskAwaiter_1_get_IsCompleted_m377C8A99E243AB5EA0D128D4983A086272E45D92 (TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 * __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
+	return ((  bool (*) (TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mBF435C7EFD03FCF7810FC08EEDC5945F80FF88F9_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>,Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback/<UWP_ReadData>d__15>(!!0&,!!1&)
-inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m1752634ADC2A1F576AB03D3F36CA9C51253E398C (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB * ___awaiter0, U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF * ___stateMachine1, const RuntimeMethod* method)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m6F170C0302FA5C8CC311309D3C33223E780E8A24 (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * __this, TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 * ___awaiter0, U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *, U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_mD2B2DAA66938068819271DE9E4D24CDD5273D106_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *, TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *, U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t8CDB78D2A4D48E80C35A8FF6FC04A82B9FC35977_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_mD2B2DAA66938068819271DE9E4D24CDD5273D106_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // !0 System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType>::GetResult()
-inline RuntimeObject* TaskAwaiter_1_GetResult_m71B569921E0DE40A0D1C2CA4B0E4928C9D5E657E (TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB * __this, const RuntimeMethod* method)
+inline RuntimeObject* TaskAwaiter_1_GetResult_m801B3398DE8ED4915938FB5143ADE4006A3487BC (TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 * __this, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
+	return ((  RuntimeObject* (*) (TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *, const RuntimeMethod*))TaskAwaiter_1_GetResult_m9E148849CD4747E1BDD831E4FB2D7ECFA13C11C8_gshared)(__this, method);
 }
 // System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamForRead(Windows.Storage.Streams.IInputStream)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * WindowsRuntimeStreamExtensions_AsStreamForRead_m0C215C31D3FDB1F656DA5A4D81AD0628A3EE7AAB (RuntimeObject* ___windowsRuntimeStream0, const RuntimeMethod* method);
@@ -33252,7 +33306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicInputLogger__ctor_m9340DA654202A914
 		// protected string sessionDescr = "Session00";
 		__this->set_sessionDescr_6(_stringLiteralD840BE56F7008C025B8543A1208F660773BDE55E);
 		// private StorageFolder logRootFolder = KnownFolders.MusicLibrary;
-		StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_0 = KnownFolders_get_MusicLibrary_m340C733773BC804A47FC8AF73032F5FC201E0398(/*hidden argument*/NULL);
+		StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_0 = KnownFolders_get_MusicLibrary_mFC111EC1932A5DCB5A2A2A5C5C370B344E9ABBDC(/*hidden argument*/NULL);
 		__this->set_logRootFolder_8(L_0);
 		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
 		return;
@@ -33279,10 +33333,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewLogFileU3Ed__14_MoveNext_mC2
 	BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * V_1 = NULL;
 	String_t* V_2 = NULL;
 	StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * V_3 = NULL;
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  V_4;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * V_5 = NULL;
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  V_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	int32_t V_7 = 0;
 	Exception_t * V_8 = NULL;
@@ -33447,10 +33501,10 @@ IL_00b4:
 					NullCheck(L_38);
 					String_t* L_39 = BasicInputLogger_get_LogDirectory_m92D5124E931857AED31E741D5D420DF05A6C9B4C(L_38, /*hidden argument*/NULL);
 					NullCheck(L_37);
-					RuntimeObject* L_40 = StorageFolder_CreateFolderAsync_m51031ACA6F47AC2885FD6405BFD267301890AA35(L_37, L_39, 0, /*hidden argument*/NULL);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_41 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_40, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+					RuntimeObject* L_40 = StorageFolder_CreateFolderAsync_m01BAAE10EE99CDAC26C80BE93D3D154DAFA22EFB(L_37, L_39, 0, /*hidden argument*/NULL);
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_41 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_40, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 					V_4 = L_41;
-					bool L_42 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+					bool L_42 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 					if (L_42)
 					{
 						goto IL_013b;
@@ -33462,19 +33516,19 @@ IL_00fa:
 					int32_t L_43 = 0;
 					V_0 = L_43;
 					__this->set_U3CU3E1__state_0(L_43);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_44 = V_4;
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_44 = V_4;
 					__this->set_U3CU3Eu__1_4(L_44);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_45 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_45, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_45, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926_RuntimeMethod_var);
 					goto IL_0351;
 				}
 
 IL_011e:
 				{
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_46 = __this->get_U3CU3Eu__1_4();
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_46 = __this->get_U3CU3Eu__1_4();
 					V_4 = L_46;
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_47 = __this->get_address_of_U3CU3Eu__1_4();
-					il2cpp_codegen_initobj(L_47, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_47 = __this->get_address_of_U3CU3Eu__1_4();
+					il2cpp_codegen_initobj(L_47, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 					int32_t L_48 = (-1);
 					V_0 = L_48;
 					__this->set_U3CU3E1__state_0(L_48);
@@ -33482,7 +33536,7 @@ IL_011e:
 
 IL_013b:
 				{
-					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_49 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_49 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 					V_3 = L_49;
 					BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_50 = V_1;
 					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_51 = V_3;
@@ -33500,10 +33554,10 @@ IL_014a:
 					NullCheck(L_54);
 					String_t* L_55 = BasicInputLogger_get_LogDirectory_m92D5124E931857AED31E741D5D420DF05A6C9B4C(L_54, /*hidden argument*/NULL);
 					NullCheck(L_53);
-					RuntimeObject* L_56 = StorageFolder_GetFolderAsync_mB3A1D9D51C38114DE488D0642EFA267A7C584959(L_53, L_55, /*hidden argument*/NULL);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_57 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_56, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+					RuntimeObject* L_56 = StorageFolder_GetFolderAsync_m5F817AF9072621A29DF24D78F20A74C7C509E844(L_53, L_55, /*hidden argument*/NULL);
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_57 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_56, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 					V_4 = L_57;
-					bool L_58 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+					bool L_58 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 					if (L_58)
 					{
 						goto IL_01ac;
@@ -33515,19 +33569,19 @@ IL_016b:
 					int32_t L_59 = 1;
 					V_0 = L_59;
 					__this->set_U3CU3E1__state_0(L_59);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_60 = V_4;
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_60 = V_4;
 					__this->set_U3CU3Eu__1_4(L_60);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_61 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_61, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_61, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926_RuntimeMethod_var);
 					goto IL_0351;
 				}
 
 IL_018f:
 				{
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_62 = __this->get_U3CU3Eu__1_4();
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_62 = __this->get_U3CU3Eu__1_4();
 					V_4 = L_62;
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_63 = __this->get_address_of_U3CU3Eu__1_4();
-					il2cpp_codegen_initobj(L_63, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_63 = __this->get_address_of_U3CU3Eu__1_4();
+					il2cpp_codegen_initobj(L_63, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 					int32_t L_64 = (-1);
 					V_0 = L_64;
 					__this->set_U3CU3E1__state_0(L_64);
@@ -33535,7 +33589,7 @@ IL_018f:
 
 IL_01ac:
 				{
-					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_65 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_65 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 					V_3 = L_65;
 					BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_66 = V_1;
 					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_67 = V_3;
@@ -33549,10 +33603,10 @@ IL_01ac:
 					NullCheck(L_70);
 					String_t* L_71 = BasicInputLogger_get_Filename_mB6EC105ADFDED908EA19F7F38718AD72BA3E41C9(L_70, /*hidden argument*/NULL);
 					NullCheck(L_69);
-					RuntimeObject* L_72 = StorageFolder_CreateFileAsync_m03F8C43977E395A4EE54118649C11520B553A4DE(L_69, L_71, 1, /*hidden argument*/NULL);
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_73 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9(L_72, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9_RuntimeMethod_var);
+					RuntimeObject* L_72 = StorageFolder_CreateFileAsync_m46A1463BD87571B5EA78C2BAB022B7F62262E98B(L_69, L_71, 1, /*hidden argument*/NULL);
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_73 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574(L_72, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574_RuntimeMethod_var);
 					V_6 = L_73;
-					bool L_74 = TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028_RuntimeMethod_var);
+					bool L_74 = TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8_RuntimeMethod_var);
 					if (L_74)
 					{
 						goto IL_021e;
@@ -33564,19 +33618,19 @@ IL_01dd:
 					int32_t L_75 = 2;
 					V_0 = L_75;
 					__this->set_U3CU3E1__state_0(L_75);
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_76 = V_6;
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_76 = V_6;
 					__this->set_U3CU3Eu__2_5(L_76);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_77 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mD2F1D412AADF7D9DF2CF586DC52DBD515AD5A4A8((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_77, (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_mD2F1D412AADF7D9DF2CF586DC52DBD515AD5A4A8_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0EB892B3AA89E95965D5BEB3CF66079D9740BEC3((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_77, (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0EB892B3AA89E95965D5BEB3CF66079D9740BEC3_RuntimeMethod_var);
 					goto IL_0351;
 				}
 
 IL_0201:
 				{
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_78 = __this->get_U3CU3Eu__2_5();
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_78 = __this->get_U3CU3Eu__2_5();
 					V_6 = L_78;
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * L_79 = __this->get_address_of_U3CU3Eu__2_5();
-					il2cpp_codegen_initobj(L_79, sizeof(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E ));
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * L_79 = __this->get_address_of_U3CU3Eu__2_5();
+					il2cpp_codegen_initobj(L_79, sizeof(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 ));
 					int32_t L_80 = (-1);
 					V_0 = L_80;
 					__this->set_U3CU3E1__state_0(L_80);
@@ -33584,7 +33638,7 @@ IL_0201:
 
 IL_021e:
 				{
-					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_81 = TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897_RuntimeMethod_var);
+					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_81 = TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A_RuntimeMethod_var);
 					V_5 = L_81;
 					BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_82 = V_1;
 					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_83 = V_5;
@@ -33674,10 +33728,10 @@ IL_0298:
 				NullCheck(L_102);
 				String_t* L_103 = BasicInputLogger_get_LogDirectory_m92D5124E931857AED31E741D5D420DF05A6C9B4C(L_102, /*hidden argument*/NULL);
 				NullCheck(L_101);
-				RuntimeObject* L_104 = StorageFolder_CreateFolderAsync_m51031ACA6F47AC2885FD6405BFD267301890AA35(L_101, L_103, 0, /*hidden argument*/NULL);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_105 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_104, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+				RuntimeObject* L_104 = StorageFolder_CreateFolderAsync_m01BAAE10EE99CDAC26C80BE93D3D154DAFA22EFB(L_101, L_103, 0, /*hidden argument*/NULL);
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_105 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_104, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 				V_4 = L_105;
-				bool L_106 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+				bool L_106 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 				if (L_106)
 				{
 					goto IL_02f8;
@@ -33689,19 +33743,19 @@ IL_02ba:
 				int32_t L_107 = 3;
 				V_0 = L_107;
 				__this->set_U3CU3E1__state_0(L_107);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_108 = V_4;
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_108 = V_4;
 				__this->set_U3CU3Eu__1_4(L_108);
 				AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_109 = __this->get_address_of_U3CU3Et__builder_1();
-				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_109, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m052925FD0EC4F702DE23CC7C72E0ADA67CD7DC0C_RuntimeMethod_var);
+				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_109, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CCreateNewLogFileU3Ed__14_t923EA2AE33316A696D70188C8B19D6F95338F8B7_m0BA4E9258867AE282919A7D2622AD656EAC1D926_RuntimeMethod_var);
 				goto IL_0351;
 			}
 
 IL_02db:
 			{
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_110 = __this->get_U3CU3Eu__1_4();
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_110 = __this->get_U3CU3Eu__1_4();
 				V_4 = L_110;
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_111 = __this->get_address_of_U3CU3Eu__1_4();
-				il2cpp_codegen_initobj(L_111, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_111 = __this->get_address_of_U3CU3Eu__1_4();
+				il2cpp_codegen_initobj(L_111, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 				int32_t L_112 = (-1);
 				V_0 = L_112;
 				__this->set_U3CU3E1__state_0(L_112);
@@ -33709,7 +33763,7 @@ IL_02db:
 
 IL_02f8:
 			{
-				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_113 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_113 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 				V_3 = L_113;
 				BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_114 = V_1;
 				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_115 = V_3;
@@ -33825,10 +33879,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadLogsU3Ed__21_MoveNext_m05EC68CC10
 	BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * V_1 = NULL;
 	String_t* V_2 = NULL;
 	StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * V_3 = NULL;
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  V_4;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * V_5 = NULL;
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  V_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	int32_t V_7 = 0;
 	Exception_t * V_8 = NULL;
@@ -33953,10 +34007,10 @@ IL_0064:
 					NullCheck(L_19);
 					String_t* L_20 = BasicInputLogger_get_LogDirectory_m92D5124E931857AED31E741D5D420DF05A6C9B4C(L_19, /*hidden argument*/NULL);
 					NullCheck(L_18);
-					RuntimeObject* L_21 = StorageFolder_GetFolderAsync_mB3A1D9D51C38114DE488D0642EFA267A7C584959(L_18, L_20, /*hidden argument*/NULL);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_22 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_21, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+					RuntimeObject* L_21 = StorageFolder_GetFolderAsync_m5F817AF9072621A29DF24D78F20A74C7C509E844(L_18, L_20, /*hidden argument*/NULL);
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_22 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_21, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 					V_4 = L_22;
-					bool L_23 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+					bool L_23 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 					if (L_23)
 					{
 						goto IL_00c6;
@@ -33968,19 +34022,19 @@ IL_0085:
 					int32_t L_24 = 0;
 					V_0 = L_24;
 					__this->set_U3CU3E1__state_0(L_24);
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_25 = V_4;
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_25 = V_4;
 					__this->set_U3CU3Eu__1_4(L_25);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_26 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_26, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_26, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0_RuntimeMethod_var);
 					goto IL_0220;
 				}
 
 IL_00a9:
 				{
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_27 = __this->get_U3CU3Eu__1_4();
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_27 = __this->get_U3CU3Eu__1_4();
 					V_4 = L_27;
-					TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_28 = __this->get_address_of_U3CU3Eu__1_4();
-					il2cpp_codegen_initobj(L_28, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+					TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_28 = __this->get_address_of_U3CU3Eu__1_4();
+					il2cpp_codegen_initobj(L_28, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 					int32_t L_29 = (-1);
 					V_0 = L_29;
 					__this->set_U3CU3E1__state_0(L_29);
@@ -33988,7 +34042,7 @@ IL_00a9:
 
 IL_00c6:
 				{
-					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_30 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_30 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 					V_3 = L_30;
 					BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_31 = V_1;
 					StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_32 = V_3;
@@ -34002,10 +34056,10 @@ IL_00c6:
 					NullCheck(L_35);
 					String_t* L_36 = BasicInputLogger_get_Filename_mB6EC105ADFDED908EA19F7F38718AD72BA3E41C9(L_35, /*hidden argument*/NULL);
 					NullCheck(L_34);
-					RuntimeObject* L_37 = StorageFolder_GetFileAsync_mD8C3D41300E9A1EA81D518285472B6C3375F40B4(L_34, L_36, /*hidden argument*/NULL);
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_38 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9(L_37, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9_RuntimeMethod_var);
+					RuntimeObject* L_37 = StorageFolder_GetFileAsync_mCC11694B250F59E0B16CE4F91232DDA43FDED6C5(L_34, L_36, /*hidden argument*/NULL);
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_38 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574(L_37, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574_RuntimeMethod_var);
 					V_6 = L_38;
-					bool L_39 = TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028_RuntimeMethod_var);
+					bool L_39 = TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8_RuntimeMethod_var);
 					if (L_39)
 					{
 						goto IL_0137;
@@ -34017,19 +34071,19 @@ IL_00f6:
 					int32_t L_40 = 1;
 					V_0 = L_40;
 					__this->set_U3CU3E1__state_0(L_40);
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_41 = V_6;
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_41 = V_6;
 					__this->set_U3CU3Eu__2_5(L_41);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_42 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m05735DB4BAE840B2C2AF130C872B3B9E8ACB0B51((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_42, (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m05735DB4BAE840B2C2AF130C872B3B9E8ACB0B51_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9278F2C93A0CF5608DF058D9B27EAF60D2E56018((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_42, (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9278F2C93A0CF5608DF058D9B27EAF60D2E56018_RuntimeMethod_var);
 					goto IL_0220;
 				}
 
 IL_011a:
 				{
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_43 = __this->get_U3CU3Eu__2_5();
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_43 = __this->get_U3CU3Eu__2_5();
 					V_6 = L_43;
-					TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * L_44 = __this->get_address_of_U3CU3Eu__2_5();
-					il2cpp_codegen_initobj(L_44, sizeof(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E ));
+					TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * L_44 = __this->get_address_of_U3CU3Eu__2_5();
+					il2cpp_codegen_initobj(L_44, sizeof(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 ));
 					int32_t L_45 = (-1);
 					V_0 = L_45;
 					__this->set_U3CU3E1__state_0(L_45);
@@ -34037,7 +34091,7 @@ IL_011a:
 
 IL_0137:
 				{
-					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_46 = TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897_RuntimeMethod_var);
+					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_46 = TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A_RuntimeMethod_var);
 					V_5 = L_46;
 					BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_47 = V_1;
 					StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_48 = V_5;
@@ -34100,10 +34154,10 @@ IL_0167:
 				NullCheck(L_53);
 				String_t* L_54 = BasicInputLogger_get_LogDirectory_m92D5124E931857AED31E741D5D420DF05A6C9B4C(L_53, /*hidden argument*/NULL);
 				NullCheck(L_52);
-				RuntimeObject* L_55 = StorageFolder_CreateFolderAsync_m51031ACA6F47AC2885FD6405BFD267301890AA35(L_52, L_54, 0, /*hidden argument*/NULL);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_56 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_55, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+				RuntimeObject* L_55 = StorageFolder_CreateFolderAsync_m01BAAE10EE99CDAC26C80BE93D3D154DAFA22EFB(L_52, L_54, 0, /*hidden argument*/NULL);
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_56 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_55, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 				V_4 = L_56;
-				bool L_57 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+				bool L_57 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 				if (L_57)
 				{
 					goto IL_01c7;
@@ -34115,19 +34169,19 @@ IL_0189:
 				int32_t L_58 = 2;
 				V_0 = L_58;
 				__this->set_U3CU3E1__state_0(L_58);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_59 = V_4;
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_59 = V_4;
 				__this->set_U3CU3Eu__1_4(L_59);
 				AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_60 = __this->get_address_of_U3CU3Et__builder_1();
-				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_60, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m9CF42D6B9A658861AEDA550C5BEC3083D7A9EBD2_RuntimeMethod_var);
+				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_60, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CLoadLogsU3Ed__21_t474F83FBA81536920B9975B09CE8BAC638F723FB_m61FBF03212024ECDC68EF23CD9A04B3DDF97ADB0_RuntimeMethod_var);
 				goto IL_0220;
 			}
 
 IL_01aa:
 			{
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_61 = __this->get_U3CU3Eu__1_4();
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_61 = __this->get_U3CU3Eu__1_4();
 				V_4 = L_61;
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_62 = __this->get_address_of_U3CU3Eu__1_4();
-				il2cpp_codegen_initobj(L_62, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_62 = __this->get_address_of_U3CU3Eu__1_4();
+				il2cpp_codegen_initobj(L_62, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 				int32_t L_63 = (-1);
 				V_0 = L_63;
 				__this->set_U3CU3E1__state_0(L_63);
@@ -34135,7 +34189,7 @@ IL_01aa:
 
 IL_01c7:
 			{
-				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_64 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_64 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 				V_3 = L_64;
 				BasicInputLogger_tB09301FAF63028BF4709B4A23EDFDF15F91839F4 * L_65 = V_1;
 				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_66 = V_3;
@@ -34314,7 +34368,7 @@ IL_0027:
 			StringBuilder_t * L_11 = L_10->get_buffer_11();
 			NullCheck(L_11);
 			String_t* L_12 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_11);
-			RuntimeObject* L_13 = FileIO_AppendTextAsync_m5BCC79A14E6ADD76772F6E2BE28D1BD31CC51EB5(L_9, L_12, /*hidden argument*/NULL);
+			RuntimeObject* L_13 = FileIO_AppendTextAsync_mB9998C57A7A5B3F38BEB65A3258723240A61B69C(L_9, L_12, /*hidden argument*/NULL);
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_14 = WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C(L_13, /*hidden argument*/NULL);
 			V_2 = L_14;
 			bool L_15 = TaskAwaiter_get_IsCompleted_m5A2B6FEA0ED3B01B5E88DBF2D8BC4A45652ABD87((TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), /*hidden argument*/NULL);
@@ -36814,12 +36868,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B
 	}
 }
 // System.Threading.Tasks.Task`1<System.Boolean> Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.Logging.UserInputPlayback::UWP_ReadData(Windows.Storage.StorageFile)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * UserInputPlayback_UWP_ReadData_m6A15788923B45249BBCCE219E1F80A4F94D2335C (UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * __this, StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * ___logfile0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * UserInputPlayback_UWP_ReadData_m5A930E58EB3318945BAD8704B35DEC6975A8E5CB (UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * __this, StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * ___logfile0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (UserInputPlayback_UWP_ReadData_m6A15788923B45249BBCCE219E1F80A4F94D2335C_MetadataUsageId);
+		il2cpp_codegen_initialize_method (UserInputPlayback_UWP_ReadData_m5A930E58EB3318945BAD8704B35DEC6975A8E5CB_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF  V_0;
@@ -38253,7 +38307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserInputPlayback__ctor_m6C7ECF6D9042583
 		// private string customFilename = "";
 		__this->set_customFilename_4(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		// private StorageFolder uwpRootFolder = KnownFolders.MusicLibrary;
-		StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_0 = KnownFolders_get_MusicLibrary_m340C733773BC804A47FC8AF73032F5FC201E0398(/*hidden argument*/NULL);
+		StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_0 = KnownFolders_get_MusicLibrary_mFC111EC1932A5DCB5A2A2A5C5C370B344E9ABBDC(/*hidden argument*/NULL);
 		__this->set_uwpRootFolder_9(L_0);
 		// private readonly string uwpSubFolderName = "MRTK_ET_Demo\\tester";
 		__this->set_uwpSubFolderName_10(_stringLiteral5E8F1607FCDBECBC0DEE50994187CCDD4C265C0C);
@@ -38841,10 +38895,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUWP_FileExistsU3Ed__14_MoveNext_m97FB
 	UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * V_1 = NULL;
 	bool V_2 = false;
 	StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * V_3 = NULL;
-	TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  V_4;
+	TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * V_5 = NULL;
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  V_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	Exception_t * V_7 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
@@ -38896,10 +38950,10 @@ IL_001d:
 				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_6 = L_5->get_uwpRootFolder_9();
 				String_t* L_7 = __this->get_dir_3();
 				NullCheck(L_6);
-				RuntimeObject* L_8 = StorageFolder_GetFolderAsync_mB3A1D9D51C38114DE488D0642EFA267A7C584959(L_6, L_7, /*hidden argument*/NULL);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_9 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9(L_8, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_mA3285369821B1B04C2FF299DFE59CC2C127C8CC9_RuntimeMethod_var);
+				RuntimeObject* L_8 = StorageFolder_GetFolderAsync_m5F817AF9072621A29DF24D78F20A74C7C509E844(L_6, L_7, /*hidden argument*/NULL);
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_9 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862(L_8, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B_m845FF70D89BF9BF279C9F5E37DE0A99A9591B862_RuntimeMethod_var);
 				V_4 = L_9;
-				bool L_10 = TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m6C4710010D67A17C0886A1F645B6A666934795D7_RuntimeMethod_var);
+				bool L_10 = TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mD154953D4CF37FF0537B6B43E0753B7A5F6FD50D_RuntimeMethod_var);
 				if (L_10)
 				{
 					goto IL_007f;
@@ -38911,19 +38965,19 @@ IL_003e:
 				int32_t L_11 = 0;
 				V_0 = L_11;
 				__this->set_U3CU3E1__state_0(L_11);
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_12 = V_4;
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_12 = V_4;
 				__this->set_U3CU3Eu__1_5(L_12);
 				AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * L_13 = __this->get_address_of_U3CU3Et__builder_1();
-				AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m4B903D37A5990C4ABED8E25A7D5D96753D46568B((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_13, (TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), (U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m4B903D37A5990C4ABED8E25A7D5D96753D46568B_RuntimeMethod_var);
+				AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m3ECAEB9D25DF76FD28ABF12F43C085EEEC9D4FC3((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_13, (TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), (U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m3ECAEB9D25DF76FD28ABF12F43C085EEEC9D4FC3_RuntimeMethod_var);
 				goto IL_0146;
 			}
 
 IL_0062:
 			{
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5  L_14 = __this->get_U3CU3Eu__1_5();
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85  L_14 = __this->get_U3CU3Eu__1_5();
 				V_4 = L_14;
-				TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 * L_15 = __this->get_address_of_U3CU3Eu__1_5();
-				il2cpp_codegen_initobj(L_15, sizeof(TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 ));
+				TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 * L_15 = __this->get_address_of_U3CU3Eu__1_5();
+				il2cpp_codegen_initobj(L_15, sizeof(TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 ));
 				int32_t L_16 = (-1);
 				V_0 = L_16;
 				__this->set_U3CU3E1__state_0(L_16);
@@ -38931,7 +38985,7 @@ IL_0062:
 
 IL_007f:
 			{
-				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_17 = TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1((TaskAwaiter_1_t138F4E1DDBB7E2DBFE4DA9CAD6BC97B71B6B2BF5 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m9CE3586E1B44DE47E15B62FC1CC515C1F3E784D1_RuntimeMethod_var);
+				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_17 = TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23((TaskAwaiter_1_t4F252BC1F6EBA9368E5BC1865FDBB2AF519CAC85 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m41E303545450D9AD520FF2DB6E60CADF3F042B23_RuntimeMethod_var);
 				V_3 = L_17;
 				UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * L_18 = V_1;
 				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_19 = V_3;
@@ -38943,10 +38997,10 @@ IL_007f:
 				StorageFolder_t8840B1E11D2E352E8B47C67AA5100D29E761C82B * L_21 = L_20->get_uwpLogSessionFolder_12();
 				String_t* L_22 = __this->get_filename_4();
 				NullCheck(L_21);
-				RuntimeObject* L_23 = StorageFolder_GetFileAsync_mD8C3D41300E9A1EA81D518285472B6C3375F40B4(L_21, L_22, /*hidden argument*/NULL);
-				TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_24 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9(L_23, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m26C6E3F42B7A1BBAC62402ADB6D8915BB768FEB9_RuntimeMethod_var);
+				RuntimeObject* L_23 = StorageFolder_GetFileAsync_mCC11694B250F59E0B16CE4F91232DDA43FDED6C5(L_21, L_22, /*hidden argument*/NULL);
+				TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_24 = WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574(L_23, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisStorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A_m0BAD53579F44DCAA6F855280408C03B865FBA574_RuntimeMethod_var);
 				V_6 = L_24;
-				bool L_25 = TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mB24270ACFE590AE65ADAFBE4297F99F06C8D8028_RuntimeMethod_var);
+				bool L_25 = TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m78A0536B8164C43BD521308F69984572D21795A8_RuntimeMethod_var);
 				if (L_25)
 				{
 					goto IL_00ed;
@@ -38958,19 +39012,19 @@ IL_00af:
 				int32_t L_26 = 1;
 				V_0 = L_26;
 				__this->set_U3CU3E1__state_0(L_26);
-				TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_27 = V_6;
+				TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_27 = V_6;
 				__this->set_U3CU3Eu__2_6(L_27);
 				AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * L_28 = __this->get_address_of_U3CU3Et__builder_1();
-				AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m718BC2AF02A5AA918588C772711A313A395707E1((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_28, (TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), (U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_m718BC2AF02A5AA918588C772711A313A395707E1_RuntimeMethod_var);
+				AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mD587EA246D5BD39598444330E8721E1C0156E0F8((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_28, (TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), (U3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7_TisU3CUWP_FileExistsU3Ed__14_t06C063FE0C1BDB1BC445F54CB5D2EA690DD1C133_mD587EA246D5BD39598444330E8721E1C0156E0F8_RuntimeMethod_var);
 				goto IL_0146;
 			}
 
 IL_00d0:
 			{
-				TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  L_29 = __this->get_U3CU3Eu__2_6();
+				TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  L_29 = __this->get_U3CU3Eu__2_6();
 				V_6 = L_29;
-				TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * L_30 = __this->get_address_of_U3CU3Eu__2_6();
-				il2cpp_codegen_initobj(L_30, sizeof(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E ));
+				TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * L_30 = __this->get_address_of_U3CU3Eu__2_6();
+				il2cpp_codegen_initobj(L_30, sizeof(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 ));
 				int32_t L_31 = (-1);
 				V_0 = L_31;
 				__this->set_U3CU3E1__state_0(L_31);
@@ -38978,7 +39032,7 @@ IL_00d0:
 
 IL_00ed:
 			{
-				StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_32 = TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897((TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_m56882508F77BD11B1D87759167EC445107325897_RuntimeMethod_var);
+				StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_32 = TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A((TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 *)(&V_6), /*hidden argument*/TaskAwaiter_1_GetResult_mC90343CE53214654C192EE47415F55AAFA36D85A_RuntimeMethod_var);
 				V_5 = L_32;
 				UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * L_33 = V_1;
 				StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_34 = V_5;
@@ -39368,7 +39422,7 @@ IL_0087:
 			NullCheck(L_26);
 			StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_27 = L_26->get_uwpLogFile_13();
 			NullCheck(L_25);
-			Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * L_28 = UserInputPlayback_UWP_ReadData_m6A15788923B45249BBCCE219E1F80A4F94D2335C(L_25, L_27, /*hidden argument*/NULL);
+			Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439 * L_28 = UserInputPlayback_UWP_ReadData_m5A930E58EB3318945BAD8704B35DEC6975A8E5CB(L_25, L_27, /*hidden argument*/NULL);
 			NullCheck(L_28);
 			TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090  L_29 = Task_1_GetAwaiter_mACFDCEB6FCFDFCFADAD84AB06A6DC16BAE77948E(L_28, /*hidden argument*/Task_1_GetAwaiter_mACFDCEB6FCFDFCFADAD84AB06A6DC16BAE77948E_RuntimeMethod_var);
 			V_3 = L_29;
@@ -39514,7 +39568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUWP_ReadDataU3Ed__15_MoveNext_mC4EB12
 	UserInputPlayback_t700097EC8A6C5B1715FFE570E242DE6892A02098 * V_1 = NULL;
 	bool V_2 = false;
 	RuntimeObject* V_3 = NULL;
-	TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  V_4;
+	TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * V_5 = NULL;
 	StreamReader_t62E68063760DCD2FC036AE132DE69C24B7ED001E * V_6 = NULL;
@@ -39549,10 +39603,10 @@ IL_0011:
 			// using (var inputStream = await logfile.OpenReadAsync())
 			StorageFile_tDD5C98CCA54A0713E03C7864C9F1C6B67C47B24A * L_3 = __this->get_logfile_2();
 			NullCheck(L_3);
-			RuntimeObject* L_4 = StorageFile_OpenReadAsync_m387A1257B972674675539257DF1AEE173AB1642E(L_3, /*hidden argument*/NULL);
-			TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  L_5 = WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m9EFF0BD922248201E0EEA5D5C6F1CB6AF8608122(L_4, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m9EFF0BD922248201E0EEA5D5C6F1CB6AF8608122_RuntimeMethod_var);
+			RuntimeObject* L_4 = StorageFile_OpenReadAsync_m30884ABB30E4AC745FE48FD8D5EE1BFFD06525D2(L_3, /*hidden argument*/NULL);
+			TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  L_5 = WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m79E1FC29D5933EA85FBEEBD5A507E35B6FDA8207(L_4, /*hidden argument*/WindowsRuntimeSystemExtensions_GetAwaiter_TisIRandomAccessStreamWithContentType_tC0F186291175339B7AA6ED58270C99BD52694F51_m79E1FC29D5933EA85FBEEBD5A507E35B6FDA8207_RuntimeMethod_var);
 			V_4 = L_5;
-			bool L_6 = TaskAwaiter_1_get_IsCompleted_mACA64B01CBDB6D0C61A92B727464E126C8F0AF5D((TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_mACA64B01CBDB6D0C61A92B727464E126C8F0AF5D_RuntimeMethod_var);
+			bool L_6 = TaskAwaiter_1_get_IsCompleted_m377C8A99E243AB5EA0D128D4983A086272E45D92((TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *)(&V_4), /*hidden argument*/TaskAwaiter_1_get_IsCompleted_m377C8A99E243AB5EA0D128D4983A086272E45D92_RuntimeMethod_var);
 			if (L_6)
 			{
 				goto IL_006d;
@@ -39564,19 +39618,19 @@ IL_002c:
 			int32_t L_7 = 0;
 			V_0 = L_7;
 			__this->set_U3CU3E1__state_0(L_7);
-			TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  L_8 = V_4;
+			TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  L_8 = V_4;
 			__this->set_U3CU3Eu__1_4(L_8);
 			AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE * L_9 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m1752634ADC2A1F576AB03D3F36CA9C51253E398C((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_9, (TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *)(&V_4), (U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m1752634ADC2A1F576AB03D3F36CA9C51253E398C_RuntimeMethod_var);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m6F170C0302FA5C8CC311309D3C33223E780E8A24((AsyncTaskMethodBuilder_1_t37B8301A93B487253B9622D00C44195BE042E4BE *)L_9, (TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *)(&V_4), (U3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF *)__this, /*hidden argument*/AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4_TisU3CUWP_ReadDataU3Ed__15_t154D2EF7BE530832CA58DC3F50D000409E6132CF_m6F170C0302FA5C8CC311309D3C33223E780E8A24_RuntimeMethod_var);
 			goto IL_0128;
 		}
 
 IL_0050:
 		{
-			TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB  L_10 = __this->get_U3CU3Eu__1_4();
+			TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4  L_10 = __this->get_U3CU3Eu__1_4();
 			V_4 = L_10;
-			TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB * L_11 = __this->get_address_of_U3CU3Eu__1_4();
-			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB ));
+			TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 * L_11 = __this->get_address_of_U3CU3Eu__1_4();
+			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 ));
 			int32_t L_12 = (-1);
 			V_0 = L_12;
 			__this->set_U3CU3E1__state_0(L_12);
@@ -39584,7 +39638,7 @@ IL_0050:
 
 IL_006d:
 		{
-			RuntimeObject* L_13 = TaskAwaiter_1_GetResult_m71B569921E0DE40A0D1C2CA4B0E4928C9D5E657E((TaskAwaiter_1_tED628C0B97ECD64468E75970BC8CEC40EFB176BB *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m71B569921E0DE40A0D1C2CA4B0E4928C9D5E657E_RuntimeMethod_var);
+			RuntimeObject* L_13 = TaskAwaiter_1_GetResult_m801B3398DE8ED4915938FB5143ADE4006A3487BC((TaskAwaiter_1_t16A7304D0609E7C1FDB399935895328EE7D5B1C4 *)(&V_4), /*hidden argument*/TaskAwaiter_1_GetResult_m801B3398DE8ED4915938FB5143ADE4006A3487BC_RuntimeMethod_var);
 			V_3 = L_13;
 		}
 

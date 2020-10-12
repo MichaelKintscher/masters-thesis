@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
@@ -22,6 +24,8 @@ public class ScatterPlotGenerator : MonoBehaviour
     // The minimum and maximum point sizes to scale all points between.
     public float MinPointSize;
     public float MaxPointSize;
+
+    public string PointMaterialFileName;
 
     // Stores the points in the plot.
     private List<GameObject> Points { get; set; }
@@ -85,9 +89,9 @@ public class ScatterPlotGenerator : MonoBehaviour
         for (int i = 0; i < this.NumPoints; i++)
         {
             data.Add(new Vector3(
-                Random.value * this.PointMaxXValue,
-                Random.value * this.PointMaxYValue,
-                Random.value * this.PointMaxZValue)
+                UnityEngine.Random.value * this.PointMaxXValue,
+                UnityEngine.Random.value * this.PointMaxYValue,
+                UnityEngine.Random.value * this.PointMaxZValue)
                 );
         }
 
@@ -170,6 +174,10 @@ public class ScatterPlotGenerator : MonoBehaviour
 
         List<Vector4> scaledData = this.ScalePointsToChart(data);
 
+        // Load the point matieral once before entering the loop, for efficiency,
+        //      since the same material will be applied to all points.
+        Material pointMaterial = this.GetPointMaterial();
+
         // Generate the points.
         foreach (Vector4 pointData in scaledData)
         {
@@ -187,6 +195,11 @@ public class ScatterPlotGenerator : MonoBehaviour
             //      position. This is because Unity has the Y axis pointing
             //      up instead of the Z axis.
             sphere.transform.position = (Vector3)pointData + (this.ChartSize / 2f);
+
+            // Set the material for the point.
+            Renderer renderer = sphere.GetComponent<Renderer>();
+            renderer.material = pointMaterial;
+            renderer.material.color = Color.white;
 
             // Add the point to the list.
             this.Points.Add(sphere);
@@ -250,6 +263,24 @@ public class ScatterPlotGenerator : MonoBehaviour
         }
 
         return scaledPoints;
+    }
+
+    private Material GetPointMaterial()
+    {
+        Material asset = null;
+        // Empty path for a resource directly in the resources folder.
+        string path = "PointMaterial";
+
+        try
+        {
+            asset = Resources.Load(path, typeof(Material)) as Material;
+        }
+        catch (Exception ex)
+        {
+            // Nothing to do but continue...
+        }
+
+        return asset;
     }
 
     private void InitializeAxes()
@@ -384,8 +415,8 @@ public class ScatterPlotGenerator : MonoBehaviour
         foreach (LineRenderer renderer in lineRenderers)
         {
             // Set the start and end colors for each side's edges.
-            renderer.startColor = Color.yellow;
-            renderer.endColor = Color.yellow;
+            renderer.startColor = Color.white;
+            renderer.endColor = Color.white;
 
             // Set the start and end widths for each side's edges.
             renderer.startWidth = 0.01f;

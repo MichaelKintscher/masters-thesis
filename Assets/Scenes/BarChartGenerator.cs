@@ -151,6 +151,8 @@ public class BarChartGenerator : MonoBehaviour
         float maxHeight = heightValues.Max();
         tallestBarHeight = maxHeight - minHeight;
 
+        Material barMaterial = this.GetMaterial("PointMaterial");
+
         // Generate the bars.
         foreach (Vector3 barData in data)
         {
@@ -184,6 +186,11 @@ public class BarChartGenerator : MonoBehaviour
                 cube.transform.localScale.y / 2f,
                 (this.BarSize.y / 2.0f) + barData.y * this.BarSize.y);
 
+            // Set the material for the bar.
+            Renderer renderer = cube.GetComponent<Renderer>();
+            renderer.material = barMaterial;
+            renderer.material.color = Color.white;
+
             // Add the bar to the list.
             this.Bars.Add(cube);
         }
@@ -195,6 +202,10 @@ public class BarChartGenerator : MonoBehaviour
         //      bottom of the bar. Take the floor of this number, because
         //      whatever is left at the top will not have a tick above it.
         int numOfTicks = Mathf.FloorToInt(barHeight / this.TickFrequency) + 1;
+
+        // Load the point matieral once before entering the loop, for efficiency,
+        //      since the same material will be applied to all points.
+        Material tickMaterial = this.GetMaterial("BarTickMaterial");
 
         // For each tick on the bar...
         for (int i = 0; i < numOfTicks; i++)
@@ -242,6 +253,8 @@ public class BarChartGenerator : MonoBehaviour
             tickRenderer.SetPositions(leftPositions);
 
             // Set the start and end colors for each side.
+            tickRenderer.material = tickMaterial;
+            tickRenderer.material.color = Color.white;
             tickRenderer.startColor = Color.red;
             tickRenderer.endColor = Color.red;
 
@@ -249,6 +262,22 @@ public class BarChartGenerator : MonoBehaviour
             tickRenderer.startWidth = 0.01f;
             tickRenderer.endWidth = 0.01f;
         }
+    }
+
+    private Material GetMaterial(string path)
+    {
+        Material asset = null;
+
+        try
+        {
+            asset = Resources.Load(path, typeof(Material)) as Material;
+        }
+        catch (System.Exception ex)
+        {
+            // Nothing to do but continue...
+        }
+
+        return asset;
     }
 
     private void InitializeAxes()
@@ -383,8 +412,8 @@ public class BarChartGenerator : MonoBehaviour
         foreach (LineRenderer renderer in lineRenderers)
         {
             // Set the start and end colors for each side's edges.
-            renderer.startColor = Color.yellow;
-            renderer.endColor = Color.yellow;
+            renderer.startColor = Color.white;
+            renderer.endColor = Color.white;
 
             // Set the start and end widths for each side's edges.
             renderer.startWidth = 0.01f;

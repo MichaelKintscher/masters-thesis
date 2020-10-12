@@ -530,13 +530,13 @@ struct AsyncOperationCompletedHandler_1_t65E9C9721B1DA69C2DE1191424186D9E2D71B82
 // Windows.Foundation.AsyncOperationCompletedHandler`1<System.Object>
 struct AsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0;
 // Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>
-struct AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD;
+struct AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98;
 // Windows.Foundation.AsyncOperationProgressHandler`2<System.Object,System.Object>
 struct AsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD;
 // Windows.Foundation.AsyncOperationProgressHandler`2<System.Object,System.UInt32>
 struct AsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8;
 // Windows.Foundation.AsyncOperationProgressHandler`2<System.UInt32,System.UInt32>
-struct AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367;
+struct AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF;
 // Windows.Foundation.AsyncOperationWithProgressCompletedHandler`2<System.Object,System.Object>
 struct AsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB;
 // Windows.Foundation.AsyncOperationWithProgressCompletedHandler`2<System.Object,System.UInt32>
@@ -552,11 +552,11 @@ struct IAsyncOperationWithProgress_2_tC8BD3FE106054920900E2389AD70276493A309B3;
 // Windows.Foundation.IAsyncOperation`1<System.Boolean>
 struct IAsyncOperation_1_t27E018F764B0C6E8EB0FA611CB25A52C1FD0FB18;
 // Windows.Foundation.IAsyncOperation`1<System.Int32Enum>
-struct IAsyncOperation_1_t009F3A15545418147EB307DB972BF4FD5A230E94;
+struct IAsyncOperation_1_tD470FC5AF8CDA3869DD80EFDCF3C92284CBF3A6B;
 // Windows.Foundation.IAsyncOperation`1<System.Object>
 struct IAsyncOperation_1_t8458F3AE31378AC0283AEFB66F34243CDFF9BBC1;
 // Windows.Foundation.IAsyncOperation`1<System.UInt32>
-struct IAsyncOperation_1_tE0525518D784878446961B495B04E168E2C60C9F;
+struct IAsyncOperation_1_t88EC6C1020DA89DD7701EDF25D796687457FCC76;
 
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var;
@@ -893,11 +893,11 @@ struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
-struct IAsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD_ComCallableWrapper;
+struct IAsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98_ComCallableWrapper;
 struct IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper;
 struct IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0_ComCallableWrapper;
-struct IAsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367_ComCallableWrapper;
 struct IAsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD_ComCallableWrapper;
+struct IAsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF_ComCallableWrapper;
 struct IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8_ComCallableWrapper;
 struct IAsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB_ComCallableWrapper;
 struct IAsyncOperationWithProgressCompletedHandler_2_tD97B7CC6004FBEA3D052F954E4EC2123FCAECD85_ComCallableWrapper;
@@ -907,7 +907,7 @@ struct IAsyncOperationWithProgress_2_tC8BD3FE106054920900E2389AD70276493A309B3;
 struct IAsyncOperationWithProgress_2_tD50512E675329FF3A609906BA69059AC641D72B1;
 struct IAsyncOperation_1_t27E018F764B0C6E8EB0FA611CB25A52C1FD0FB18;
 struct IAsyncOperation_1_t8458F3AE31378AC0283AEFB66F34243CDFF9BBC1;
-struct IAsyncOperation_1_tE0525518D784878446961B495B04E168E2C60C9F;
+struct IAsyncOperation_1_t88EC6C1020DA89DD7701EDF25D796687457FCC76;
 
 struct Int32EnumU5BU5D_t0A5530B4D0EA3796F661E767F9F7D7005A62CE4A;
 struct Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83;
@@ -928,55 +928,55 @@ IL2CPP_EXTERN_C_END
 struct NOVTABLE IAsyncOperationWithProgress_2_tD50512E675329FF3A609906BA69059AC641D72B1 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_mFB6FE604EEF5BB9E714EFACDDDEE09B5B1C62191(IAsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_m8FCB4F1054CC4C911C223A5EB575DE711E51ED40(IAsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_m9AA2531FFB51D956562246763E80DE45603A1102(IAsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_mC8B0DF1D983B538324F584457FA0A32B8EE96CA0(IAsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_m34D4475A4571F1B4388EB47B813B11F22A0DC30A(IAsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_m2F6A9A2B3DA9E9DE071876285326983F05FBB3A5(IAsyncOperationProgressHandler_2_t9553C2F879A9E39FC1043CB0A40CBF3BD3F431AD_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_m819E0B7CE710D8FA951D8F153B37791B422DA0B4(IAsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_mE10FD5F7942F35FD560A82F4F62CE7171CA11612(IAsyncOperationWithProgressCompletedHandler_2_tA57BD53F38B97D88EEA02AEACE48D9175DFFAFEB_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_GetResults_m0ACDB95A7BF00987D62964D2EA95E997E27549EE(Il2CppIInspectable** comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperationWithProgress`2<System.Object,System.UInt32>
 struct NOVTABLE IAsyncOperationWithProgress_2_t58A307F07CC4DEF3DB0E5155D12C31CFFEF4A55D : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_m4803D2725A9442A29BC0AE0085F1674A0BA11B82(IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_mC5BB2B4E3E81BB01D64CAB93E64049091F860B77(IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_m24A7BD0A272762E01AB148F16C5A1E1450A636A1(IAsyncOperationWithProgressCompletedHandler_2_tD97B7CC6004FBEA3D052F954E4EC2123FCAECD85_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_m84CD8A3DEB30C0DAF2CD1C070BBBF0A5F9C6B0C1(IAsyncOperationWithProgressCompletedHandler_2_tD97B7CC6004FBEA3D052F954E4EC2123FCAECD85_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_mBC85B436C883CD12FA93BCE1DA14E3FC1141C07F(IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_mE397A02549442D3ADA5E007D6B2EE2AAB4055AE9(IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE8_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_m536AB4A0FFD50C0BAD41213BA81448205D2DEE82(IAsyncOperationWithProgressCompletedHandler_2_tD97B7CC6004FBEA3D052F954E4EC2123FCAECD85_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_m460CB2787E879485D78278D7E03555478D818B04(IAsyncOperationWithProgressCompletedHandler_2_tD97B7CC6004FBEA3D052F954E4EC2123FCAECD85_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_GetResults_m993BB462F191321B87C535695A7207D604A34D39(Il2CppIInspectable** comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32>
 struct NOVTABLE IAsyncOperationWithProgress_2_tC8BD3FE106054920900E2389AD70276493A309B3 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_m350E9B9254A685DFB8C3FC2D3131246B8E51D04A(IAsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_m52E5FA65A83D323DD051DE07DCD1197F3BAB915A(IAsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_mFB0F42569BF3A6EA84B17C7FC562E077E24E1C1E(IAsyncOperationWithProgressCompletedHandler_2_tF449555B6EE977A7635D662ED0C1D414CC60792B_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_mA97E7AD6FFA70605BC3D85B2BA81D9E73477C83C(IAsyncOperationWithProgressCompletedHandler_2_tF449555B6EE977A7635D662ED0C1D414CC60792B_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Progress_mFA44CC5936DF2F00028EE923554D9EB6A8F330AB(IAsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Progress_m8E5DCBD12F325DA3976FE899A5629AAB677677E2(IAsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_put_Completed_m83521D448EBBCC3C662D00C15E7148663A1D1787(IAsyncOperationWithProgressCompletedHandler_2_tF449555B6EE977A7635D662ED0C1D414CC60792B_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_get_Completed_m12A3111A4FD99D1C014897BC3B3E660D5CCBC1C9(IAsyncOperationWithProgressCompletedHandler_2_tF449555B6EE977A7635D662ED0C1D414CC60792B_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperationWithProgress_2_GetResults_m192AC6B35298E03A2B3C136B3077DF2053FDB6A2(uint32_t* comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<System.Boolean>
 struct NOVTABLE IAsyncOperation_1_t27E018F764B0C6E8EB0FA611CB25A52C1FD0FB18 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mCD6E096799210DC80FFCA3C09D67B27800A90520(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m07CAA5869A884FEC2A68E5C00C7DA01E4576826B(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m8E114B8C69737261BF45361FE4C1EB93C97CD765(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m91C2CD5710D4822C1719FB73BEE0F3D486C92004(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_mD43ABCF581D914A85D4B9445991877915DFF56DA(bool* comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<System.Object>
 struct NOVTABLE IAsyncOperation_1_t8458F3AE31378AC0283AEFB66F34243CDFF9BBC1 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m0C7B8B4487E05BA966965F8D42142089B9326D45(IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_mF5FE7877C4022DAB662BB33D1DCB376892F71003(IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mF1A1A4904D6D75A4B9C94F342CCE35D2508F0758(IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m8B173F37B058D478D17BF9AAA6153315E5ADA4E4(IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346B0_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m9512F1B6180476FC615EABE09C819D9FA551E911(Il2CppIInspectable** comReturnValue) = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<System.UInt32>
-struct NOVTABLE IAsyncOperation_1_tE0525518D784878446961B495B04E168E2C60C9F : Il2CppIInspectable
+struct NOVTABLE IAsyncOperation_1_t88EC6C1020DA89DD7701EDF25D796687457FCC76 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mB69278840316FCE67223E1213920B03451D7D5E7(IAsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m504B589952ADA18B4396501035315C55E6501CE3(IAsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD_ComCallableWrapper** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m914052430AA1D630117E87B3F53FD269C24C7330(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_m6CF0BDF4BFC6632EA53F453D06C0B4757389BD7A(IAsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m1F58003AF75D92F01F3317D6261CDB17A2FD15E9(IAsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_m0535FE249551E6914EDD25D84D2BBA94F57B69C5(uint32_t* comReturnValue) = 0;
 };
 struct Il2CppArrayBounds;
 
@@ -6776,7 +6776,7 @@ public:
 	// System.Object System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_dataContainer
 	RuntimeObject * ____dataContainer_4;
 	// TCompletedHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_completedHandler
-	AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * ____completedHandler_5;
+	AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * ____completedHandler_5;
 	// TProgressHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_progressHandler
 	VoidReferenceTypeParameter_t255142D4EFCF5C11FA3FC962097F7D9B2D3B4F6E * ____progressHandler_6;
 	// System.Threading.SynchronizationContext System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_startingContext
@@ -6827,9 +6827,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of__completedHandler_5() { return static_cast<int32_t>(offsetof(TaskToAsyncInfoAdapter_4_tC5B0E2F4E16DF96D591FCCD933FC913E8A0BCC79, ____completedHandler_5)); }
-	inline AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * get__completedHandler_5() const { return ____completedHandler_5; }
-	inline AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD ** get_address_of__completedHandler_5() { return &____completedHandler_5; }
-	inline void set__completedHandler_5(AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * value)
+	inline AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * get__completedHandler_5() const { return ____completedHandler_5; }
+	inline AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 ** get_address_of__completedHandler_5() { return &____completedHandler_5; }
+	inline void set__completedHandler_5(AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * value)
 	{
 		____completedHandler_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____completedHandler_5), (void*)value);
@@ -7060,7 +7060,7 @@ public:
 	// TCompletedHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_completedHandler
 	AsyncOperationWithProgressCompletedHandler_2_tF449555B6EE977A7635D662ED0C1D414CC60792B * ____completedHandler_5;
 	// TProgressHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_progressHandler
-	AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * ____progressHandler_6;
+	AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * ____progressHandler_6;
 	// System.Threading.SynchronizationContext System.Threading.Tasks.TaskToAsyncInfoAdapter`4::_startingContext
 	SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * ____startingContext_7;
 
@@ -7118,9 +7118,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of__progressHandler_6() { return static_cast<int32_t>(offsetof(TaskToAsyncInfoAdapter_4_tAC83A62C004CF61FBB215509034F89040FF6A2DB, ____progressHandler_6)); }
-	inline AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * get__progressHandler_6() const { return ____progressHandler_6; }
-	inline AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 ** get_address_of__progressHandler_6() { return &____progressHandler_6; }
-	inline void set__progressHandler_6(AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * value)
+	inline AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * get__progressHandler_6() const { return ____progressHandler_6; }
+	inline AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF ** get_address_of__progressHandler_6() { return &____progressHandler_6; }
+	inline void set__progressHandler_6(AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * value)
 	{
 		____progressHandler_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____progressHandler_6), (void*)value);
@@ -9378,7 +9378,7 @@ struct IAsyncOperationCompletedHandler_1_t985408C8A36FF9AA22CBADA53D6222BB9EA346
 
 
 // Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>
-struct  AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD  : public MulticastDelegate_t
+struct  AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98  : public MulticastDelegate_t
 {
 public:
 
@@ -9386,10 +9386,10 @@ public:
 };
 
 // COM Callable Wrapper interface definition for Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>
-struct IAsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD_ComCallableWrapper : Il2CppIUnknown
+struct IAsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98_ComCallableWrapper : Il2CppIUnknown
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL Invoke(IAsyncOperation_1_tE0525518D784878446961B495B04E168E2C60C9F* ___asyncInfo0, int32_t ___asyncStatus1) = 0;
+	virtual il2cpp_hresult_t STDCALL Invoke(IAsyncOperation_1_t88EC6C1020DA89DD7701EDF25D796687457FCC76* ___asyncInfo0, int32_t ___asyncStatus1) = 0;
 };
 
 
@@ -9426,7 +9426,7 @@ struct IAsyncOperationProgressHandler_2_tBE4195D29D5A4324DCD90062EB29BEA3AE9B0BE
 
 
 // Windows.Foundation.AsyncOperationProgressHandler`2<System.UInt32,System.UInt32>
-struct  AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367  : public MulticastDelegate_t
+struct  AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF  : public MulticastDelegate_t
 {
 public:
 
@@ -9434,7 +9434,7 @@ public:
 };
 
 // COM Callable Wrapper interface definition for Windows.Foundation.AsyncOperationProgressHandler`2<System.UInt32,System.UInt32>
-struct IAsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367_ComCallableWrapper : Il2CppIUnknown
+struct IAsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF_ComCallableWrapper : Il2CppIUnknown
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL Invoke(IAsyncOperationWithProgress_2_tC8BD3FE106054920900E2389AD70276493A309B3* ___asyncInfo0, uint32_t ___progressInfo1) = 0;
@@ -13672,23 +13672,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t TaskToAsyncOperationAdapter_1_GetRes
 	}
 }
 // System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1<System.UInt32>::OnCompleted(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>,Windows.Foundation.AsyncStatus)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationAdapter_1_OnCompleted_m848A6956ADFC5CDE930A65372C51B95689D76983_gshared (TaskToAsyncOperationAdapter_1_t48BB66388B2A897BAF283521804CED52AAD52429 * __this, AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * ___userCompletionHandler0, int32_t ___asyncStatus1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationAdapter_1_OnCompleted_m848A6956ADFC5CDE930A65372C51B95689D76983_gshared (TaskToAsyncOperationAdapter_1_t48BB66388B2A897BAF283521804CED52AAD52429 * __this, AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * ___userCompletionHandler0, int32_t ___asyncStatus1, const RuntimeMethod* method)
 {
 	{
-		AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * L_0 = ___userCompletionHandler0;
+		AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * L_0 = ___userCompletionHandler0;
 		int32_t L_1 = ___asyncStatus1;
-		NullCheck((AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD *)L_0);
-		((  void (*) (AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD *, RuntimeObject*, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1)->methodPointer)((AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD *)L_0, (RuntimeObject*)__this, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1));
+		NullCheck((AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 *)L_0);
+		((  void (*) (AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 *, RuntimeObject*, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1)->methodPointer)((AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 *)L_0, (RuntimeObject*)__this, (int32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 1));
 		return;
 	}
 }
 // System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1<System.UInt32>::Windows.Foundation.IAsyncOperation<TResult>.put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationAdapter_1_Windows_Foundation_IAsyncOperationU3CTResultU3E_put_Completed_m473AC1AD265E375E8A7DAECE4D3DEEA4ACD0C4B1_gshared (TaskToAsyncOperationAdapter_1_t48BB66388B2A897BAF283521804CED52AAD52429 * __this, AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * ___handler0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationAdapter_1_Windows_Foundation_IAsyncOperationU3CTResultU3E_put_Completed_m473AC1AD265E375E8A7DAECE4D3DEEA4ACD0C4B1_gshared (TaskToAsyncOperationAdapter_1_t48BB66388B2A897BAF283521804CED52AAD52429 * __this, AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * ___handler0, const RuntimeMethod* method)
 {
 	{
-		AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * L_0 = ___handler0;
+		AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * L_0 = ___handler0;
 		NullCheck((TaskToAsyncInfoAdapter_4_tC5B0E2F4E16DF96D591FCCD933FC913E8A0BCC79 *)__this);
-		VirtActionInvoker1< AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD * >::Invoke(13 /* System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4<Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>,System.VoidReferenceTypeParameter,System.UInt32,System.VoidValueTypeParameter>::set_Completed(TCompletedHandler) */, (TaskToAsyncInfoAdapter_4_tC5B0E2F4E16DF96D591FCCD933FC913E8A0BCC79 *)__this, (AsyncOperationCompletedHandler_1_t1A6E7CEA9EA86565C43B41C2620E20057839B2BD *)L_0);
+		VirtActionInvoker1< AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 * >::Invoke(13 /* System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4<Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>,System.VoidReferenceTypeParameter,System.UInt32,System.VoidValueTypeParameter>::set_Completed(TCompletedHandler) */, (TaskToAsyncInfoAdapter_4_tC5B0E2F4E16DF96D591FCCD933FC913E8A0BCC79 *)__this, (AsyncOperationCompletedHandler_1_t148BB02BB746BDCA7A3B7598E8D8EEAC8B8C9D98 *)L_0);
 		return;
 	}
 }
@@ -13839,23 +13839,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationWithProgressAdapter_
 	}
 }
 // System.Void System.Threading.Tasks.TaskToAsyncOperationWithProgressAdapter`2<System.UInt32,System.UInt32>::OnProgress(Windows.Foundation.AsyncOperationProgressHandler`2<TResult,TProgress>,TProgress)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationWithProgressAdapter_2_OnProgress_m9762DE7776F2BD64BDB5E415D913DCABE1D15265_gshared (TaskToAsyncOperationWithProgressAdapter_2_t1764D6F59447900C2F491D702D44504AA8E124C5 * __this, AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * ___userProgressHandler0, uint32_t ___progressInfo1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationWithProgressAdapter_2_OnProgress_m9762DE7776F2BD64BDB5E415D913DCABE1D15265_gshared (TaskToAsyncOperationWithProgressAdapter_2_t1764D6F59447900C2F491D702D44504AA8E124C5 * __this, AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * ___userProgressHandler0, uint32_t ___progressInfo1, const RuntimeMethod* method)
 {
 	{
-		AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * L_0 = ___userProgressHandler0;
+		AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * L_0 = ___userProgressHandler0;
 		uint32_t L_1 = ___progressInfo1;
-		NullCheck((AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 *)L_0);
-		((  void (*) (AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 *, RuntimeObject*, uint32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 *)L_0, (RuntimeObject*)__this, (uint32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
+		NullCheck((AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF *)L_0);
+		((  void (*) (AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF *, RuntimeObject*, uint32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2)->methodPointer)((AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF *)L_0, (RuntimeObject*)__this, (uint32_t)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 2));
 		return;
 	}
 }
 // System.Void System.Threading.Tasks.TaskToAsyncOperationWithProgressAdapter`2<System.UInt32,System.UInt32>::Windows.Foundation.IAsyncOperationWithProgress<TResult,TProgress>.put_Progress(Windows.Foundation.AsyncOperationProgressHandler`2<TResult,TProgress>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationWithProgressAdapter_2_Windows_Foundation_IAsyncOperationWithProgressU3CTResultU2CTProgressU3E_put_Progress_mB49B26AB28F2113C2BEE58F01932EC1CC4C07C7F_gshared (TaskToAsyncOperationWithProgressAdapter_2_t1764D6F59447900C2F491D702D44504AA8E124C5 * __this, AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * ___handler0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskToAsyncOperationWithProgressAdapter_2_Windows_Foundation_IAsyncOperationWithProgressU3CTResultU2CTProgressU3E_put_Progress_mB49B26AB28F2113C2BEE58F01932EC1CC4C07C7F_gshared (TaskToAsyncOperationWithProgressAdapter_2_t1764D6F59447900C2F491D702D44504AA8E124C5 * __this, AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * ___handler0, const RuntimeMethod* method)
 {
 	{
-		AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * L_0 = ___handler0;
+		AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * L_0 = ___handler0;
 		NullCheck((TaskToAsyncInfoAdapter_4_tAC83A62C004CF61FBB215509034F89040FF6A2DB *)__this);
-		VirtActionInvoker1< AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 * >::Invoke(15 /* System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4<Windows.Foundation.AsyncOperationWithProgressCompletedHandler`2<System.UInt32,System.UInt32>,Windows.Foundation.AsyncOperationProgressHandler`2<System.UInt32,System.UInt32>,System.UInt32,System.UInt32>::set_Progress(TProgressHandler) */, (TaskToAsyncInfoAdapter_4_tAC83A62C004CF61FBB215509034F89040FF6A2DB *)__this, (AsyncOperationProgressHandler_2_t59B024515C6DBD5934C514163689545A8EBEF367 *)L_0);
+		VirtActionInvoker1< AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF * >::Invoke(15 /* System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4<Windows.Foundation.AsyncOperationWithProgressCompletedHandler`2<System.UInt32,System.UInt32>,Windows.Foundation.AsyncOperationProgressHandler`2<System.UInt32,System.UInt32>,System.UInt32,System.UInt32>::set_Progress(TProgressHandler) */, (TaskToAsyncInfoAdapter_4_tAC83A62C004CF61FBB215509034F89040FF6A2DB *)__this, (AsyncOperationProgressHandler_2_tA19C158F451F784ADBF15553277617D2FDAE10DF *)L_0);
 		return;
 	}
 }

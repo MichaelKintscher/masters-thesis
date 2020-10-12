@@ -113,8 +113,8 @@ public class GraphDataReader : MonoBehaviour
                     }
                     catch(Exception ex)
                     {
-                        string message = "ERROR ON NODE ROW " + fromNode.ToString() + " File Line: " + lines.ToList().IndexOf(line);
-                        Debug.Log(message);
+                        //string message = "ERROR ON NODE ROW " + fromNode.ToString() + " File Line: " + lines.ToList().IndexOf(line);
+                        //Debug.Log(message);
                     }
                 }
 

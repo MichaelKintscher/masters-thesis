@@ -91,6 +91,10 @@ public class NetworkGenerator : MonoBehaviour
         float zMax = float.MinValue;
         float zMin = float.MaxValue;
 
+        // Load the graph matieral once before entering the loop, for efficiency,
+        //      since the same material will be applied to all nodes and edges.
+        Material graphMaterial = this.GetMaterial("PointMaterial");
+
         // Generate a sphere to represent each node.
         System.Random rand = new System.Random();
         foreach (GraphDataNode nodeData in graphData.Nodes)
@@ -145,6 +149,11 @@ public class NetworkGenerator : MonoBehaviour
 
             //string message = "Placed node " + nodeData.Name + " initially at: " + sphere.transform.position.ToString();
             //Debug.Log(message);
+
+            // Set the material for the bar.
+            Renderer renderer = sphere.GetComponent<Renderer>();
+            renderer.material = graphMaterial;
+            renderer.material.color = Color.white;
 
             // Add the node to the dictionary, indexed by it's name.
             this.Nodes.Add(nodeData.Name, sphere);
@@ -209,6 +218,11 @@ public class NetworkGenerator : MonoBehaviour
             // Position the edge's center to halfway between the two nodes.
             cylinder.transform.localPosition = fromPoint + ((toPoint - fromPoint) / 2.0f);
 
+            // Set the material for the bar.
+            Renderer renderer = cylinder.GetComponent<Renderer>();
+            renderer.material = graphMaterial;
+            renderer.material.color = Color.white;
+
             // Add the edge to the dictionary, indexed by it's edge data.
             this.Edges.Add(edge, cylinder);
         }
@@ -260,5 +274,21 @@ public class NetworkGenerator : MonoBehaviour
         //        }
         //    }
         //};
+    }
+
+    private Material GetMaterial(string path)
+    {
+        Material asset = null;
+
+        try
+        {
+            asset = Resources.Load(path, typeof(Material)) as Material;
+        }
+        catch (System.Exception ex)
+        {
+            // Nothing to do but continue...
+        }
+
+        return asset;
     }
 }

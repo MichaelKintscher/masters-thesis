@@ -66,7 +66,7 @@ public class CsvDataReader3D : MonoBehaviour
             {
                 // Print an error message to Unity console showing line number and content
                 //      that caused the error.
-                Debug.LogError("Error parsing line #" + (new List<string>(lines)).IndexOf(line) + ": " + line);
+                //Debug.LogError("Error parsing line #" + (new List<string>(lines)).IndexOf(line) + ": " + line);
                 continue;
             }
 

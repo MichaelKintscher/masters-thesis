@@ -7766,6 +7766,24 @@ public:
 };
 
 
+// UnityEngine.Rendering.GraphicsDeviceType
+struct  GraphicsDeviceType_tA87720B0E7A15371E70249FC9F4EAE7644015552 
+{
+public:
+	// System.Int32 UnityEngine.Rendering.GraphicsDeviceType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GraphicsDeviceType_tA87720B0E7A15371E70249FC9F4EAE7644015552, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.Rendering.IndexFormat
 struct  IndexFormat_t92C58F1C3C12C24A5F430966267EA43F6C4C16EB 
 {
@@ -29421,6 +29439,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_tDA498A2E49AEDE014468F416A8A98A6B25
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(JobHandle_tDA498A2E49AEDE014468F416A8A98A6B258D73D1 *)UnBox ((RuntimeObject*)__result);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

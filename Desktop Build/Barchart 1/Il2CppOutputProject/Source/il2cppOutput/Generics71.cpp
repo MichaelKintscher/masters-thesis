@@ -558,6 +558,8 @@ struct UnityEvent_3_t695DB93DCFCA35084D787B62352792D5C4F564C9;
 struct UnityEvent_4_t2145BBDEE01F7E33D8060C904609F2FFD8845A0A;
 // UnityEngine.GameObject
 struct GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F;
+// UnityEngine.ISubsystem
+struct ISubsystem_t33DA72BE41C4C99E2A9201979C86ABECD4B7FF78;
 // UnityEngine.ISubsystemDescriptor
 struct ISubsystemDescriptor_t5BCD578E4BAD3A0C1DF6C5654720FE7D4420605B;
 // UnityEngine.IntegratedSubsystem
@@ -736,6 +738,8 @@ IL2CPP_EXTERN_C RuntimeClass* IPointerEventInternal_tA7CFA0A98B5E87A72EC8D777BB1
 IL2CPP_EXTERN_C RuntimeClass* IPointerEvent_t9961D65B2C344F89413595E31CBCD1DCE0F47BEA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32Enum_t6312CE4586C17FE2E2E513D2E7655B574F10FDCD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Internal_SubsystemDescriptors_tC73DE2F7340E4C6650B674A63D0D5D677A7C9234_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Internal_SubsystemInstances_tB061667F7AEBE0E336E6DE40389E18414A43BB9A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvokableCall_t4195709D9C5DF20B7FC3986828A7612C9C28B0FC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LogFilter_t5202A297E770086F7954B8D6703BAC03C22654ED_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var;
@@ -795,6 +799,7 @@ IL2CPP_EXTERN_C const uint32_t FocusChangeDirection_get_unspecified_m72CA7BA378E
 IL2CPP_EXTERN_C const uint32_t FocusEventBase_1_LocalInit_mA55F0B1FC448FD0E1FB76315A1106748462AFB48_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IndexedSet_1_GetEnumerator_mC16C0BE13B73DB47882CA51DB581747C19C7128B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IndexedSet_1_Insert_mB43CB3AA6D461E94217E51DE6DD4ED3F5E1607CD_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t IntegratedSubsystemDescriptor_1_Create_m353DF937E50FE54F1022D32EC09A78FF01798EB9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InvokableCall_1_Invoke_m0110810FB1A5E9EB0A3580F08C68C38E028F9E10_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InvokableCall_1_Invoke_m39FA278371395D61B94FA0A03092D3FF23EB2468_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InvokableCall_1_Invoke_m48AB6731BEF540A6B1F23189413840859F56D212_MetadataUsageId;
@@ -11021,6 +11026,10 @@ inline int32_t List_1_get_Count_m81256FA6A1423E6A61F696EF1268497C43475FB9_inline
 {
 	return ((  int32_t (*) (List_1_tB6CB50ED979D7494123AC5ADF0C1C587142B5694 *, const RuntimeMethod*))List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared_inline)(__this, method);
 }
+// System.IntPtr UnityEngine.Internal_SubsystemDescriptors::Create(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Internal_SubsystemDescriptors_Create_mEB503EBC87BAE5D491C9FCD0C9D177881020EC99 (intptr_t ___descriptorPtr0, const RuntimeMethod* method);
+// UnityEngine.IntegratedSubsystem UnityEngine.Internal_SubsystemInstances::Internal_GetInstanceByPtr(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegratedSubsystem_tEFE71989A825ABA8955C1B1505C8F2405FA61026 * Internal_SubsystemInstances_Internal_GetInstanceByPtr_m2A3E2B194F743DA1505586132038FA64DF8FB407 (intptr_t ___ptr0, const RuntimeMethod* method);
 // System.Void UnityEngine.IntegratedSubsystemDescriptor::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystemDescriptor__ctor_m1D87F86FF3A30C3ECCD95D1797802B34B9194039 (IntegratedSubsystemDescriptor_t56BB69721C25889FFD6A9FE635ED05BB94D683DA * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.IntegratedSubsystem::.ctor()
@@ -21527,6 +21536,73 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.ISubsystem UnityEngine.IntegratedSubsystemDescriptor`1<System.Object>::CreateImpl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IntegratedSubsystemDescriptor_1_CreateImpl_m3EA74C92EB71BB77910FD716E818F4D9E73E7CFE_gshared (IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB * __this, const RuntimeMethod* method)
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		NullCheck((IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB *)__this);
+		RuntimeObject * L_0 = ((  RuntimeObject * (*) (IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
+		V_0 = (RuntimeObject*)L_0;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		RuntimeObject* L_1 = V_0;
+		return L_1;
+	}
+}
+// TSubsystem UnityEngine.IntegratedSubsystemDescriptor`1<System.Object>::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * IntegratedSubsystemDescriptor_1_Create_m353DF937E50FE54F1022D32EC09A78FF01798EB9_gshared (IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IntegratedSubsystemDescriptor_1_Create_m353DF937E50FE54F1022D32EC09A78FF01798EB9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RuntimeObject * V_1 = NULL;
+	bool V_2 = false;
+	RuntimeObject * V_3 = NULL;
+	{
+		intptr_t L_0 = (intptr_t)((IntegratedSubsystemDescriptor_t56BB69721C25889FFD6A9FE635ED05BB94D683DA *)__this)->get_m_Ptr_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Internal_SubsystemDescriptors_tC73DE2F7340E4C6650B674A63D0D5D677A7C9234_il2cpp_TypeInfo_var);
+		intptr_t L_1 = Internal_SubsystemDescriptors_Create_mEB503EBC87BAE5D491C9FCD0C9D177881020EC99((intptr_t)L_0, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_1;
+		intptr_t L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Internal_SubsystemInstances_tB061667F7AEBE0E336E6DE40389E18414A43BB9A_il2cpp_TypeInfo_var);
+		IntegratedSubsystem_tEFE71989A825ABA8955C1B1505C8F2405FA61026 * L_3 = Internal_SubsystemInstances_Internal_GetInstanceByPtr_m2A3E2B194F743DA1505586132038FA64DF8FB407((intptr_t)L_2, /*hidden argument*/NULL);
+		V_1 = (RuntimeObject *)((RuntimeObject *)Castclass((RuntimeObject*)L_3, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 1)));
+		RuntimeObject * L_4 = V_1;
+		V_2 = (bool)((!(((RuntimeObject*)(RuntimeObject *)L_4) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RuntimeObject * L_6 = V_1;
+		NullCheck(L_6);
+		((IntegratedSubsystem_tEFE71989A825ABA8955C1B1505C8F2405FA61026 *)L_6)->set_m_subsystemDescriptor_1(__this);
+	}
+
+IL_0034:
+	{
+		RuntimeObject * L_7 = V_1;
+		V_3 = (RuntimeObject *)L_7;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		RuntimeObject * L_8 = V_3;
+		return L_8;
+	}
+}
 // System.Void UnityEngine.IntegratedSubsystemDescriptor`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystemDescriptor_1__ctor_m3E14A32CB73A1C21C69CC9860EE2AE95F841876D_gshared (IntegratedSubsystemDescriptor_1_t26346DD8E0AD1C04F25B94E8AD18577ABA15EBCB * __this, const RuntimeMethod* method)
 {

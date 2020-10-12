@@ -35,6 +35,39 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MonoScript",
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
@@ -296,39 +329,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity",
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity",
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Startup Scene.unity",
-                "Assets/Scenes/Desktop Scene.unity",
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "GameObject",
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
@@ -561,6 +561,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ExitAppScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "GraphDataReader",
             "moduleName": "",
             "usedInScenes": []
@@ -583,6 +590,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ScatterPlotGenerator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -926,6 +940,20 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Management.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Management.XRGeneralSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Management.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.Management.XRManagerSettings",
             "moduleName": "",
             "usedInScenes": []
         },

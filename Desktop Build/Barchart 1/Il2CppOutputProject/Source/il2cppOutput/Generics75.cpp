@@ -269,7 +269,7 @@ struct HResultU5BU5D_tC4635E1BE9508BB0BE0D32C0E5D98385A6056D59;
 // Windows.Foundation.IWwwFormUrlDecoderEntry
 struct IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0;
 // Windows.Foundation.IWwwFormUrlDecoderEntry[]
-struct IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313;
+struct IWwwFormUrlDecoderEntryU5BU5D_t62047D11FCA0F7CD33E73DE0E983751ED32D93AB;
 // Windows.Foundation.Metadata.AttributeTargets[]
 struct AttributeTargetsU5BU5D_t43ADA39F08258A2862F2E29635B7D34629E256D9;
 // Windows.Foundation.Metadata.MarshalingType[]
@@ -550,7 +550,7 @@ struct Guid_t ;
 struct HResult_tD2916D1ECD3A4E474B4A639B8D27E510FF8421DB ;
 struct IBindableIterable_t9143D67D77A22933794984D33C26495AE2C9D6D7;
 struct IBindableIterator_t4EB9DDBBBED9295CB77A2FAD2C1171407B95575B;
-struct IBindableVectorView_t599103232DE439473A83B23E8CC3259B59BFC11E;
+struct IBindableVectorView_tBF7B9AC876701C1D216FBE0DC2FB4EB248280C96;
 struct IBindableVector_tA1A0182B1D20219B22AE55394F419A2646929D39;
 struct IClosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 struct IKeyValuePair_2_t0430BA2952DFC31C399BDC2BDBB08E6D0C0DB409;
@@ -578,6 +578,7 @@ struct IKeyValuePair_2_tE606C35A61F09251840D2938D541CBF10D74E7CA;
 struct IKeyValuePair_2_tE934865E70448F4C99B4F5038D417AC41D6433CF;
 struct IVectorView_1_t062CB2262B4D77E9806AFF4CF0FD83C5FFFD5007;
 struct IVectorView_1_t148EEAA0181488F6A7D77A8AC1C8EEF47B5F8E34;
+struct IVectorView_1_t18C1F02711DD335276D6DB563DA306F58C63A935;
 struct IVectorView_1_t1BC5057964946DF26EC0D22E5B2D120264CF5F68;
 struct IVectorView_1_t2B442E663F7C9F2E51B660AD9A4F8FB87C8A8D75;
 struct IVectorView_1_t2BD142C07C846D035CBF1FFBE4D24A3A99EB5E74;
@@ -593,7 +594,6 @@ struct IVectorView_1_t5050EF05E91BB6F2A882C85C1555DF9DAD87E39A;
 struct IVectorView_1_t5322F63C1369276431960B478CC5D853EE67E7DB;
 struct IVectorView_1_t582A8FA8B9D7EC9975F046D02DCDCE79D61F8C67;
 struct IVectorView_1_t5CB437D3FDD487A03B7C8E6B6065B57B2A28C818;
-struct IVectorView_1_t5D9A809A326AE0982EF1ECE5111A38F3DE00E311;
 struct IVectorView_1_t5EA64BE513922EDC984769C0C929CC3BE6C3C73B;
 struct IVectorView_1_t6866A1000920FDEAB9ECD675A26CD84AB3723D96;
 struct IVectorView_1_t6F13331E47F6281F0A04404462B1758BD10F3C88;
@@ -693,7 +693,7 @@ struct DateTimeU5BU5D_tF99CEBC490438246063FF10220535B915FD29D57;
 struct EventRegistrationTokenU5BU5D_tF25AB9D4BC1002982ED1C496304061610F1FDA95;
 struct FoundationContractU5BU5D_tEE9850C12D0EC6CEB499C6429CE62B4BFC1F41D9;
 struct HResultU5BU5D_tC4635E1BE9508BB0BE0D32C0E5D98385A6056D59;
-struct IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313;
+struct IWwwFormUrlDecoderEntryU5BU5D_t62047D11FCA0F7CD33E73DE0E983751ED32D93AB;
 struct AttributeTargetsU5BU5D_t43ADA39F08258A2862F2E29635B7D34629E256D9;
 struct MarshalingTypeU5BU5D_t8A314BCC76C5B93CC5C2B55D059D42081B966A4E;
 struct ThreadingModelU5BU5D_t26305514D7BAF6D9FD89034D7C2149C346567A18;
@@ -1200,13 +1200,13 @@ struct NOVTABLE IVectorView_1_tF69174A7B689728C9541626DDA2159FA234B7D60 : Il2Cpp
 	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_m5F7D19B5B646020A0FCA91073F151270B2B6AAD9(uint32_t ___startIndex0, uint32_t ___items1ArraySize, uint64_t* ___items1, uint32_t* comReturnValue) = 0;
 };
 // Windows.Foundation.Collections.IVectorView`1<Windows.Foundation.IWwwFormUrlDecoderEntry>
-struct NOVTABLE IVectorView_1_t5D9A809A326AE0982EF1ECE5111A38F3DE00E311 : Il2CppIInspectable
+struct NOVTABLE IVectorView_1_t18C1F02711DD335276D6DB563DA306F58C63A935 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetAt_mF823AC2D57C752E332C135A3B71FC52358011DAD(uint32_t ___index0, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_get_Size_m9BC2A181C49309E483EC7C8E0970C5F50E732FBC(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_IndexOf_m8E2DEA6731B4F2A336535D1469E316FF849266CB(IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0* ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_m5982CB3FBC8538D9E4349C215F696E244DD9D5F9(uint32_t ___startIndex0, uint32_t ___items1ArraySize, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0** ___items1, uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetAt_mB282B50CEB281047CD2F1BD07A5EE42628CFEAD3(uint32_t ___index0, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_get_Size_mB343475F5C4FE9F49CB0915A152FB9CA41F31042(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_IndexOf_mF13B191DD4BC42414B61C213FBE6EE9ACA92F2F1(IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0* ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_mBDF6B60E92097483906DBC2B663BBF5FBF34FDC6(uint32_t ___startIndex0, uint32_t ___items1ArraySize, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0** ___items1, uint32_t* comReturnValue) = 0;
 };
 // Windows.Foundation.Collections.IVector`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>
 struct NOVTABLE IVector_1_t47AE6B699AA6E20122B9AAE94FF40A9B44BB3261 : Il2CppIInspectable
@@ -1843,7 +1843,7 @@ struct NOVTABLE IVector_1_t588F0E374396533183C3B9F4636F6330FA2A4896 : Il2CppIIns
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IVector_1_GetAt_mF4C0E2B3218E935A685864E341DAD2B2378C6718(uint32_t ___index0, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_get_Size_m3CF83B86BB447F0E8F54C508A9B5675AD5D3CB42(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_GetView_mD5F927D3A868867644381F4B7DCB1DD6F9AC7D0A(IVectorView_1_t5D9A809A326AE0982EF1ECE5111A38F3DE00E311** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_GetView_mD5F927D3A868867644381F4B7DCB1DD6F9AC7D0A(IVectorView_1_t18C1F02711DD335276D6DB563DA306F58C63A935** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_IndexOf_m32C36723AD08DC630AE20D40D2147B9AD2FAA451(IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0* ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_SetAt_m437F71D3518A8754A70286D689FDD7A43907FD92(uint32_t ___index0, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0* ___value1) = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_InsertAt_m273D582432BA26EBC4003D805D2808210CD2DDBC(uint32_t ___index0, IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B0* ___value1) = 0;
@@ -1871,7 +1871,7 @@ struct NOVTABLE IWwwFormUrlDecoderEntry_tC4C4D232A843D96221527E27D6363316F965B6B
 struct NOVTABLE IBindableIterable_t9143D67D77A22933794984D33C26495AE2C9D6D7 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m35A822CD2DF5C55F51539416F98640C7123A6C63(IBindableIterator_t4EB9DDBBBED9295CB77A2FAD2C1171407B95575B** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m249B6233E8E52974472E2DE151F79DB53F1E4FDF(IBindableIterator_t4EB9DDBBBED9295CB77A2FAD2C1171407B95575B** comReturnValue) = 0;
 };
 // Windows.UI.Xaml.Interop.IBindableVector
 struct NOVTABLE IBindableVector_tA1A0182B1D20219B22AE55394F419A2646929D39 : Il2CppIInspectable
@@ -1879,7 +1879,7 @@ struct NOVTABLE IBindableVector_tA1A0182B1D20219B22AE55394F419A2646929D39 : Il2C
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IBindableVector_GetAt_m860227C0726F0C40C40300F2D114C90C040DCFBD(uint32_t ___index0, Il2CppIInspectable** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IBindableVector_get_Size_m1804E8861F18C40EC16058667D11382062A82771(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IBindableVector_GetView_m4C2BFF3B150F6EB8019728B4C2C2AF5879A81B55(IBindableVectorView_t599103232DE439473A83B23E8CC3259B59BFC11E** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBindableVector_GetView_m6207353D6B455F00DEDB5344E45BC50B9D101DEB(IBindableVectorView_tBF7B9AC876701C1D216FBE0DC2FB4EB248280C96** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IBindableVector_IndexOf_mF971A05290A1678F48EC52978E53A9CBA688E489(Il2CppIInspectable* ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IBindableVector_SetAt_m4658569CC8E08EF010A7EB35E66059F7D4BBFDB8(uint32_t ___index0, Il2CppIInspectable* ___value1) = 0;
 	virtual il2cpp_hresult_t STDCALL IBindableVector_InsertAt_mA154571EE15503B3425185CFB55419AA4ED3BD59(uint32_t ___index0, Il2CppIInspectable* ___value1) = 0;
@@ -4521,14 +4521,14 @@ struct NOVTABLE IVector_1_t45A1158028344D0305DAF36ADA8CB948B4E3FFEF : Il2CppIIns
 };
 
 // Windows.Foundation.Metadata.MarshalingType
-struct  MarshalingType_t9A5D090418F1AFA7DCD94B9E03E909E7A1B169B6 
+struct  MarshalingType_t62213E81B261451C72A0B7669A24499DDCF22E06 
 {
 public:
 	// System.Int32 Windows.Foundation.Metadata.MarshalingType::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MarshalingType_t9A5D090418F1AFA7DCD94B9E03E909E7A1B169B6, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MarshalingType_t62213E81B261451C72A0B7669A24499DDCF22E06, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -4539,14 +4539,14 @@ public:
 
 
 // Windows.Foundation.Metadata.ThreadingModel
-struct  ThreadingModel_tE658033D954DB5DFFE88703D1FA993679892B9DE 
+struct  ThreadingModel_t3A0A62EE2003BD4A2E53BE7370BC1E159A3A8434 
 {
 public:
 	// System.Int32 Windows.Foundation.Metadata.ThreadingModel::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ThreadingModel_tE658033D954DB5DFFE88703D1FA993679892B9DE, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ThreadingModel_t3A0A62EE2003BD4A2E53BE7370BC1E159A3A8434, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -6660,7 +6660,7 @@ public:
 	}
 };
 // Windows.Foundation.IWwwFormUrlDecoderEntry[]
-struct IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313  : public RuntimeArray
+struct IWwwFormUrlDecoderEntryU5BU5D_t62047D11FCA0F7CD33E73DE0E983751ED32D93AB  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
@@ -24701,7 +24701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVector_1_GetView_mD5F927D3A86
 	IVector_1_t588F0E374396533183C3B9F4636F6330FA2A4896* ____ivector_1_t588F0E374396533183C3B9F4636F6330FA2A4896 = il2cpp_codegen_com_query_interface<IVector_1_t588F0E374396533183C3B9F4636F6330FA2A4896>(static_cast<Il2CppComObject*>(__this));
 
 	// Native function invocation
-	IVectorView_1_t5D9A809A326AE0982EF1ECE5111A38F3DE00E311* returnValue = NULL;
+	IVectorView_1_t18C1F02711DD335276D6DB563DA306F58C63A935* returnValue = NULL;
 	const il2cpp_hresult_t hr = ____ivector_1_t588F0E374396533183C3B9F4636F6330FA2A4896->IVector_1_GetView_mD5F927D3A868867644381F4B7DCB1DD6F9AC7D0A(&returnValue);
 
 	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
@@ -24714,7 +24714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVector_1_GetView_mD5F927D3A86
 
 		if (il2cpp_codegen_is_import_or_windows_runtime(_returnValue_unmarshaled))
 		{
-			il2cpp_codegen_com_cache_queried_interface(static_cast<Il2CppComObject*>(_returnValue_unmarshaled), IVectorView_1_t5D9A809A326AE0982EF1ECE5111A38F3DE00E311::IID, returnValue);
+			il2cpp_codegen_com_cache_queried_interface(static_cast<Il2CppComObject*>(_returnValue_unmarshaled), IVectorView_1_t18C1F02711DD335276D6DB563DA306F58C63A935::IID, returnValue);
 		}
 	}
 	else
@@ -24915,7 +24915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVector_1_Clear_m30BA660EC4294961875F9A8
 
 }
 // System.UInt32 Windows.Foundation.Collections.IVector`1<Windows.Foundation.IWwwFormUrlDecoderEntry>::GetMany(System.UInt32,T[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t IVector_1_GetMany_mA9FF4A9290B01C18AD02D95D7E1B1BFD64865344 (RuntimeObject* __this, uint32_t ___startIndex0, IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313* ___items1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t IVector_1_GetMany_mA9FF4A9290B01C18AD02D95D7E1B1BFD64865344 (RuntimeObject* __this, uint32_t ___startIndex0, IWwwFormUrlDecoderEntryU5BU5D_t62047D11FCA0F7CD33E73DE0E983751ED32D93AB* ___items1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24984,7 +24984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t IVector_1_GetMany_mA9FF4A9290B01C18A
 	return returnValue;
 }
 // System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.IWwwFormUrlDecoderEntry>::ReplaceAll(T[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m89035EE7A400F167D5B777737E71B216654ECE0B (RuntimeObject* __this, IWwwFormUrlDecoderEntryU5BU5D_t683CE1C0FB5F371BBB50572C71A8955037D7B313* ___items0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m89035EE7A400F167D5B777737E71B216654ECE0B (RuntimeObject* __this, IWwwFormUrlDecoderEntryU5BU5D_t62047D11FCA0F7CD33E73DE0E983751ED32D93AB* ___items0, const RuntimeMethod* method)
 {
 	IVector_1_t588F0E374396533183C3B9F4636F6330FA2A4896* ____ivector_1_t588F0E374396533183C3B9F4636F6330FA2A4896 = il2cpp_codegen_com_query_interface<IVector_1_t588F0E374396533183C3B9F4636F6330FA2A4896>(static_cast<Il2CppComObject*>(__this));
 

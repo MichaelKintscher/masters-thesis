@@ -6053,6 +6053,24 @@ public:
 };
 
 
+// UnityEngine.Rendering.GraphicsDeviceType
+struct  GraphicsDeviceType_tA87720B0E7A15371E70249FC9F4EAE7644015552 
+{
+public:
+	// System.Int32 UnityEngine.Rendering.GraphicsDeviceType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GraphicsDeviceType_tA87720B0E7A15371E70249FC9F4EAE7644015552, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.RuntimePlatform
 struct  RuntimePlatform_tD5F5737C1BBBCBB115EB104DF2B7876387E80132 
 {
@@ -8944,6 +8962,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m1863896DE712BF97C03
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetOperatingSystemFamily_mD20DAFF3A6E6649299A3BCFC845E7EB41BFA1D93 (const RuntimeMethod* method);
 // System.String UnityEngine.SystemInfo::GetDeviceUniqueIdentifier()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetDeviceUniqueIdentifier_m3837CC4675966110AA6B5CF980A346DF4B084DDB (const RuntimeMethod* method);
+// UnityEngine.Rendering.GraphicsDeviceType UnityEngine.SystemInfo::GetGraphicsDeviceType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF (const RuntimeMethod* method);
 // System.Boolean UnityEngine.SystemInfo::SupportsInstancing()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_SupportsInstancing_m11F99B744C68828EFFD2B58BA4C85AC65CA73714 (const RuntimeMethod* method);
 // System.Boolean System.Enum::IsDefined(System.Type,System.Object)
@@ -11713,6 +11733,22 @@ IL_0009:
 		return L_1;
 	}
 }
+// UnityEngine.Rendering.GraphicsDeviceType UnityEngine.SystemInfo::get_graphicsDeviceType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_graphicsDeviceType_m675AD9D5FA869DF9E71FAEC03F39E8AE8DEBA8D0 (const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
 // System.Boolean UnityEngine.SystemInfo::get_supportsInstancing()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsInstancing_mF0ED4B6C2658260EB52F3503637A659306D4DAAB (const RuntimeMethod* method)
 {
@@ -11832,6 +11868,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemInfo_GetDeviceUniqueIdentifie
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_GetDeviceUniqueIdentifier_m3837CC4675966110AA6B5CF980A346DF4B084DDB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetDeviceUniqueIdentifier()");
 	String_t* retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// UnityEngine.Rendering.GraphicsDeviceType UnityEngine.SystemInfo::GetGraphicsDeviceType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF (const RuntimeMethod* method)
+{
+	typedef int32_t (*SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF_ftn) ();
+	static SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_GetGraphicsDeviceType_m9C6D5E53B3AD6D1B5735517E80A16A78D4CFDDCF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::GetGraphicsDeviceType()");
+	int32_t retVal = _il2cpp_icall_func();
 	return retVal;
 }
 // System.Boolean UnityEngine.SystemInfo::SupportsInstancing()
