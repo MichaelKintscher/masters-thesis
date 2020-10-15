@@ -144,89 +144,103 @@ extern void GraphDataNode_get_Z_m25793FE62C32AF8FE57D678A374B4C01AE40E40A ();
 extern void GraphDataNode_set_Z_mE26DD83BC4768141056AC5CEEFB4084DEE000326 ();
 // 0x0000003E System.Void GraphDataNode::.ctor(System.String)
 extern void GraphDataNode__ctor_m0270917000F5E11DA953BF817CF1164B3E1BCA47 ();
-// 0x0000003F System.Void Logger::Start()
+// 0x0000003F System.Void HololensWorldAnchorManager::Start()
+extern void HololensWorldAnchorManager_Start_mA3D0F45298C4E017B6C5A769F98EC3CB68CE905C ();
+// 0x00000040 System.Void HololensWorldAnchorManager::Update()
+extern void HololensWorldAnchorManager_Update_mA11B109353E194B432139117EBCD00DF211A5FD0 ();
+// 0x00000041 System.Void HololensWorldAnchorManager::AnchorStoreLoaded(UnityEngine.XR.WSA.Persistence.WorldAnchorStore)
+extern void HololensWorldAnchorManager_AnchorStoreLoaded_m5E2C6A23DC0E17F259AE80C6203E0FE3A8C9C76E ();
+// 0x00000042 System.Void HololensWorldAnchorManager::LoadAnchors()
+extern void HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF ();
+// 0x00000043 System.Void HololensWorldAnchorManager::SaveAnchor()
+extern void HololensWorldAnchorManager_SaveAnchor_m44EBF62BCB230150C3BD0ED8B73FAE76B5A3DDE6 ();
+// 0x00000044 System.Void HololensWorldAnchorManager::AttachAnchor()
+extern void HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF ();
+// 0x00000045 System.Void HololensWorldAnchorManager::.ctor()
+extern void HololensWorldAnchorManager__ctor_mF2BE1D3746ED17976160BBBFC160C6BC5403C3DA ();
+// 0x00000046 System.Void Logger::Start()
 extern void Logger_Start_mD734E6E655D89EBB0AECF861F2463A22D83C85D9 ();
-// 0x00000040 System.Void Logger::Update()
+// 0x00000047 System.Void Logger::Update()
 extern void Logger_Update_mB75FD89DD812512A0300F1E59365C455932B3748 ();
-// 0x00000041 System.Void Logger::CloseLogFile()
+// 0x00000048 System.Void Logger::CloseLogFile()
 extern void Logger_CloseLogFile_m25C51B2F18B34B6AC4D59071A642D367978878DE ();
-// 0x00000042 System.Threading.Tasks.Task Logger::PickLogSaveLocationAsync()
+// 0x00000049 System.Threading.Tasks.Task Logger::PickLogSaveLocationAsync()
 extern void Logger_PickLogSaveLocationAsync_m28AD46634233AEEDA8A16DC6513CF24EA2CC6C8A ();
-// 0x00000043 System.Void Logger::.ctor()
+// 0x0000004A System.Void Logger::.ctor()
 extern void Logger__ctor_m70F043D53DBE8D73F67AAEFD73FDF444105E3989 ();
-// 0x00000044 System.Void Logger::<Start>b__3_0()
+// 0x0000004B System.Void Logger::<Start>b__3_0()
 extern void Logger_U3CStartU3Eb__3_0_m28D5629621D49767ED12B14BCBEB36877B036739 ();
-// 0x00000045 System.Void Logger_<PickLogSaveLocationAsync>d__6::MoveNext()
+// 0x0000004C System.Void Logger_<PickLogSaveLocationAsync>d__6::MoveNext()
 extern void U3CPickLogSaveLocationAsyncU3Ed__6_MoveNext_m69190191A38ED7D924EFC7E6CD56E38B92A355D0_AdjustorThunk ();
-// 0x00000046 System.Void Logger_<PickLogSaveLocationAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000004D System.Void Logger_<PickLogSaveLocationAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CPickLogSaveLocationAsyncU3Ed__6_SetStateMachine_mC9D380649EA1D366A9EE9CBE5759A3F617424DDC_AdjustorThunk ();
-// 0x00000047 System.Void Logger_<<Start>b__3_0>d::MoveNext()
+// 0x0000004E System.Void Logger_<<Start>b__3_0>d::MoveNext()
 extern void U3CU3CStartU3Eb__3_0U3Ed_MoveNext_m15809131C77CB49789FE89F20F4B23F9106E5014_AdjustorThunk ();
-// 0x00000048 System.Void Logger_<<Start>b__3_0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000004F System.Void Logger_<<Start>b__3_0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CU3CStartU3Eb__3_0U3Ed_SetStateMachine_m0583A260068F444AF29092A657FB7D2E715152A3_AdjustorThunk ();
-// 0x00000049 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> NetworkGenerator::get_Nodes()
+// 0x00000050 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> NetworkGenerator::get_Nodes()
 extern void NetworkGenerator_get_Nodes_m0074C3CB91D6440DEE7028B1631DA511CDEEF0F5 ();
-// 0x0000004A System.Void NetworkGenerator::set_Nodes(System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>)
+// 0x00000051 System.Void NetworkGenerator::set_Nodes(System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>)
 extern void NetworkGenerator_set_Nodes_mB7C6E4EB360A49913A7E1C1E66ADC65E5DB76117 ();
-// 0x0000004B System.Collections.Generic.Dictionary`2<GraphDataEdge,UnityEngine.GameObject> NetworkGenerator::get_Edges()
+// 0x00000052 System.Collections.Generic.Dictionary`2<GraphDataEdge,UnityEngine.GameObject> NetworkGenerator::get_Edges()
 extern void NetworkGenerator_get_Edges_mD67C43DA2294586F809B9D8CF34B89CE6A046068 ();
-// 0x0000004C System.Void NetworkGenerator::set_Edges(System.Collections.Generic.Dictionary`2<GraphDataEdge,UnityEngine.GameObject>)
+// 0x00000053 System.Void NetworkGenerator::set_Edges(System.Collections.Generic.Dictionary`2<GraphDataEdge,UnityEngine.GameObject>)
 extern void NetworkGenerator_set_Edges_mE79B4BD75B1F439477C80B13D7AF5F3537BE9626 ();
-// 0x0000004D GraphDataReader NetworkGenerator::get_FileDataReader()
+// 0x00000054 GraphDataReader NetworkGenerator::get_FileDataReader()
 extern void NetworkGenerator_get_FileDataReader_m3BE51AED835DB46CC93B5DCF2BAE51610589CFF3 ();
-// 0x0000004E System.Void NetworkGenerator::set_FileDataReader(GraphDataReader)
+// 0x00000055 System.Void NetworkGenerator::set_FileDataReader(GraphDataReader)
 extern void NetworkGenerator_set_FileDataReader_m0F8B1434832A93B0BEFB33AD1C30423A08104D5A ();
-// 0x0000004F System.Void NetworkGenerator::Start()
+// 0x00000056 System.Void NetworkGenerator::Start()
 extern void NetworkGenerator_Start_m476891023F03BDB1BE954A43C8674788412E8DC0 ();
-// 0x00000050 System.Void NetworkGenerator::Update()
+// 0x00000057 System.Void NetworkGenerator::Update()
 extern void NetworkGenerator_Update_m5F62A16C51B14D0EC301D52E5DA79500C91EB3D8 ();
-// 0x00000051 System.Void NetworkGenerator::InitializePoints()
+// 0x00000058 System.Void NetworkGenerator::InitializePoints()
 extern void NetworkGenerator_InitializePoints_mAE04071BF001AD89819D7E500A35A3F48B469550 ();
-// 0x00000052 GraphData NetworkGenerator::GenerateTestGraph()
+// 0x00000059 GraphData NetworkGenerator::GenerateTestGraph()
 extern void NetworkGenerator_GenerateTestGraph_mD87CED3143B3464BFB88847914A3AAB91E8DDDF3 ();
-// 0x00000053 UnityEngine.Material NetworkGenerator::GetMaterial(System.String)
+// 0x0000005A UnityEngine.Material NetworkGenerator::GetMaterial(System.String)
 extern void NetworkGenerator_GetMaterial_mCCC31E9539D67971FB9817C640B47DC08E39BD66 ();
-// 0x00000054 System.Void NetworkGenerator::.ctor()
+// 0x0000005B System.Void NetworkGenerator::.ctor()
 extern void NetworkGenerator__ctor_m711261D45E3E2F5329B01C1AD1FE7A40993BFF8B ();
-// 0x00000055 System.Collections.Generic.List`1<UnityEngine.GameObject> ScatterPlotGenerator::get_Points()
+// 0x0000005C System.Collections.Generic.List`1<UnityEngine.GameObject> ScatterPlotGenerator::get_Points()
 extern void ScatterPlotGenerator_get_Points_m784ADCA3A4CCD540BBB36D48BAD9B285FBB82A9F ();
-// 0x00000056 System.Void ScatterPlotGenerator::set_Points(System.Collections.Generic.List`1<UnityEngine.GameObject>)
+// 0x0000005D System.Void ScatterPlotGenerator::set_Points(System.Collections.Generic.List`1<UnityEngine.GameObject>)
 extern void ScatterPlotGenerator_set_Points_m1B8B277F821F301EB642F6B8C0C49E91FF04941F ();
-// 0x00000057 CsvDataReader3D ScatterPlotGenerator::get_FileDataReader()
+// 0x0000005E CsvDataReader3D ScatterPlotGenerator::get_FileDataReader()
 extern void ScatterPlotGenerator_get_FileDataReader_m5E522E1111A3BC97D0DE79D4B302940CA187AA00 ();
-// 0x00000058 System.Void ScatterPlotGenerator::set_FileDataReader(CsvDataReader3D)
+// 0x0000005F System.Void ScatterPlotGenerator::set_FileDataReader(CsvDataReader3D)
 extern void ScatterPlotGenerator_set_FileDataReader_m63F5B5A8960419EA302F41B3ACB1F133237B2D07 ();
-// 0x00000059 UnityEngine.LineRenderer ScatterPlotGenerator::get_XAxisRenderer()
+// 0x00000060 UnityEngine.LineRenderer ScatterPlotGenerator::get_XAxisRenderer()
 extern void ScatterPlotGenerator_get_XAxisRenderer_mBA8AA98E8EC18D2A5AE2998637C1C29348451412 ();
-// 0x0000005A System.Void ScatterPlotGenerator::set_XAxisRenderer(UnityEngine.LineRenderer)
+// 0x00000061 System.Void ScatterPlotGenerator::set_XAxisRenderer(UnityEngine.LineRenderer)
 extern void ScatterPlotGenerator_set_XAxisRenderer_m029FFC47E514E5BDFAC6111F9FE7D7D57A7F26AF ();
-// 0x0000005B UnityEngine.LineRenderer ScatterPlotGenerator::get_YAxisRenderer()
+// 0x00000062 UnityEngine.LineRenderer ScatterPlotGenerator::get_YAxisRenderer()
 extern void ScatterPlotGenerator_get_YAxisRenderer_m5922E06A89DCDC5DEA31B31C3DAE839619DD421E ();
-// 0x0000005C System.Void ScatterPlotGenerator::set_YAxisRenderer(UnityEngine.LineRenderer)
+// 0x00000063 System.Void ScatterPlotGenerator::set_YAxisRenderer(UnityEngine.LineRenderer)
 extern void ScatterPlotGenerator_set_YAxisRenderer_m4E06D204FDB686E2183DBA1C6E71B09A29E111D8 ();
-// 0x0000005D UnityEngine.LineRenderer ScatterPlotGenerator::get_ZAxisRenderer()
+// 0x00000064 UnityEngine.LineRenderer ScatterPlotGenerator::get_ZAxisRenderer()
 extern void ScatterPlotGenerator_get_ZAxisRenderer_mE69F9D0141A048488CAEB7FBE088F8AD99B80E45 ();
-// 0x0000005E System.Void ScatterPlotGenerator::set_ZAxisRenderer(UnityEngine.LineRenderer)
+// 0x00000065 System.Void ScatterPlotGenerator::set_ZAxisRenderer(UnityEngine.LineRenderer)
 extern void ScatterPlotGenerator_set_ZAxisRenderer_mC7123E32895C2008CB45C5D0C2832DB340D2C40A ();
-// 0x0000005F System.Void ScatterPlotGenerator::Start()
+// 0x00000066 System.Void ScatterPlotGenerator::Start()
 extern void ScatterPlotGenerator_Start_mA83AB983EF0938ABE55579F0960F9EF6EF8494B6 ();
-// 0x00000060 System.Void ScatterPlotGenerator::Update()
+// 0x00000067 System.Void ScatterPlotGenerator::Update()
 extern void ScatterPlotGenerator_Update_m9FECCCA9532197EEDB16D30204C27342BEACB368 ();
-// 0x00000061 System.Void ScatterPlotGenerator::InitializePointsTest()
+// 0x00000068 System.Void ScatterPlotGenerator::InitializePointsTest()
 extern void ScatterPlotGenerator_InitializePointsTest_mE5F37186192591B03BB6F849A1D26BF04851B3EC ();
-// 0x00000062 System.Void ScatterPlotGenerator::InitializePoints()
+// 0x00000069 System.Void ScatterPlotGenerator::InitializePoints()
 extern void ScatterPlotGenerator_InitializePoints_m19E35AA4CF690FC51715D0C563CD4AE4E17F399F ();
-// 0x00000063 System.Collections.Generic.List`1<UnityEngine.Vector4> ScatterPlotGenerator::ScalePointsToChart(System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x0000006A System.Collections.Generic.List`1<UnityEngine.Vector4> ScatterPlotGenerator::ScalePointsToChart(System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void ScatterPlotGenerator_ScalePointsToChart_mD50099FFEFFF3DCF32010DBF54EEC9ECADA33321 ();
-// 0x00000064 UnityEngine.Material ScatterPlotGenerator::GetPointMaterial()
+// 0x0000006B UnityEngine.Material ScatterPlotGenerator::GetPointMaterial()
 extern void ScatterPlotGenerator_GetPointMaterial_mBCA4A92A557355A3C9DD62512F73CA6BD6195918 ();
-// 0x00000065 System.Void ScatterPlotGenerator::InitializeAxes()
+// 0x0000006C System.Void ScatterPlotGenerator::InitializeAxes()
 extern void ScatterPlotGenerator_InitializeAxes_m601CED029041959F89D03E3B6ED637086941F4A5 ();
-// 0x00000066 System.Void ScatterPlotGenerator::InitializeBoundingBox()
+// 0x0000006D System.Void ScatterPlotGenerator::InitializeBoundingBox()
 extern void ScatterPlotGenerator_InitializeBoundingBox_mC922608780C17896CAD77F378F53ECD5A18669F2 ();
-// 0x00000067 System.Void ScatterPlotGenerator::.ctor()
+// 0x0000006E System.Void ScatterPlotGenerator::.ctor()
 extern void ScatterPlotGenerator__ctor_m1DE58BB77BEFFD3CCEEBA9EBE765D9FABB284C95 ();
-static Il2CppMethodPointer s_methodPointers[103] = 
+static Il2CppMethodPointer s_methodPointers[110] = 
 {
 	AppControllerScript_Start_mDB2DDE7A04346074C4A5328EB879555747F64B64,
 	AppControllerScript_Update_mA1739784CD1A15889A8869DD7F3E81B0A1C4C917,
@@ -290,6 +304,13 @@ static Il2CppMethodPointer s_methodPointers[103] =
 	GraphDataNode_get_Z_m25793FE62C32AF8FE57D678A374B4C01AE40E40A,
 	GraphDataNode_set_Z_mE26DD83BC4768141056AC5CEEFB4084DEE000326,
 	GraphDataNode__ctor_m0270917000F5E11DA953BF817CF1164B3E1BCA47,
+	HololensWorldAnchorManager_Start_mA3D0F45298C4E017B6C5A769F98EC3CB68CE905C,
+	HololensWorldAnchorManager_Update_mA11B109353E194B432139117EBCD00DF211A5FD0,
+	HololensWorldAnchorManager_AnchorStoreLoaded_m5E2C6A23DC0E17F259AE80C6203E0FE3A8C9C76E,
+	HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF,
+	HololensWorldAnchorManager_SaveAnchor_m44EBF62BCB230150C3BD0ED8B73FAE76B5A3DDE6,
+	HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF,
+	HololensWorldAnchorManager__ctor_mF2BE1D3746ED17976160BBBFC160C6BC5403C3DA,
 	Logger_Start_mD734E6E655D89EBB0AECF861F2463A22D83C85D9,
 	Logger_Update_mB75FD89DD812512A0300F1E59365C455932B3748,
 	Logger_CloseLogFile_m25C51B2F18B34B6AC4D59071A642D367978878DE,
@@ -332,15 +353,15 @@ static Il2CppMethodPointer s_methodPointers[103] =
 	ScatterPlotGenerator_InitializeBoundingBox_mC922608780C17896CAD77F378F53ECD5A18669F2,
 	ScatterPlotGenerator__ctor_m1DE58BB77BEFFD3CCEEBA9EBE765D9FABB284C95,
 };
-static const int32_t s_InvokerIndices[103] = 
+static const int32_t s_InvokerIndices[110] = 
 {
 	23,
 	23,
 	23,
 	14,
 	26,
-	1180,
-	1181,
+	1212,
+	1213,
 	14,
 	26,
 	14,
@@ -352,13 +373,13 @@ static const int32_t s_InvokerIndices[103] =
 	23,
 	23,
 	23,
-	892,
+	893,
 	28,
 	23,
 	23,
 	23,
 	23,
-	2150,
+	2229,
 	23,
 	23,
 	14,
@@ -396,6 +417,13 @@ static const int32_t s_InvokerIndices[103] =
 	691,
 	297,
 	26,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
 	23,
 	23,
 	23,
@@ -442,7 +470,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	103,
+	110,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

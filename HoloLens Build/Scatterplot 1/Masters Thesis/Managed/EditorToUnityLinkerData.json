@@ -285,12 +285,43 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Light",
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Startup Scene.unity",
                 "Assets/Scenes/Desktop Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
                 "Assets/Scenes/Hololense Scene.unity"
             ]
         },
@@ -329,6 +360,35 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "GameObject",
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
@@ -360,6 +420,16 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity",
+                "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Texture2D",
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
@@ -367,6 +437,24 @@
                 "Assets/Scenes/Startup Scene.unity",
                 "Assets/Scenes/Desktop Scene.unity",
                 "Assets/Scenes/Hololense Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Startup Scene.unity"
             ]
         },
         {
@@ -413,16 +501,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Desktop Scene.unity",
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LineRenderer",
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
@@ -436,24 +514,6 @@
             "nativeClass": "AnimationClip",
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Hololense Scene.unity"
             ]
@@ -499,15 +559,6 @@
             "nativeClass": "Avatar",
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/Hololense Scene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Hololense Scene.unity"
             ]
@@ -569,6 +620,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "GraphDataReader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HololensWorldAnchorManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -958,9 +1016,44 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRBuildSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRLoader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "com.unity.multiplayer-hlapi.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Networking.NetworkCallbacks",
             "moduleName": "",
             "usedInScenes": []
         }

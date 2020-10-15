@@ -18,5 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Hololense Scene.unity
     guid: 270f27edd656c9346912811736e3febf
   m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 0a2531a674d70be4686fcafce94d4afa,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74f6b3350b5c12940bcd239df5db77f8,
       type: 2}

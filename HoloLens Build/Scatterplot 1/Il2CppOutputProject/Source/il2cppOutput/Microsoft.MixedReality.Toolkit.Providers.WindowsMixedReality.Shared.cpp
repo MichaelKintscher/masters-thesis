@@ -2861,14 +2861,14 @@ public:
 
 
 // Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness
-struct  SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2 
+struct  SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25 
 {
 public:
 	// System.Int32 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)

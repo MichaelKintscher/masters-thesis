@@ -999,6 +999,15 @@ public:
 };
 
 
+// UnityEngineInternal.XR.WSA.RemoteSpeechAccess
+struct  RemoteSpeechAccess_t794A490444DE2883979D09992C60497AAEC3473D  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
 // System.Boolean
 struct  Boolean_tB53F6830F670160873277339AA58F15CAED4399C 
 {
@@ -2894,6 +2903,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(PositionalLocatorState_tE622489AA7DB67A92489D77CD1EF22EC2C5F0598, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.XR.WSA.RemoteDeviceVersion
+struct  RemoteDeviceVersion_t973ECC581F7F0AE14820FEBD06CF032949324FF8 
+{
+public:
+	// System.Int32 UnityEngine.XR.WSA.RemoteDeviceVersion::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(RemoteDeviceVersion_t973ECC581F7F0AE14820FEBD06CF032949324FF8, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -12947,6 +12974,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetAsyncDelegate_EndInvoke_mD5E52C44C9A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Conversion methods for marshalling of: UnityEngine.XR.WSA.Sharing.WorldAnchorTransferBatch
 IL2CPP_EXTERN_C void WorldAnchorTransferBatch_t7BF25F7D67684AD6C02C3162A81797BC9045BF96_marshal_pinvoke(const WorldAnchorTransferBatch_t7BF25F7D67684AD6C02C3162A81797BC9045BF96& unmarshaled, WorldAnchorTransferBatch_t7BF25F7D67684AD6C02C3162A81797BC9045BF96_marshaled_pinvoke& marshaled)
 {
@@ -15194,6 +15229,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice__cctor_m4FE111291FBDF43A481045C
 		((XRDevice_t392FCA3D1DCEB95FF500C8F374C88B034C31DF4A_StaticFields*)il2cpp_codegen_static_fields_for(XRDevice_t392FCA3D1DCEB95FF500C8F374C88B034C31DF4A_il2cpp_TypeInfo_var))->set_deviceLoaded_0((Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 *)NULL);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngineInternal.XR.WSA.RemoteSpeechAccess::EnableRemoteSpeech(UnityEngine.XR.WSA.RemoteDeviceVersion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSpeechAccess_EnableRemoteSpeech_m24333760C61D57393192FB3B104A3427FAD61AD0 (int32_t ___remoteDeviceVersion0, const RuntimeMethod* method)
+{
+	typedef void (*RemoteSpeechAccess_EnableRemoteSpeech_m24333760C61D57393192FB3B104A3427FAD61AD0_ftn) (int32_t);
+	static RemoteSpeechAccess_EnableRemoteSpeech_m24333760C61D57393192FB3B104A3427FAD61AD0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (RemoteSpeechAccess_EnableRemoteSpeech_m24333760C61D57393192FB3B104A3427FAD61AD0_ftn)il2cpp_codegen_resolve_icall ("UnityEngineInternal.XR.WSA.RemoteSpeechAccess::EnableRemoteSpeech(UnityEngine.XR.WSA.RemoteDeviceVersion)");
+	_il2cpp_icall_func(___remoteDeviceVersion0);
+}
+// System.Void UnityEngineInternal.XR.WSA.RemoteSpeechAccess::DisableRemoteSpeech()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSpeechAccess_DisableRemoteSpeech_mAA6B79C99FAE9F97A5344B46034030E7208CC41C (const RuntimeMethod* method)
+{
+	typedef void (*RemoteSpeechAccess_DisableRemoteSpeech_mAA6B79C99FAE9F97A5344B46034030E7208CC41C_ftn) ();
+	static RemoteSpeechAccess_DisableRemoteSpeech_mAA6B79C99FAE9F97A5344B46034030E7208CC41C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (RemoteSpeechAccess_DisableRemoteSpeech_mAA6B79C99FAE9F97A5344B46034030E7208CC41C_ftn)il2cpp_codegen_resolve_icall ("UnityEngineInternal.XR.WSA.RemoteSpeechAccess::DisableRemoteSpeech()");
+	_il2cpp_icall_func();
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

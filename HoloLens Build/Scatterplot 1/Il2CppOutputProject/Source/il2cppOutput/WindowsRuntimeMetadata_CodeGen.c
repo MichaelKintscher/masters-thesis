@@ -832,7 +832,7 @@ extern void MemoryManager_Finalize_m118D60A4217AA9572B93529E7B46F6AEEFD059A7 ();
 // 0x00000256 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::U24__Stripped2_get_IsGraspSupported()
 // 0x00000257 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.ISpatialInteractionSource2::get_Controller()
 // 0x00000258 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::U24__Stripped3_TryGetStateAtTimestamp()
-// 0x00000259 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource3::U24__Stripped0_get_Handedness()
+// 0x00000259 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.ISpatialInteractionSource3::get_Handedness()
 // 0x0000025A System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource4::U24__Stripped0_TryCreateHandMeshObserver()
 // 0x0000025B Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.ISpatialInteractionSource4::TryCreateHandMeshObserverAsync()
 // 0x0000025C Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.ISpatialInteractionSourceState::get_Source()
@@ -868,89 +868,91 @@ extern void SpatialInteractionManager_Finalize_mDEE46B05E2AAE45028F54C4CFCC07D9C
 extern void SpatialInteractionSource_get_Id_mB951FE8156B99B8019862574020299C1FBE1046E ();
 // 0x00000274 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.SpatialInteractionSource::get_Controller()
 extern void SpatialInteractionSource_get_Controller_m97C4614B902D5556336CC3AF0719B9A03CAB1C63 ();
-// 0x00000275 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
+// 0x00000275 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.SpatialInteractionSource::get_Handedness()
+extern void SpatialInteractionSource_get_Handedness_mE53EFE4006D5E48BF4B17A32E1CE61E8A004BC48 ();
+// 0x00000276 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
 extern void SpatialInteractionSource_TryCreateHandMeshObserverAsync_m77EBC16735940E67759356C145DA827024320B88 ();
-// 0x00000276 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
+// 0x00000277 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
 extern void SpatialInteractionSource_Finalize_m069D38EDFC520B92CC522A14D2D290A1FC7651A6 ();
-// 0x00000277 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
+// 0x00000278 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
 extern void SpatialInteractionSourceState_get_Source_m5D7BA0667E118603D99A5C89FE1BACA3E1660E15 ();
-// 0x00000278 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
+// 0x00000279 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
 extern void SpatialInteractionSourceState_TryGetHandPose_m54DE5045E63ACBCED5CF3C67E22A837AA0139DC4 ();
-// 0x00000279 System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
+// 0x0000027A System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
 extern void SpatialInteractionSourceState_Finalize_m06799F82FCF4D9CD484397B4CECCCE4DEDF13BD5 ();
-// 0x0000027A Windows.Perception.People.EyesPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Eyes()
+// 0x0000027B Windows.Perception.People.EyesPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Eyes()
 extern void SpatialPointerPose_get_Eyes_m18978E5B856F3A4B0AAB3B86504496DFD143B9F5 ();
-// 0x0000027B Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
+// 0x0000027C Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
 extern void SpatialPointerPose_TryGetAtTimestamp_mF345A3D760C001305464B4EBE89EA665ED238F5E ();
-// 0x0000027C System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
+// 0x0000027D System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
 extern void SpatialPointerPose_Finalize_m1A878B5FE34401D17122E29B1A500A3485D247A9 ();
-// 0x0000027D System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x0000027E System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x0000027F System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x00000280 System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x00000281 System.Void Windows.UI.ViewManagement.IInputPane::U24__Stripped0_get_OccludedRect()
-// 0x00000282 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
-// 0x00000283 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
-// 0x00000284 System.Void Windows.UI.ViewManagement.IInputPaneControl::U24__Stripped0_get_Visible()
-// 0x00000285 System.Void Windows.UI.ViewManagement.IInputPaneControl::U24__Stripped1_put_Visible()
-// 0x00000286 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
-// 0x00000287 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::U24__Stripped0_GetForUIContext()
-// 0x00000288 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped0_get_OccludedRect()
-// 0x00000289 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped1_put_EnsuredFocusedElementInView()
-// 0x0000028A System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped2_get_EnsuredFocusedElementInView()
-// 0x0000028B System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000027E System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000027F System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x00000280 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x00000281 System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x00000282 System.Void Windows.UI.ViewManagement.IInputPane::U24__Stripped0_get_OccludedRect()
+// 0x00000283 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
+// 0x00000284 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
+// 0x00000285 System.Void Windows.UI.ViewManagement.IInputPaneControl::U24__Stripped0_get_Visible()
+// 0x00000286 System.Void Windows.UI.ViewManagement.IInputPaneControl::U24__Stripped1_put_Visible()
+// 0x00000287 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
+// 0x00000288 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::U24__Stripped0_GetForUIContext()
+// 0x00000289 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped0_get_OccludedRect()
+// 0x0000028A System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped1_put_EnsuredFocusedElementInView()
+// 0x0000028B System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::U24__Stripped2_get_EnsuredFocusedElementInView()
+// 0x0000028C System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Showing_mC885C28706991258DD50E841BC94DDB8F007340E ();
-// 0x0000028C System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000028D System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Showing_mD771A5466DD120825B177C98B59FCD80E045641B ();
-// 0x0000028D System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000028E System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Hiding_mC6DF11C184E7415E38EAC17CE328942752AE4427 ();
-// 0x0000028E System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000028F System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Hiding_m6148A6A1D540823C34DD35AD36839AB9294E1BEB ();
-// 0x0000028F System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
+// 0x00000290 System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
 extern void InputPane_TryShow_mC49C9A2569A559E0EDBF0C32C391CB53128119F3 ();
-// 0x00000290 System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
+// 0x00000291 System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
 extern void InputPane_TryHide_m018BE2BC1BC3B0FDEAD949DB5CBDD84C2EC37E54 ();
-// 0x00000291 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
+// 0x00000292 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
 extern void InputPane_GetForCurrentView_m29E88C1A59994BE7F869D035FA901F219295A115 ();
-// 0x00000292 System.Void Windows.UI.ViewManagement.InputPane::Finalize()
+// 0x00000293 System.Void Windows.UI.ViewManagement.InputPane::Finalize()
 extern void InputPane_Finalize_m4780B175D6C1BA2A5F0A1CAB99438FB222A28D3A ();
-// 0x00000293 System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
+// 0x00000294 System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
 extern void InputPaneVisibilityEventArgs_Finalize_m1C521FD279440FA70097D64D4AC0355414205F91 ();
-// 0x00000294 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
+// 0x00000295 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
 extern void IBindableIterable_First_m249B6233E8E52974472E2DE151F79DB53F1E4FDF ();
-// 0x00000295 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
+// 0x00000296 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
 extern void IBindableIterator_get_Current_m1EF798DD2A9BBF29A1FDBD113D1EA7336230E7D9 ();
-// 0x00000296 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
+// 0x00000297 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
 extern void IBindableIterator_get_HasCurrent_m8F6F66EDB43F4A356B5E1C61A46D276B5E952E70 ();
-// 0x00000297 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
+// 0x00000298 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
 extern void IBindableIterator_MoveNext_m6ACF76CEFB49BA5FD184348B4A3F495D0E47395A ();
-// 0x00000298 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
+// 0x00000299 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
 extern void IBindableVector_GetAt_m860227C0726F0C40C40300F2D114C90C040DCFBD ();
-// 0x00000299 System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
+// 0x0000029A System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
 extern void IBindableVector_get_Size_m1804E8861F18C40EC16058667D11382062A82771 ();
-// 0x0000029A Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
+// 0x0000029B Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
 extern void IBindableVector_GetView_m6207353D6B455F00DEDB5344E45BC50B9D101DEB ();
-// 0x0000029B System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
+// 0x0000029C System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVector_IndexOf_mF971A05290A1678F48EC52978E53A9CBA688E489 ();
-// 0x0000029C System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
+// 0x0000029D System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
 extern void IBindableVector_SetAt_m4658569CC8E08EF010A7EB35E66059F7D4BBFDB8 ();
-// 0x0000029D System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
+// 0x0000029E System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
 extern void IBindableVector_InsertAt_mA154571EE15503B3425185CFB55419AA4ED3BD59 ();
-// 0x0000029E System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
+// 0x0000029F System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
 extern void IBindableVector_RemoveAt_m7B14341EBAE9C5799028FC3EF0771210595F4E3C ();
-// 0x0000029F System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
+// 0x000002A0 System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
 extern void IBindableVector_Append_m623B1AF95642A0AE7BE231983B60CC203FDF4214 ();
-// 0x000002A0 System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
+// 0x000002A1 System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
 extern void IBindableVector_RemoveAtEnd_m391C9A85A1C813017D9EBB3211CA294156F654FC ();
-// 0x000002A1 System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
+// 0x000002A2 System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
 extern void IBindableVector_Clear_mBEA87A79EBF207B3F5701BB09506759CBC6F5ED1 ();
-// 0x000002A2 System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
+// 0x000002A3 System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
 extern void IBindableVectorView_GetAt_mAA8D68A43FF339E8A336BFD94CC516C26FFB757B ();
-// 0x000002A3 System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
+// 0x000002A4 System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
 extern void IBindableVectorView_get_Size_mB12143398D9A3942E36CE820551EE06F8EB5A77B ();
-// 0x000002A4 System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
+// 0x000002A5 System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVectorView_IndexOf_m091E767F9C60C5FE8A460A65F0C3476F1C1931C0 ();
-static Il2CppMethodPointer s_methodPointers[676] = 
+static Il2CppMethodPointer s_methodPointers[677] = 
 {
 	AsyncActionCompletedHandler__ctor_m2C0D2BD025FC8CDC21086373277D42874552060D,
 	AsyncActionCompletedHandler_Invoke_m90ED997977A5C94AE5F5CB92A629FE2EDFA3D466,
@@ -1580,6 +1582,7 @@ static Il2CppMethodPointer s_methodPointers[676] =
 	SpatialInteractionManager_Finalize_mDEE46B05E2AAE45028F54C4CFCC07D9C3DF63BA7,
 	SpatialInteractionSource_get_Id_mB951FE8156B99B8019862574020299C1FBE1046E,
 	SpatialInteractionSource_get_Controller_m97C4614B902D5556336CC3AF0719B9A03CAB1C63,
+	SpatialInteractionSource_get_Handedness_mE53EFE4006D5E48BF4B17A32E1CE61E8A004BC48,
 	SpatialInteractionSource_TryCreateHandMeshObserverAsync_m77EBC16735940E67759356C145DA827024320B88,
 	SpatialInteractionSource_Finalize_m069D38EDFC520B92CC522A14D2D290A1FC7651A6,
 	SpatialInteractionSourceState_get_Source_m5D7BA0667E118603D99A5C89FE1BACA3E1660E15,
@@ -1629,7 +1632,7 @@ static Il2CppMethodPointer s_methodPointers[676] =
 	IBindableVectorView_get_Size_mB12143398D9A3942E36CE820551EE06F8EB5A77B,
 	IBindableVectorView_IndexOf_m091E767F9C60C5FE8A460A65F0C3476F1C1931C0,
 };
-static const int32_t s_InvokerIndices[676] = 
+static const int32_t s_InvokerIndices[677] = 
 {
 	111,
 	143,
@@ -1707,11 +1710,11 @@ static const int32_t s_InvokerIndices[676] =
 	95,
 	14,
 	680,
-	1808,
+	1887,
 	284,
-	1809,
-	1810,
-	1811,
+	1888,
+	1889,
+	1890,
 	6,
 	6,
 	6,
@@ -1740,7 +1743,7 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	120,
 	120,
-	1812,
+	1891,
 	23,
 	26,
 	32,
@@ -1759,7 +1762,7 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	23,
 	23,
-	1813,
+	1892,
 	23,
 	32,
 	32,
@@ -1838,8 +1841,8 @@ static const int32_t s_InvokerIndices[676] =
 	14,
 	34,
 	10,
-	985,
-	1052,
+	987,
+	1054,
 	34,
 	10,
 	14,
@@ -1883,13 +1886,13 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	23,
 	31,
-	1808,
+	1887,
 	23,
 	23,
-	1814,
+	1893,
 	23,
 	95,
-	1815,
+	1894,
 	14,
 	49,
 	4,
@@ -1903,10 +1906,10 @@ static const int32_t s_InvokerIndices[676] =
 	14,
 	26,
 	23,
-	885,
+	886,
 	23,
 	95,
-	1815,
+	1894,
 	14,
 	95,
 	14,
@@ -1922,15 +1925,15 @@ static const int32_t s_InvokerIndices[676] =
 	26,
 	23,
 	23,
-	885,
+	886,
 	23,
 	23,
-	1808,
+	1887,
 	23,
-	1816,
+	1895,
 	23,
-	1817,
-	1817,
+	1896,
+	1896,
 	23,
 	23,
 	23,
@@ -2231,7 +2234,7 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	14,
 	23,
-	23,
+	10,
 	23,
 	14,
 	14,
@@ -2259,6 +2262,7 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	10,
 	14,
+	10,
 	14,
 	23,
 	14,
@@ -2267,10 +2271,10 @@ static const int32_t s_InvokerIndices[676] =
 	14,
 	1,
 	23,
-	1818,
-	966,
-	1818,
-	966,
+	1897,
+	968,
+	1897,
+	968,
 	23,
 	95,
 	95,
@@ -2281,10 +2285,10 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	23,
 	23,
-	1818,
-	966,
-	1818,
-	966,
+	1897,
+	968,
+	1897,
+	968,
 	95,
 	95,
 	4,
@@ -2297,7 +2301,7 @@ static const int32_t s_InvokerIndices[676] =
 	34,
 	10,
 	14,
-	985,
+	987,
 	62,
 	62,
 	32,
@@ -2306,13 +2310,13 @@ static const int32_t s_InvokerIndices[676] =
 	23,
 	34,
 	10,
-	985,
+	987,
 };
 extern const Il2CppCodeGenModule g_WindowsRuntimeMetadataCodeGenModule;
 const Il2CppCodeGenModule g_WindowsRuntimeMetadataCodeGenModule = 
 {
 	"WindowsRuntimeMetadata",
-	676,
+	677,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

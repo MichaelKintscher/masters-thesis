@@ -116,6 +116,8 @@ struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
 struct TrackedPoseDriver_t7B9E8C9FDD60EB5023A757F4ED70AC92AA3C8C0A;
 // UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose[]
 struct TrackedPoseU5BU5D_tD1302A49D1A61E5B6ACEF3C4401746515329B653;
+// UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription
+struct TrackedPoseDriverDataDescription_tEA05A7320AED44B790D678CF1B65B48138DA1ECA;
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData[]
 struct PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24;
 // UnityEngine.Transform
@@ -164,6 +166,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mBB3AD327026A1E1AC5BDB496A3
 IL2CPP_EXTERN_C const uint32_t BasePoseProvider_TryGetPoseFromProvider_m3A8B28F00A87C0E93EDF814386AEDE2BEF51BD6C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PoseDataSource_GetDataFromSource_mAA2A7FD7C04B2FF111919440F46D442B731BB1B6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PoseDataSource_GetNodePoseData_m8A6FC86D6C51F89A03EA9E25F2140BC2FC850B71_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t PoseDataSource_TryGetDataFromSource_mAA011A3842C0DFDF311606A22405B94A08596070_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PoseDataSource_TryGetTangoPose_m4BE7616120F008A98972279DA7A40C71D91A189E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t PoseDataSource__cctor_mCF69D2C3BA7D5D48420A6E65C8C90B0CB4511AC9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t TrackedPoseDriverDataDescription__cctor_mAA90D171ADF2B121802C7C1C22CA577334397F08_MetadataUsageId;
@@ -2093,6 +2096,8 @@ inline void Enumerator_Dispose_mCCEE0B822F77303900869CC25CD61CC1C77B9A87 (Enumer
 {
 	((  void (*) (Enumerator_t13A565CBEF9507FEB17112591EF11015FDD9A844 *, const RuntimeMethod*))Enumerator_Dispose_mCCEE0B822F77303900869CC25CD61CC1C77B9A87_gshared)(__this, method);
 }
+// UnityEngine.SpatialTracking.PoseDataFlags UnityEngine.SpatialTracking.PoseDataSource::GetDataFromSource(UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose,UnityEngine.Pose&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PoseDataSource_GetDataFromSource_mAA2A7FD7C04B2FF111919440F46D442B731BB1B6 (int32_t ___poseSource0, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * ___resultPose1, const RuntimeMethod* method);
 // UnityEngine.SpatialTracking.PoseDataFlags UnityEngine.SpatialTracking.PoseDataSource::GetNodePoseData(UnityEngine.XR.XRNode,UnityEngine.Pose&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PoseDataSource_GetNodePoseData_m8A6FC86D6C51F89A03EA9E25F2140BC2FC850B71 (int32_t ___node0, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * ___resultPose1, const RuntimeMethod* method);
 // UnityEngine.SpatialTracking.PoseDataFlags UnityEngine.SpatialTracking.PoseDataSource::TryGetTangoPose(UnityEngine.Pose&)
@@ -2136,8 +2141,6 @@ inline int32_t List_1_get_Count_m1C2D877064BDFCD44B60B6690D7BC0F46B50668D_inline
 }
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m31EF58E217E8F4BDD3E409DEF79E1AEE95874FC1 (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___x0, Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___y1, const RuntimeMethod* method);
-// UnityEngine.SpatialTracking.PoseDataFlags UnityEngine.SpatialTracking.PoseDataSource::GetDataFromSource(UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose,UnityEngine.Pose&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PoseDataSource_GetDataFromSource_mAA2A7FD7C04B2FF111919440F46D442B731BB1B6 (int32_t ___poseSource0, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * ___resultPose1, const RuntimeMethod* method);
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Transform::get_localPosition()
@@ -2173,6 +2176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAA0C9ED5A3D1589C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_GetPoseData_m1EA2912CCD25C1EA9B9DEC9D66C75945E53D5F09 (TrackedPoseDriver_t7B9E8C9FDD60EB5023A757F4ED70AC92AA3C8C0A * __this, int32_t ___device0, int32_t ___poseSource1, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * ___resultPose2, const RuntimeMethod* method);
 // UnityEngine.Pose UnityEngine.SpatialTracking.TrackedPoseDriver::TransformPoseByOriginIfNeeded(UnityEngine.Pose)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  TrackedPoseDriver_TransformPoseByOriginIfNeeded_mF15283F4BC40D15DF20B5BAF1A900B1004BD987B (TrackedPoseDriver_t7B9E8C9FDD60EB5023A757F4ED70AC92AA3C8C0A * __this, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___pose0, const RuntimeMethod* method);
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>::.ctor()
 inline void List_1__ctor_m129FDCACD31A6DEE68213FFDA201A49A48E566DF (List_1_t4957FBF5BD1F0528AC622D31164CAF146FB503C8 * __this, const RuntimeMethod* method)
 {
@@ -2438,6 +2443,24 @@ IL_007b:
 		// }
 		int32_t L_19 = V_3;
 		return L_19;
+	}
+}
+// System.Boolean UnityEngine.SpatialTracking.PoseDataSource::TryGetDataFromSource(UnityEngine.SpatialTracking.TrackedPoseDriver_TrackedPose,UnityEngine.Pose&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoseDataSource_TryGetDataFromSource_mAA011A3842C0DFDF311606A22405B94A08596070 (int32_t ___poseSource0, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * ___resultPose1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PoseDataSource_TryGetDataFromSource_mAA011A3842C0DFDF311606A22405B94A08596070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return GetDataFromSource(poseSource, out resultPose) == (PoseDataFlags.Position | PoseDataFlags.Rotation);
+		int32_t L_0 = ___poseSource0;
+		Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 * L_1 = ___resultPose1;
+		IL2CPP_RUNTIME_CLASS_INIT(PoseDataSource_t922E6B2F7058F8A78172B8E29AEB0BBD748B4657_il2cpp_TypeInfo_var);
+		int32_t L_2 = PoseDataSource_GetDataFromSource_mAA2A7FD7C04B2FF111919440F46D442B731BB1B6(L_0, (Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29 *)L_1, /*hidden argument*/NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)3))? 1 : 0);
 	}
 }
 // UnityEngine.SpatialTracking.PoseDataFlags UnityEngine.SpatialTracking.PoseDataSource::GetDataFromSource(UnityEngine.SpatialTracking.TrackedPoseDriver_TrackedPose,UnityEngine.Pose&)
@@ -3425,6 +3448,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver__ctor_mBBD0DDBF1607250
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriverDataDescription__ctor_mBAF4D58857B436FF26FADD2DC4913F1F8BF0346B (TrackedPoseDriverDataDescription_tEA05A7320AED44B790D678CF1B65B48138DA1ECA * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriverDataDescription__cctor_mAA90D171ADF2B121802C7C1C22CA577334397F08 (const RuntimeMethod* method)
 {

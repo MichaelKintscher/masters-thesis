@@ -396,7 +396,7 @@ IL2CPP_EXTERN_C RuntimeClass* ReadOnlyCollection_1_tE075A68175A614E0E7CD38A0C065
 IL2CPP_EXTERN_C RuntimeClass* ReadOnlyCollection_1_tF2649E4419E981CF9B8DF3F7861CE08EA10A992C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ReadOnlyCollection_1_tF94A9B37AD0E71BA66542B250474F03BE18E5DFE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceHandednessU5BU5D_t6652B06F8E072E85F914A3A0B2F42723DEB8E86D_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceKindU5BU5D_t17462081EBCEB13F0DC7F8F3EBD1B0D53D7C44FC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceKind_t121787D88938AD2A5EB266A9C10FAD348762817B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpatialInteractionSourceState_tCDB5A5BBF75A0CBCAAB79AFB468FF51B77921384_il2cpp_TypeInfo_var;
@@ -2975,14 +2975,14 @@ public:
 
 
 // Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness
-struct  SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2 
+struct  SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25 
 {
 public:
 	// System.Int32 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -8338,7 +8338,7 @@ il2cpp_hresult_t IVector_1_IndexOf_m4B46D0ED7F79116CB0D1BC1806D54EB721354E44_Com
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			int32_t item = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness>::get_Item(System.Int32) */, IList_1_tDC41E0DF125DD7D43D4C97BB9AC83BB6EFC67F5B_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2_il2cpp_TypeInfo_var, &item), Box(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25_il2cpp_TypeInfo_var, &item), Box(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;
@@ -9099,7 +9099,7 @@ il2cpp_hresult_t IVectorView_1_IndexOf_m6A4C9FF9A67DCECCCA3BA6C092EED81C832C4475
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			int32_t item = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness>::get_Item(System.Int32) */, IReadOnlyList_1_t06FF2C1D8787849BB9D64B08D545540457EC3F61_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2_il2cpp_TypeInfo_var, &item), Box(SpatialInteractionSourceHandedness_t62FE24DC5534C9D864CAB062044D8298009266B2_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25_il2cpp_TypeInfo_var, &item), Box(SpatialInteractionSourceHandedness_t930A9F027DB348D4E843479A1F836F425A45FB25_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;

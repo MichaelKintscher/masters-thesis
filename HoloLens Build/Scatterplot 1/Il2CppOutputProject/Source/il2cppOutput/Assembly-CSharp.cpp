@@ -88,10 +88,14 @@ struct GraphDataNodeU5BU5D_tA64AE6228A9DA86BD46F28C7519935F8AFDF85CC;
 struct GraphDataReader_tFEFE0C63E40FE231A187CAD41713D910A46D2721;
 // GraphDataReader/<>c__DisplayClass4_0
 struct U3CU3Ec__DisplayClass4_0_t14E0D366453FBAB3AFC92A6261222736FAEF8AA4;
+// HololensWorldAnchorManager
+struct HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438;
 // IActivationFactory
 struct Il2CppIActivationFactory;
 // Logger
 struct Logger_tE7137B07AB58B3A923FE6E17A3AAB5484A745F7C;
+// Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager
+struct WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE;
 // NetworkGenerator
 struct NetworkGenerator_t0C11E2E38621733C15143CD1C9FE925B645CD626;
 // ScatterPlotGenerator
@@ -160,6 +164,8 @@ struct List_1_tAC2DE8862FD1822E7FFFC36BCCF561B47FC540F4;
 struct List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5;
 // System.Collections.Generic.List`1<UnityEngine.Vector4>
 struct List_1_tFF4005B40E5BA433006DA11C56DB086B1E2FC955;
+// System.Collections.Generic.Queue`1<Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager/AnchorAttachmentInfo>
+struct Queue_1_t89917ACB11AE3515306E8D667C85E4BB64E3181E;
 // System.Collections.IDictionary
 struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 // System.DelegateData
@@ -274,6 +280,8 @@ struct MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429;
 struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
 // UnityEngine.Renderer
 struct Renderer_t0556D67DD582620D1F495627EDE30D03284151F4;
+// UnityEngine.TextMesh
+struct TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A;
 // UnityEngine.Transform
 struct Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA;
 // UnityEngine.Vector3[]
@@ -282,6 +290,12 @@ struct Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28;
 struct Vector4U5BU5D_t51402C154FFFCF7217A9BEC4B834F0B726C10F66;
 // UnityEngine.WSA.AppCallbackItem
 struct AppCallbackItem_tC11DC3EB621654A77E58E02B69E0CDAF342EF11F;
+// UnityEngine.XR.WSA.Persistence.WorldAnchorStore
+struct WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225;
+// UnityEngine.XR.WSA.WorldAnchor
+struct WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE;
+// UnityEngine.XR.WSA.WorldAnchor/OnTrackingChangedDelegate
+struct OnTrackingChangedDelegate_t213BE1DC543541B52A31539ACEA406782B1DB253;
 // Windows.Foundation.IAsyncOperation`1<System.Object>
 struct IAsyncOperation_1_t8458F3AE31378AC0283AEFB66F34243CDFF9BBC1;
 // Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile>
@@ -346,6 +360,7 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral025452B6603FF93FC9849C8F8E33E6865D9900FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral0BEE3B973FAD066D316A722715627D990B4F8E34;
 IL2CPP_EXTERN_C String_t* _stringLiteral124B785E6682B9AB39D2C06F846721AEB17C2318;
@@ -391,6 +406,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD9A20D47AD3ED5CCDC03562272D47F5A8487F1E6
 IL2CPP_EXTERN_C String_t* _stringLiteralD9FD6CE824082309850037C1878EFBF5E70DE10D;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDCEA86574B74D31922C78790D2E12FA39F10E55D;
+IL2CPP_EXTERN_C String_t* _stringLiteralDE703A3ED1331EBF33359487412902676CCEB10B;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8CC6F2BB8939F02FE6D0652CA526E2AD19D05D5;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m53D22EB5B431DC2741DFD57307FC48C532D2D1B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisChar_tBF22D9FC341BE970735250BB6FF1A4A92BBA58B9_mB69B3E7C1276AE609F2B9FA977634893619F966D_RuntimeMethod_var;
@@ -431,7 +447,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mA8498039AC79E99957E
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mC66758BD083FD27E3EA97E968D8E6E32DDD50639_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDEC78B54C39E60B6BE6854152C4867772B046E4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m4C3756ABAAD5E0585027C59E162ADD2F4ACF6DA7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_m41101CD1505A6B6B9717C15FACAEE0DD4D1E9CEF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRenderer_t0556D67DD582620D1F495627EDE30D03284151F4_mD65E2552CCFED4D0EC506EE90DE51215D90AEF85_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_mEC8104A64D5255720AC2B56454CD4B573B4B2971_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m92A04AD4F67A66A362260E09ED5F464236087F1E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m2C2034E49C734ABA9500722723A06EA6D13C0139_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m3F7B0DBB84912A2D10FB3328CF93B90917C7C687_RuntimeMethod_var;
@@ -484,6 +502,10 @@ IL2CPP_EXTERN_C const uint32_t DesktopCameraController_Update_m5331641880D7747FE
 IL2CPP_EXTERN_C const uint32_t ExitAppScript_Update_mE73BB421717DF13FEF9511AA27354087AB055C97_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GraphDataReader_GetData_m313AFB04C4C49C58AA7042882000A6CE92F6AD1A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GraphData__ctor_mF19E1FEB10FAA2C855545DCF335C7DF9B46F79C1_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t HololensWorldAnchorManager_SaveAnchor_m44EBF62BCB230150C3BD0ED8B73FAE76B5A3DDE6_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t HololensWorldAnchorManager_Start_mA3D0F45298C4E017B6C5A769F98EC3CB68CE905C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Logger_PickLogSaveLocationAsync_m28AD46634233AEEDA8A16DC6513CF24EA2CC6C8A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Logger_Start_mD734E6E655D89EBB0AECF861F2463A22D83C85D9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Logger_U3CStartU3Eb__3_0_m28D5629621D49767ED12B14BCBEB36877B036739_MetadataUsageId;
@@ -4294,6 +4316,51 @@ public:
 };
 
 
+// UnityEngine.XR.WSA.Persistence.WorldAnchorStore
+struct  WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225  : public RuntimeObject
+{
+public:
+	// System.IntPtr UnityEngine.XR.WSA.Persistence.WorldAnchorStore::m_NativePtr
+	intptr_t ___m_NativePtr_0;
+
+public:
+	inline static int32_t get_offset_of_m_NativePtr_0() { return static_cast<int32_t>(offsetof(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225, ___m_NativePtr_0)); }
+	inline intptr_t get_m_NativePtr_0() const { return ___m_NativePtr_0; }
+	inline intptr_t* get_address_of_m_NativePtr_0() { return &___m_NativePtr_0; }
+	inline void set_m_NativePtr_0(intptr_t value)
+	{
+		___m_NativePtr_0 = value;
+	}
+};
+
+struct WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225_StaticFields
+{
+public:
+	// UnityEngine.XR.WSA.Persistence.WorldAnchorStore UnityEngine.XR.WSA.Persistence.WorldAnchorStore::s_Instance
+	WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * ___s_Instance_1;
+
+public:
+	inline static int32_t get_offset_of_s_Instance_1() { return static_cast<int32_t>(offsetof(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225_StaticFields, ___s_Instance_1)); }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * get_s_Instance_1() const { return ___s_Instance_1; }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 ** get_address_of_s_Instance_1() { return &___s_Instance_1; }
+	inline void set_s_Instance_1(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * value)
+	{
+		___s_Instance_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Instance_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.XR.WSA.Persistence.WorldAnchorStore
+struct WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225_marshaled_pinvoke
+{
+	intptr_t ___m_NativePtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.XR.WSA.Persistence.WorldAnchorStore
+struct WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225_marshaled_com
+{
+	intptr_t ___m_NativePtr_0;
+};
+
 // Windows.Storage.FileAccessMode
 struct  FileAccessMode_t300B860DB456F76935936AA235435645C58EF7B1 
 {
@@ -4784,6 +4851,25 @@ public:
 };
 
 
+// UnityEngine.XR.WSA.WorldAnchor
+struct  WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE  : public Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621
+{
+public:
+	// UnityEngine.XR.WSA.WorldAnchor_OnTrackingChangedDelegate UnityEngine.XR.WSA.WorldAnchor::OnTrackingChanged
+	OnTrackingChangedDelegate_t213BE1DC543541B52A31539ACEA406782B1DB253 * ___OnTrackingChanged_4;
+
+public:
+	inline static int32_t get_offset_of_OnTrackingChanged_4() { return static_cast<int32_t>(offsetof(WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE, ___OnTrackingChanged_4)); }
+	inline OnTrackingChangedDelegate_t213BE1DC543541B52A31539ACEA406782B1DB253 * get_OnTrackingChanged_4() const { return ___OnTrackingChanged_4; }
+	inline OnTrackingChangedDelegate_t213BE1DC543541B52A31539ACEA406782B1DB253 ** get_address_of_OnTrackingChanged_4() { return &___OnTrackingChanged_4; }
+	inline void set_OnTrackingChanged_4(OnTrackingChangedDelegate_t213BE1DC543541B52A31539ACEA406782B1DB253 * value)
+	{
+		___OnTrackingChanged_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___OnTrackingChanged_4), (void*)value);
+	}
+};
+
+
 // UnityEngine.Camera
 struct  Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34  : public Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8
 {
@@ -5157,6 +5243,36 @@ public:
 };
 
 
+// HololensWorldAnchorManager
+struct  HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+{
+public:
+	// UnityEngine.XR.WSA.Persistence.WorldAnchorStore HololensWorldAnchorManager::Store
+	WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * ___Store_4;
+	// Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager HololensWorldAnchorManager::Manager
+	WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * ___Manager_5;
+
+public:
+	inline static int32_t get_offset_of_Store_4() { return static_cast<int32_t>(offsetof(HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438, ___Store_4)); }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * get_Store_4() const { return ___Store_4; }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 ** get_address_of_Store_4() { return &___Store_4; }
+	inline void set_Store_4(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * value)
+	{
+		___Store_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Store_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Manager_5() { return static_cast<int32_t>(offsetof(HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438, ___Manager_5)); }
+	inline WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * get_Manager_5() const { return ___Manager_5; }
+	inline WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE ** get_address_of_Manager_5() { return &___Manager_5; }
+	inline void set_Manager_5(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * value)
+	{
+		___Manager_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Manager_5), (void*)value);
+	}
+};
+
+
 // Logger
 struct  Logger_tE7137B07AB58B3A923FE6E17A3AAB5484A745F7C  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
 {
@@ -5194,6 +5310,78 @@ public:
 	{
 		___FileName_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___FileName_6), (void*)value);
+	}
+};
+
+
+// Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager
+struct  WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+{
+public:
+	// UnityEngine.TextMesh Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::anchorDebugText
+	TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * ___anchorDebugText_4;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::showDetailedLogs
+	bool ___showDetailedLogs_5;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::persistentAnchors
+	bool ___persistentAnchors_6;
+	// UnityEngine.XR.WSA.Persistence.WorldAnchorStore Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::<AnchorStore>k__BackingField
+	WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * ___U3CAnchorStoreU3Ek__BackingField_7;
+	// System.Collections.Generic.Queue`1<Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager_AnchorAttachmentInfo> Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::LocalAnchorOperations
+	Queue_1_t89917ACB11AE3515306E8D667C85E4BB64E3181E * ___LocalAnchorOperations_8;
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::AnchorGameObjectReferenceList
+	Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * ___AnchorGameObjectReferenceList_9;
+
+public:
+	inline static int32_t get_offset_of_anchorDebugText_4() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___anchorDebugText_4)); }
+	inline TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * get_anchorDebugText_4() const { return ___anchorDebugText_4; }
+	inline TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A ** get_address_of_anchorDebugText_4() { return &___anchorDebugText_4; }
+	inline void set_anchorDebugText_4(TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * value)
+	{
+		___anchorDebugText_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___anchorDebugText_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_showDetailedLogs_5() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___showDetailedLogs_5)); }
+	inline bool get_showDetailedLogs_5() const { return ___showDetailedLogs_5; }
+	inline bool* get_address_of_showDetailedLogs_5() { return &___showDetailedLogs_5; }
+	inline void set_showDetailedLogs_5(bool value)
+	{
+		___showDetailedLogs_5 = value;
+	}
+
+	inline static int32_t get_offset_of_persistentAnchors_6() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___persistentAnchors_6)); }
+	inline bool get_persistentAnchors_6() const { return ___persistentAnchors_6; }
+	inline bool* get_address_of_persistentAnchors_6() { return &___persistentAnchors_6; }
+	inline void set_persistentAnchors_6(bool value)
+	{
+		___persistentAnchors_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CAnchorStoreU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___U3CAnchorStoreU3Ek__BackingField_7)); }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * get_U3CAnchorStoreU3Ek__BackingField_7() const { return ___U3CAnchorStoreU3Ek__BackingField_7; }
+	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 ** get_address_of_U3CAnchorStoreU3Ek__BackingField_7() { return &___U3CAnchorStoreU3Ek__BackingField_7; }
+	inline void set_U3CAnchorStoreU3Ek__BackingField_7(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * value)
+	{
+		___U3CAnchorStoreU3Ek__BackingField_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CAnchorStoreU3Ek__BackingField_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_LocalAnchorOperations_8() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___LocalAnchorOperations_8)); }
+	inline Queue_1_t89917ACB11AE3515306E8D667C85E4BB64E3181E * get_LocalAnchorOperations_8() const { return ___LocalAnchorOperations_8; }
+	inline Queue_1_t89917ACB11AE3515306E8D667C85E4BB64E3181E ** get_address_of_LocalAnchorOperations_8() { return &___LocalAnchorOperations_8; }
+	inline void set_LocalAnchorOperations_8(Queue_1_t89917ACB11AE3515306E8D667C85E4BB64E3181E * value)
+	{
+		___LocalAnchorOperations_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___LocalAnchorOperations_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AnchorGameObjectReferenceList_9() { return static_cast<int32_t>(offsetof(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE, ___AnchorGameObjectReferenceList_9)); }
+	inline Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * get_AnchorGameObjectReferenceList_9() const { return ___AnchorGameObjectReferenceList_9; }
+	inline Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A ** get_address_of_AnchorGameObjectReferenceList_9() { return &___AnchorGameObjectReferenceList_9; }
+	inline void set_AnchorGameObjectReferenceList_9(Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * value)
+	{
+		___AnchorGameObjectReferenceList_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AnchorGameObjectReferenceList_9), (void*)value);
 	}
 };
 
@@ -5698,6 +5886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m52B660F7AF11A491D7A1622982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Where_TisRuntimeObject_m77C4748BC22520E365AB1F6A46B2C8A8BF525492_gshared (RuntimeObject* ___source0, Func_2_t4B4B1E74248F38404B56001A709D81142DE730CC * ___predicate1, const RuntimeMethod* method);
 // !!0 System.Linq.Enumerable::FirstOrDefault<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_FirstOrDefault_TisRuntimeObject_mDB7B84266E55526467766A96022CB6B9CD332251_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<Logger/<PickLogSaveLocationAsync>d__6>(!!0&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CPickLogSaveLocationAsyncU3Ed__6_tAF311A9D57A787E8D6273CC269C7236C73F2CC3F_m480EE78F27334261F80EE7743036F63C088CB1C9_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CPickLogSaveLocationAsyncU3Ed__6_tAF311A9D57A787E8D6273CC269C7236C73F2CC3F * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<Logger/<<Start>b__3_0>d>(!!0&)
@@ -6133,6 +6323,34 @@ inline void List_1_Add_m2C2034E49C734ABA9500722723A06EA6D13C0139 (List_1_t5B9868
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* GraphDataNode_get_Name_m5A60A16FDED1EC1855F4BE99F01C90DDDED843EC_inline (GraphDataNode_t7DAE28F47D8CA271F55CA5060735D47712919FA3 * __this, const RuntimeMethod* method);
 // System.Boolean System.String::op_Equality(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.XR.WSA.WorldAnchor>()
+inline WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * GameObject_AddComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_m41101CD1505A6B6B9717C15FACAEE0DD4D1E9CEF (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
+{
+	return ((  WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
+}
+// System.Void HololensWorldAnchorManager::LoadAnchors()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method);
+// System.String UnityEngine.Object::get_name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mA2D400141CB3C991C87A2556429781DE961A83CE (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * __this, const RuntimeMethod* method);
+// UnityEngine.XR.WSA.WorldAnchor UnityEngine.XR.WSA.Persistence.WorldAnchorStore::Load(System.String,UnityEngine.GameObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * WorldAnchorStore_Load_m229510D067D4607C59BF752A21211B82609ADE7E (WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * __this, String_t* ___id0, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___go1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m8B2A44B4B1406ED346D1AE6D962294FD58D0D534 (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___exists0, const RuntimeMethod* method);
+// System.Void HololensWorldAnchorManager::AttachAnchor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.XR.WSA.WorldAnchor>()
+inline WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * GameObject_GetComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_mEC8104A64D5255720AC2B56454CD4B573B4B2971 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
+{
+	return ((  WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared)(__this, method);
+}
+// System.Boolean UnityEngine.XR.WSA.Persistence.WorldAnchorStore::Delete(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WorldAnchorStore_Delete_mB519C56F58E9312FBBD868A2D6D8560FCADC1063 (WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * __this, String_t* ___id0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.WSA.Persistence.WorldAnchorStore::Save(System.String,UnityEngine.XR.WSA.WorldAnchor)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WorldAnchorStore_Save_m1A82C4156B8870A40AC80E0D9027638C2307729B (WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * __this, String_t* ___id0, WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * ___anchor1, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldAnchorManager__ctor_mE8F5DCC0EFF5E4ECB8CC25B974ECB24221D9E929 (WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * __this, const RuntimeMethod* method);
+// System.String Microsoft.MixedReality.Toolkit.Experimental.Utilities.WorldAnchorManager::AttachAnchor(UnityEngine.GameObject,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WorldAnchorManager_AttachAnchor_m02549F024D3A7E4AE172230F1ED3019328B8B39A (WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * __this, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___gameObjectToAnchor0, String_t* ___anchorName1, const RuntimeMethod* method);
 // System.DateTime System.DateTime::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  DateTime_get_Now_mB464D30F15C97069F92C1F910DCDDC3DFCC7F7D2 (const RuntimeMethod* method);
 // System.Int32 System.DateTime::get_Hour()
@@ -9732,6 +9950,160 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass4_0_U3CGetDataU3Eb_
 		String_t* L_2 = __this->get_fromNode_0();
 		bool L_3 = String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE(L_1, L_2, /*hidden argument*/NULL);
 		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void HololensWorldAnchorManager::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_Start_mA3D0F45298C4E017B6C5A769F98EC3CB68CE905C (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HololensWorldAnchorManager_Start_mA3D0F45298C4E017B6C5A769F98EC3CB68CE905C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// WorldAnchor worldAnchor = this.gameObject.AddComponent<WorldAnchor>();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_AddComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_m41101CD1505A6B6B9717C15FACAEE0DD4D1E9CEF(L_0, /*hidden argument*/GameObject_AddComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_m41101CD1505A6B6B9717C15FACAEE0DD4D1E9CEF_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_Update_mA11B109353E194B432139117EBCD00DF211A5FD0 (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::AnchorStoreLoaded(UnityEngine.XR.WSA.Persistence.WorldAnchorStore)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_AnchorStoreLoaded_m5E2C6A23DC0E17F259AE80C6203E0FE3A8C9C76E (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * ___store0, const RuntimeMethod* method)
+{
+	{
+		// this.Store = store;
+		WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * L_0 = ___store0;
+		__this->set_Store_4(L_0);
+		// this.LoadAnchors();
+		HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::LoadAnchors()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HololensWorldAnchorManager_LoadAnchors_m8612C38F9E5119E1C42D020BB37B609294DDD1BF_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// bool loaded = this.Store.Load(this.gameObject.name, this.gameObject);
+		WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * L_0 = __this->get_Store_4();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_1 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = Object_get_name_mA2D400141CB3C991C87A2556429781DE961A83CE(L_1, /*hidden argument*/NULL);
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_3 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * L_4 = WorldAnchorStore_Load_m229510D067D4607C59BF752A21211B82609ADE7E(L_0, L_2, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
+		Object_op_Implicit_m8B2A44B4B1406ED346D1AE6D962294FD58D0D534(L_4, /*hidden argument*/NULL);
+		// if (!loaded)
+		// this.AttachAnchor();
+		HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::SaveAnchor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_SaveAnchor_m44EBF62BCB230150C3BD0ED8B73FAE76B5A3DDE6 (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HololensWorldAnchorManager_SaveAnchor_m44EBF62BCB230150C3BD0ED8B73FAE76B5A3DDE6_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * V_0 = NULL;
+	{
+		// WorldAnchor anchor = this.gameObject.GetComponent<WorldAnchor>();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_0 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * L_1 = GameObject_GetComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_mEC8104A64D5255720AC2B56454CD4B573B4B2971(L_0, /*hidden argument*/GameObject_GetComponent_TisWorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE_mEC8104A64D5255720AC2B56454CD4B573B4B2971_RuntimeMethod_var);
+		V_0 = L_1;
+		// this.Store.Delete(this.gameObject.name);
+		WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * L_2 = __this->get_Store_4();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_3 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		String_t* L_4 = Object_get_name_mA2D400141CB3C991C87A2556429781DE961A83CE(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		WorldAnchorStore_Delete_mB519C56F58E9312FBBD868A2D6D8560FCADC1063(L_2, L_4, /*hidden argument*/NULL);
+		// saved = this.Store.Save(this.gameObject.name, anchor);
+		WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * L_5 = __this->get_Store_4();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_6 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		String_t* L_7 = Object_get_name_mA2D400141CB3C991C87A2556429781DE961A83CE(L_6, /*hidden argument*/NULL);
+		WorldAnchor_tD6275232D14415769601A3BD6AE1E7D5622F96EE * L_8 = V_0;
+		NullCheck(L_5);
+		bool L_9 = WorldAnchorStore_Save_m1A82C4156B8870A40AC80E0D9027638C2307729B(L_5, L_7, L_8, /*hidden argument*/NULL);
+		// if (!saved)
+		if (L_9)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		// Debug.LogError("Anchor save failed");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(_stringLiteralDE703A3ED1331EBF33359487412902676CCEB10B, /*hidden argument*/NULL);
+	}
+
+IL_0046:
+	{
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::AttachAnchor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (HololensWorldAnchorManager_AttachAnchor_mB46E86F156DCFC326E513A8D22D9574AF04ED8AF_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// this.Manager = new WorldAnchorManager();
+		WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * L_0 = (WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE *)il2cpp_codegen_object_new(WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE_il2cpp_TypeInfo_var);
+		WorldAnchorManager__ctor_mE8F5DCC0EFF5E4ECB8CC25B974ECB24221D9E929(L_0, /*hidden argument*/NULL);
+		__this->set_Manager_5(L_0);
+		// this.Manager.AttachAnchor(this.gameObject);
+		WorldAnchorManager_t9F4620FAF27069341A9DA813C2BE79C84D7911FE * L_1 = __this->get_Manager_5();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_2 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		WorldAnchorManager_AttachAnchor_m02549F024D3A7E4AE172230F1ED3019328B8B39A(L_1, L_2, (String_t*)NULL, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void HololensWorldAnchorManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HololensWorldAnchorManager__ctor_mF2BE1D3746ED17976160BBBFC160C6BC5403C3DA (HololensWorldAnchorManager_t365E1858574241C295BD5F0BF7C04F749EAC1438 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
+		return;
 	}
 }
 #ifdef __clang__
