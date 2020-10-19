@@ -17,17 +17,22 @@ public class ExitAppScript : MonoBehaviour
     {
         if (Input.GetKey("escape"))
         {
-            if (LoggerObject != null)
-            {
-                Logger logger = LoggerObject.GetComponent(typeof(Logger)) as Logger;
-                if (logger != null)
-                {
-                    logger.CloseLogFile();
-                }
-            }
-
-            Debug.Log("");
-            Application.Quit();
+            this.CloseApp();
         }
+    }
+
+    public void CloseApp()
+    {
+        if (LoggerObject != null)
+        {
+            Logger logger = LoggerObject.GetComponent(typeof(Logger)) as Logger;
+            if (logger != null)
+            {
+                logger.CloseLogFile();
+            }
+        }
+
+        Debug.Log("");
+        Application.Quit();
     }
 }

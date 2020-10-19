@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -14,70 +15,24 @@ public class Logger : MonoBehaviour
 {
     StreamWriter logFileWriter;
 
-    private string FilePath;
     private string FileName;
+
+    private bool Recording;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.FileName = "mydatalog_" + DateTime.Now.Hour + "-" + DateTime.Now.Minute + "-" + DateTime.Now.Second + ".csv";
-
-        UnityEngine.WSA.Application.InvokeOnUIThread(async () =>
-        {
-            await this.PickLogSaveLocationAsync();
-        }, true);
-
-        // C:\Users\<user>\AppData\Local\Packages\Template3D_pzq3xp76mxafg\LocalState
-        //this.FilePath = Path.Combine(Application.persistentDataPath, fileName);
-
-        //string path = (new Uri("ms-appx:\\\\LoggedData")).ToString();
-        //string path = (new Uri("")).ToString();
-        //Debug.LogError(fileName);
-
-        // Creates a file in the default location:
-        //      "build\bin\x64\Release\AppX" on Desktop
-        //this.logFileWriter = new StreamWriter(fileName);
-#if WINDOWS_UWP
-        // See https://blog.mzikmund.com/2020/01/how-to-stream-ify-a-uwp-storagefile/
-        // Also see https://forums.hololens.com/discussion/comment/7133/#Comment_7133
-        // And finally see https://forums.hololens.com/discussion/3290/save-a-string-to-a-text-or-cvs-file-on-hololens
-
-        //this.PickLogSaveLocationAsync();
-
-        //this.FilePath = Path.Combine(KnownFolders.DocumentsLibrary.Path, fileName);
-
-        // Create the folder if it does not yet exist.
-            //string path = (new Uri("ms-appx:///LoggedData")).ToString();
-            //if (!Directory.Exists(path))
-            //{
-            //    string errMsg = "Inside of directory not existing.... Path is: " + path;
-            //    Debug.LogError(errMsg);
-            //    Directory.CreateDirectory(path);
-            //}
-
-            //Debug.LogError(path);
-
-        // Get a reference to the file.
-        //Task<Stream> task = Task<Stream>.Run(async () =>
-        //{
-        //    StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri(path + fileName + ".csv"));
-        //    Debug.Log(file.Path);
-        //    return await file.OpenStreamForWriteAsync();
-        //});
-        //Stream logFileStream = task.Result;
-        //Task.WaitAll();
-
-        //this.logFileWriter = new StreamWriter(logFileStream);
-        //Debug.LogError("Nailed it.");
-#else
-        this.logFileWriter = null;
-        Debug.Log("UWP not detected. No data logging will proceed.");
-#endif
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!this.Recording)
+        {
+            return;
+        }
+
         string record = DateTime.Now + "," +
                 Camera.main.transform.position.x + "," +
                 Camera.main.transform.position.y + "," +
@@ -86,16 +41,62 @@ public class Logger : MonoBehaviour
                 Camera.main.transform.rotation.y + "," +
                 Camera.main.transform.rotation.z;
 
-        //if (this.FilePath != null)
-        //{
-        //    string[] lines = { record };
-        //    File.AppendAllLines(this.FilePath, lines);
-        //}
-
         if (this.logFileWriter != null)
         {
             this.logFileWriter.WriteLine(record);
         }
+    }
+
+    public void RecordNewTrial(string teamName, string trialName)
+    {
+        if (!this.Recording)
+        {
+            this.StartCoroutine(this.SetupRecording(teamName, trialName));
+        }
+        else
+        {
+            string header = "NEW TRIAL," + trialName + "," + DateTime.Now;
+
+            if (this.logFileWriter != null)
+            {
+                this.logFileWriter.WriteLine(header);
+            }
+        }
+    }
+
+    private IEnumerator SetupRecording(string teamName, string trialName)
+    {
+        this.FileName = teamName + "_datalog_" + DateTime.Now.Hour + "-" + DateTime.Now.Minute + "-" + DateTime.Now.Second + ".csv";
+
+        bool asyncOperationDone = false;
+        UnityEngine.WSA.Application.InvokeOnUIThread(async () =>
+        {
+            await this.PickLogSaveLocationAsync();
+            asyncOperationDone = true;
+        }, true);
+
+#if WINDOWS_UWP
+        // See https://blog.mzikmund.com/2020/01/how-to-stream-ify-a-uwp-storagefile/
+        // Also see https://forums.hololens.com/discussion/comment/7133/#Comment_7133
+        // And finally see https://forums.hololens.com/discussion/3290/save-a-string-to-a-text-or-cvs-file-on-hololens
+#else
+        this.logFileWriter = null;
+        Debug.Log("UWP not detected. No data logging will proceed.");
+#endif
+
+        while (!asyncOperationDone)
+        {
+            yield return null;
+        }
+
+        string header = "NEW TRIAL," + trialName + "," + DateTime.Now;
+
+        if (this.logFileWriter != null)
+        {
+            this.logFileWriter.WriteLine(header);
+        }
+
+        this.Recording = true;
     }
 
     /// <summary>
