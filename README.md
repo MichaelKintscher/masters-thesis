@@ -21,3 +21,7 @@ Data Processing Steps
 12. Run the StatsTesting project from Visual Studio, not Unity.
 13. Retrieve the three output files "ChartTypeStats.csv", "ModalityStats.csv", "TaskTypeStats.csv" from the path "C:\\Users\\Public\\Documents\\".
 14. The total standard deviation (standard deviation across all samples), P-Value, and Statistical Power for each case must be manually calculated using a calculator or program of your choice.
+
+Example Statistical Power calculator for two independent samples: https://www.stat.ubc.ca/~rollin/stats/ssize/n2.html
+Example P-Value calculator from T-score: https://www.socscistatistics.com/pvalues/tdistribution.aspx
+Example P-Value calculator from F-Statistic (ANOVA): https://www.socscistatistics.com/pvalues/fdistribution.aspx
