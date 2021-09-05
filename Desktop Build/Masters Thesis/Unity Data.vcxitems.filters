@@ -2,55 +2,55 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{518e81c3-950a-42fb-83b7-c291244ad9b5}</UniqueIdentifier>
+      <UniqueIdentifier>{bb670420-f9e9-44d4-9691-30e516ba733e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{bec974f7-24cc-4913-b665-94e56a2c362c}</UniqueIdentifier>
+      <UniqueIdentifier>{f2bc2b30-07c7-4db4-9e49-90422eef06d4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{c2798453-ea9a-4241-ad81-91168b062c8b}</UniqueIdentifier>
+      <UniqueIdentifier>{6221acc9-7503-40d9-99fd-23e72b9a68f3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{d4dfbd94-1e56-41f2-8e40-77e4dddc7113}</UniqueIdentifier>
+      <UniqueIdentifier>{39e02948-f0b3-4509-887b-9e07fbcbada9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{ac420966-4f84-46f0-a060-9e53bdf4d579}</UniqueIdentifier>
+      <UniqueIdentifier>{339e0a8c-6100-49f6-b04b-85bf6acacc80}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{1095bc57-fb7b-4482-99d0-de0cc0b6d082}</UniqueIdentifier>
+      <UniqueIdentifier>{13199b8c-d0f9-4c07-94ae-17146813a291}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{542ade20-4d41-4988-8e8a-952ae0a029a0}</UniqueIdentifier>
+      <UniqueIdentifier>{30432b88-ae4f-443d-a12e-ea92a39fce13}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{00d022ab-b73f-46f3-af65-07b9e014f669}</UniqueIdentifier>
+      <UniqueIdentifier>{d8789b07-0f85-41b1-9cca-62df5d2b4c57}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{2be7fcfe-9da0-4fba-8a08-44c18c8ce1e7}</UniqueIdentifier>
+      <UniqueIdentifier>{1528e4b8-7af1-4cab-9900-c50fd3b2c39c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{f5ff9702-3003-4451-b932-bbed43762fba}</UniqueIdentifier>
+      <UniqueIdentifier>{777a1539-dd53-41d4-93b9-fbcd3de38cb1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{b8df7cb5-5509-4af2-8ddc-c3355c7ab98c}</UniqueIdentifier>
+      <UniqueIdentifier>{50493415-706b-4f59-8771-865bd541c915}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{e183cef3-3dca-4a73-ab6e-dc80de71a7b1}</UniqueIdentifier>
+      <UniqueIdentifier>{44b20852-618f-4997-9aea-3d2cb190a509}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{d1bf4e6f-15ec-4ffa-9b25-b75ade76efec}</UniqueIdentifier>
+      <UniqueIdentifier>{cbee028e-9af5-4e4b-8e92-7f7eceee3dbd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\WindowsMRXRSDK">
-      <UniqueIdentifier>{5b95e345-85da-48f9-8e89-24cf277ac744}</UniqueIdentifier>
+      <UniqueIdentifier>{53e2647e-eb1c-4f61-8f16-92307e5488fe}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{723bb12e-37a1-4e2c-bee6-73e859ac977d}</UniqueIdentifier>
+      <UniqueIdentifier>{1de3a87f-16b3-49b0-b71a-51ceb500368a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{b7b36aa8-f510-47cf-bc04-a5a3c9155908}</UniqueIdentifier>
+      <UniqueIdentifier>{3a2c90d4-5a58-4306-aed8-b0a131b1cbfb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{5d41b1f1-00ae-41c9-a2c8-9c8acb4af47a}</UniqueIdentifier>
+      <UniqueIdentifier>{b5c227d1-5ee0-43e0-851c-26f63cd4beb7}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -176,10 +176,22 @@
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Extrema_Dataset_1.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Extrema_Dataset_2.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Extrema_Dataset_3.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Trend_Dataset_0.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Trend_Dataset_1.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Trend_Dataset_2.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Bar_Trend_Dataset_3.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_0.csv">
@@ -194,16 +206,40 @@
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_3.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_4.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_5.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_6.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Network_Dataset_7.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Extrema_Dataset_0.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Extrema_Dataset_1.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Extrema_Dataset_2.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Extrema_Dataset_3.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Trend_Dataset_0.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Trend_Dataset_1.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Trend_Dataset_2.csv">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Point_Trend_Dataset_3.csv">
       <Filter>Data\StreamingAssets</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json">

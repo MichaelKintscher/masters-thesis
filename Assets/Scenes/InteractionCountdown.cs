@@ -1,4 +1,5 @@
 ﻿using Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking;
+using Microsoft.MixedReality.Toolkit.Input;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ using UnityEngine;
 /// full value when a click happens, and the count for clicks returns to zero if the timer expires
 /// before another click is registered.
 /// </summary>
-public class InteractionCountdown : MonoBehaviour
+public class InteractionCountdown : MonoBehaviour, IMixedRealityPointerHandler
 {
     public int NumTapsToAdvance = 5;
 
@@ -89,5 +90,44 @@ public class InteractionCountdown : MonoBehaviour
         this.TapCounter = 0;
         this.TimeRemaining = this.TimeLimitBetweenClicks;
         this.Tracking = false;
+    }
+
+    void IMixedRealityPointerHandler.OnPointerClicked(MixedRealityPointerEventData eventData)
+    {
+        //Debug.LogError("Clicked!!!");
+
+        // Increase tap count.
+        this.TapCounter++;
+        //Debug.Log(this.TapCounter);
+
+        // Turn on tracking if not already on.
+        this.Tracking = true;
+
+        // Reset the countdown.
+        this.TimeRemaining = this.TimeLimitBetweenClicks;
+
+        // If the change trials gesture is complete...
+        if (this.GestureComplete())
+        {
+            // Change to the next trial.
+            this.RaiseClicksCompleted();
+
+            this.Reset();
+        }
+    }
+
+    public void OnPointerDragged(MixedRealityPointerEventData eventData)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnPointerUp(MixedRealityPointerEventData eventData)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnPointerDown(MixedRealityPointerEventData eventData)
+    {
+        //throw new System.NotImplementedException();
     }
 }

@@ -141,7 +141,7 @@ public class NetworkGenerator : MonoBehaviour
                 zMin = nodeData.Z;
             }
 
-            sphere.transform.position = new Vector3(
+            sphere.transform.localPosition = new Vector3(
                 nodeData.X,
                 nodeData.Y,
                 nodeData.Z
@@ -173,10 +173,10 @@ public class NetworkGenerator : MonoBehaviour
         float zRange = zMax - zMin;
         foreach (KeyValuePair<string, GameObject> pair in this.Nodes)
         {
-            pair.Value.transform.position = new Vector3(
-                pair.Value.transform.position.x / xRange * this.ChartSize.x,
-                pair.Value.transform.position.y / yRange * this.ChartSize.y,
-                pair.Value.transform.position.z / zRange * this.ChartSize.z
+            pair.Value.transform.localPosition = new Vector3(
+                pair.Value.transform.localPosition.x / xRange * this.ChartSize.x,
+                pair.Value.transform.localPosition.y / yRange * this.ChartSize.y,
+                pair.Value.transform.localPosition.z / zRange * this.ChartSize.z
                 );
 
             //string message = "Placed node " + pair.Key + " at: " + pair.Value.transform.position.ToString();

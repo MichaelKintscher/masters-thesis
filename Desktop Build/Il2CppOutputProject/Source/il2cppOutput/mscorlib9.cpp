@@ -513,6 +513,8 @@ struct ConstructorInfo_t9CB51BFC178DF1CBCA5FD16B2D58229618F23EFF;
 struct ConstructorInfoU5BU5D_t111EE7D53C51A47FE69FC3398DE007F7E100593E;
 // System.Reflection.CustomAttributeData/LazyCAttrData
 struct LazyCAttrData_t4C5DC81EA7740306D01218D48006034D024FBA38;
+// System.Reflection.DefaultMemberAttribute
+struct DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731;
 // System.Reflection.Emit.ConstructorBuilder
 struct ConstructorBuilder_t2E887992C61A42BBAC9C3EC5F0A2C3DED63907E5;
 // System.Reflection.Emit.DynamicMethod
@@ -4853,6 +4855,25 @@ struct CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8_ma
 	Type_t * ___argumentType_0;
 	Il2CppIUnknown* ___value_1;
 };
+
+// System.Reflection.DefaultMemberAttribute
+struct  DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
+{
+public:
+	// System.String System.Reflection.DefaultMemberAttribute::m_memberName
+	String_t* ___m_memberName_0;
+
+public:
+	inline static int32_t get_offset_of_m_memberName_0() { return static_cast<int32_t>(offsetof(DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731, ___m_memberName_0)); }
+	inline String_t* get_m_memberName_0() const { return ___m_memberName_0; }
+	inline String_t** get_address_of_m_memberName_0() { return &___m_memberName_0; }
+	inline void set_m_memberName_0(String_t* value)
+	{
+		___m_memberName_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_memberName_0), (void*)value);
+	}
+};
+
 
 // System.Reflection.Emit.LocalBuilder
 struct  LocalBuilder_t7A455571119EA1514A1158BBB78890FF7AB6A469  : public LocalVariableInfo_t9DBEDBE3F55EEEA102C20A450433E3ECB255858C
@@ -10916,6 +10937,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsValue_mBB6B5B5840E3
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_mC741BBB0A647C814227953DB9B23CB1BDF571C5B_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, RuntimeObject * ___key0, RuntimeObject * ___value1, const RuntimeMethod* method);
 
+// System.Void System.Attribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0 (Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74 * __this, const RuntimeMethod* method);
 // System.Void System.PlatformNotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformNotSupportedException__ctor_m651139B17C9EE918551490BC675754EA8EA3E7C7 (PlatformNotSupportedException_t14FE109377F8FA8B3B2F9A0C4FE3BF10662C73B5 * __this, const RuntimeMethod* method);
 // System.Void System.NotSupportedException::.ctor(System.String)
@@ -11563,8 +11586,6 @@ inline NeutralResourcesLanguageAttribute_t6FDE01C62215AA1CFE2542DE48ED5A889A98EB
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* NeutralResourcesLanguageAttribute_get_CultureName_m721F74C770FD6CB4E388BBC94FF3CA2636FE2E70_inline (NeutralResourcesLanguageAttribute_t6FDE01C62215AA1CFE2542DE48ED5A889A98EB26 * __this, const RuntimeMethod* method);
 // System.Resources.UltimateResourceFallbackLocation System.Resources.NeutralResourcesLanguageAttribute::get_Location()
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t NeutralResourcesLanguageAttribute_get_Location_mCCD2EA7764CA5831DB01F787287DE29B37D7805D_inline (NeutralResourcesLanguageAttribute_t6FDE01C62215AA1CFE2542DE48ED5A889A98EB26 * __this, const RuntimeMethod* method);
-// System.Void System.Attribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0 (Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerator`1<System.Globalization.CultureInfo> System.Resources.ResourceFallbackManager::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceFallbackManager_GetEnumerator_m93C691CB0FA9F2824CE37039D41B41B15349D8B2 (ResourceFallbackManager_t1AEACC658BDC0DDFAD5444D1EC3611FAA56CBFA2 * __this, const RuntimeMethod* method);
 // System.Void System.Resources.ResourceFallbackManager/<GetEnumerator>d__5::.ctor(System.Int32)
@@ -11732,6 +11753,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingContext__ctor_m1505F2EEF0153F36
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryFormatter__ctor_m89DA9542D935A5F3272C49D26984E68FEF2D8713 (BinaryFormatter_t116398AB9D7E425E4CFF83C37824A46443A2E6D0 * __this, RuntimeObject* ___selector0, StreamingContext_t2CCDC54E0E8D078AF4A50E3A8B921B828A900034  ___context1, const RuntimeMethod* method);
 // System.Void System.Resources.ResourceReader::_ReadResources()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceReader__ReadResources_m91B54107F4DDCC4156EE89903F4125713B699C52 (ResourceReader_tFD2E7D93B3A482480028F8353C81F3CEFF2D0442 * __this, const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.DefaultMemberAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMemberAttribute__ctor_mE77D2333C3D0CB84956C493E035C7FAC47649BD9 (DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731 * __this, String_t* ___memberName0, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___memberName0;
+		__this->set_m_memberName_0(L_0);
+		return;
+	}
+}
+// System.String System.Reflection.DefaultMemberAttribute::get_MemberName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DefaultMemberAttribute_get_MemberName_mC3A880116EB62C9DC66420EBE8C2F68BCC915121 (DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_m_memberName_0();
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

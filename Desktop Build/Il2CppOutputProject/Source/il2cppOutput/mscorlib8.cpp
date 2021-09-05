@@ -384,8 +384,6 @@ struct CustomAttributeNamedArgumentU5BU5D_tFD37F6CE782EF87006B5F999D53A711D1A7B9
 struct CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8;
 // System.Reflection.CustomAttributeTypedArgument[]
 struct CustomAttributeTypedArgumentU5BU5D_t9F6789B0E2215365EA8161484FC1E4B6F9446C05;
-// System.Reflection.DefaultMemberAttribute
-struct DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731;
 // System.Reflection.EventInfo
 struct EventInfo_t;
 // System.Reflection.EventInfo/AddEventAdapter
@@ -991,6 +989,7 @@ IL2CPP_EXTERN_C const uint32_t Number_StringToNumber_m430FD04F901D7715B727832A85
 IL2CPP_EXTERN_C const uint32_t Number_TryParseInt32_mF9FA8AD887CFF429B3C9DCAED08CBF7746DB250D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Number_TryParseInt64_m62C1C9F9BAC32770297859436DE8E68DF0E1E598_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Number_TryParseSingle_m8BFCEBAF689D19500FA014CAC081D1614BD4A4C0_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Number_TryParseUInt32_m5D5F513C1F31174E132E2646CC964C32E55F9436_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ObjectDisposedException_GetObjectData_mD7998E5F70ADEF29C45511FC159D6DAC7CE80708_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ObjectDisposedException__ctor_m50E769BBFAFD430207D11C7FC8263FB87680B9E2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ObjectDisposedException__ctor_m7214983E04089BBA4EA56C45AB7128DEDA917BBE_MetadataUsageId;
@@ -5635,25 +5634,6 @@ struct CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8_ma
 	Type_t * ___argumentType_0;
 	Il2CppIUnknown* ___value_1;
 };
-
-// System.Reflection.DefaultMemberAttribute
-struct  DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
-{
-public:
-	// System.String System.Reflection.DefaultMemberAttribute::m_memberName
-	String_t* ___m_memberName_0;
-
-public:
-	inline static int32_t get_offset_of_m_memberName_0() { return static_cast<int32_t>(offsetof(DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731, ___m_memberName_0)); }
-	inline String_t* get_m_memberName_0() const { return ___m_memberName_0; }
-	inline String_t** get_address_of_m_memberName_0() { return &___m_memberName_0; }
-	inline void set_m_memberName_0(String_t* value)
-	{
-		___m_memberName_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_memberName_0), (void*)value);
-	}
-};
-
 
 // System.Reflection.EventInfo
 struct  EventInfo_t  : public MemberInfo_t
@@ -21532,6 +21512,79 @@ IL_0050:
 		float* L_13 = ___result3;
 		float L_14 = V_3;
 		*((float*)L_13) = (float)L_14;
+		return (bool)1;
+	}
+}
+// System.Boolean System.Number::TryParseUInt32(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo,System.UInt32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseUInt32_m5D5F513C1F31174E132E2646CC964C32E55F9436 (String_t* ___s0, int32_t ___style1, NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * ___info2, uint32_t* ___result3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Number_TryParseUInt32_m5D5F513C1F31174E132E2646CC964C32E55F9436_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint8_t* V_0 = NULL;
+	NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075  V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
+		int8_t* L_1 = (int8_t*) alloca((((uintptr_t)L_0)));
+		memset(L_1, 0, (((uintptr_t)L_0)));
+		V_0 = (uint8_t*)(L_1);
+		uint8_t* L_2 = V_0;
+		NumberBuffer__ctor_m3CC10B06A100FC612C5BD24BBC5A20C2BCDCD68E((NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uint32_t* L_3 = ___result3;
+		*((int32_t*)L_3) = (int32_t)0;
+		String_t* L_4 = ___s0;
+		int32_t L_5 = ___style1;
+		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_6 = ___info2;
+		bool L_7 = Number_TryStringToNumber_mDA7F326F742680FF01ACA545ED511EE80A3248D7(L_4, L_5, (NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		int32_t L_8 = ___style1;
+		if (!((int32_t)((int32_t)L_8&(int32_t)((int32_t)512))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		uint32_t* L_9 = ___result3;
+		bool L_10 = Number_HexNumberToUInt32_mCF1D424CBE49EEA9B5D2546B705C79519A41195F((NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075 *)(&V_1), (uint32_t*)L_9, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0038:
+	{
+		uint32_t* L_11 = ___result3;
+		bool L_12 = Number_NumberToUInt32_m60BDF4513A1673F8F993CAA12CA865FD4294308F((NumberBuffer_tBD2266C521F098915F124D7A62AFF8DB05918075 *)(&V_1), (uint32_t*)L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0044:
+	{
 		return (bool)1;
 	}
 }
@@ -41140,32 +41193,6 @@ IL2CPP_EXTERN_C  int32_t CustomAttributeTypedArgument_GetHashCode_mBAACEB5B28531
 	int32_t _offset = 1;
 	CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8 * _thisAdjusted = reinterpret_cast<CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8 *>(__this + _offset);
 	return CustomAttributeTypedArgument_GetHashCode_mBAACEB5B2853174C5CB8C1D719CCDC06DD08ECD9(_thisAdjusted, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Reflection.DefaultMemberAttribute::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMemberAttribute__ctor_mE77D2333C3D0CB84956C493E035C7FAC47649BD9 (DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731 * __this, String_t* ___memberName0, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___memberName0;
-		__this->set_m_memberName_0(L_0);
-		return;
-	}
-}
-// System.String System.Reflection.DefaultMemberAttribute::get_MemberName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DefaultMemberAttribute_get_MemberName_mC3A880116EB62C9DC66420EBE8C2F68BCC915121 (DefaultMemberAttribute_t5942F1EEEB050C11A84EAA5605BB79E337186731 * __this, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = __this->get_m_memberName_0();
-		return L_0;
-	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

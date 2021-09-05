@@ -1014,6 +1014,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral333C11801925CEAB22DD74C93D7617C041F0FA70
 IL2CPP_EXTERN_C String_t* _stringLiteral33EA80F35FE737B35E1D085138643A2660006847;
 IL2CPP_EXTERN_C String_t* _stringLiteral3435968A1FA5DC7806024802A561C1886C22803B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3593CCD96F6C0FAD4E362D18AC37226707F2EA46;
+IL2CPP_EXTERN_C String_t* _stringLiteral36B30A763613205793C862E9B321707799F3267D;
 IL2CPP_EXTERN_C String_t* _stringLiteral36E743E4B92054AB6F0DA52D2B5F50ADE4B8D257;
 IL2CPP_EXTERN_C String_t* _stringLiteral37745ED7A0F005FB14522C5CC7C1BA3D9E0DF579;
 IL2CPP_EXTERN_C String_t* _stringLiteral3818FC9AE3DDA60E826D9B14657F088FB5F30552;
@@ -1151,6 +1152,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9300964C68712BA23F34ACEF429540225754B632
 IL2CPP_EXTERN_C String_t* _stringLiteral932EEB1076C85E522F02E15441FA371E3FD000AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral935EDBE91F7D3337C2FE13E3AD2373C9A8EC468C;
 IL2CPP_EXTERN_C String_t* _stringLiteral9377E60A3330B8DCBA93D22F00E784D5E303A292;
+IL2CPP_EXTERN_C String_t* _stringLiteral94732D2716FA92291229FBBA017D7D99A0684F3F;
 IL2CPP_EXTERN_C String_t* _stringLiteral9483BDD3D2B438AB667226C5A0CD8CC30D9BAFB2;
 IL2CPP_EXTERN_C String_t* _stringLiteral95521D9D0C3E39CEABCC90300C04F03585598066;
 IL2CPP_EXTERN_C String_t* _stringLiteral960922F9F8E21682ABFD2C7FBBD3F8CBC3CEA2B0;
@@ -1530,6 +1532,7 @@ IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_InternalConvertToUtf32_m782370997
 IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_InternalGetCategoryValue_m70C922D12420DD22399D84B5CA900F80FD0F30FE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_InternalGetUnicodeCategory_m2F385E842FECF592E5F45027976E6126084657B9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_InternalGetUnicodeCategory_m94698AE2E38DC942BEABD312ACC55FD82EF98E68_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_IsWhiteSpace_m25E8778340A684D0C0E0E66BAF48B5668468C55B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo_IsWhiteSpace_m746D142522BF05468B06174B025F9049EAE2A780_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CharUnicodeInfo__cctor_m8259FDC09EDFACA28B7AADC1D444DF5FDA14376D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CodePageDataItem_CreateString_mD0BF9DD058DEE819DA824DA84E9376097EDA31F1_MetadataUsageId;
@@ -19403,6 +19406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLowerInvariant_m197BD65B65
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CalendarData_fill_calendar_data_mF4AB4B24E8FB38D2257AED30A15B690F4B9C49E6 (CalendarData_t1D4C55E2ECDDE4EB7B69C75D0E28AA0AF9952B3E * __this, String_t* ___localeName0, int32_t ___datetimeIndex1, const RuntimeMethod* method);
 // System.Void System.Globalization.CharUnicodeInfo/Debug::Assert(System.Boolean,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Assert_m634F0CA58C10F7A86622FAD0D756879FA301A80D (bool ___condition0, String_t* ___message1, const RuntimeMethod* method);
+// System.Globalization.UnicodeCategory System.Globalization.CharUnicodeInfo::GetUnicodeCategory(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharUnicodeInfo_GetUnicodeCategory_m0A7D6F95B25E74A83D25C440EB089151076DF224 (String_t* ___s0, int32_t ___index1, const RuntimeMethod* method);
 // System.Globalization.UnicodeCategory System.Globalization.CharUnicodeInfo::GetUnicodeCategory(System.Char)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharUnicodeInfo_GetUnicodeCategory_mC5602CC632FDD7E8690D8DEF9A5F76A49A6F4C4C (Il2CppChar ___ch0, const RuntimeMethod* method);
 // System.Globalization.UnicodeCategory System.Globalization.CharUnicodeInfo::InternalGetUnicodeCategory(System.Int32)
@@ -41408,6 +41413,63 @@ IL_0079:
 		NullCheck(L_20);
 		Il2CppChar L_22 = String_get_Chars_m14308AC3B95F8C1D9F1D1055B116B37D595F1D96(L_20, L_21, /*hidden argument*/NULL);
 		return L_22;
+	}
+}
+// System.Boolean System.Globalization.CharUnicodeInfo::IsWhiteSpace(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharUnicodeInfo_IsWhiteSpace_m25E8778340A684D0C0E0E66BAF48B5668468C55B (String_t* ___s0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CharUnicodeInfo_IsWhiteSpace_m25E8778340A684D0C0E0E66BAF48B5668468C55B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		String_t* L_0 = ___s0;
+		Debug_Assert_m634F0CA58C10F7A86622FAD0D756879FA301A80D((bool)((!(((RuntimeObject*)(String_t*)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0), _stringLiteral94732D2716FA92291229FBBA017D7D99A0684F3F, /*hidden argument*/NULL);
+		int32_t L_1 = ___index1;
+		if ((((int32_t)L_1) < ((int32_t)0)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_2 = ___index1;
+		String_t* L_3 = ___s0;
+		NullCheck(L_3);
+		int32_t L_4 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_3, /*hidden argument*/NULL);
+		G_B3_0 = ((((int32_t)L_2) < ((int32_t)L_4))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001e:
+	{
+		Debug_Assert_m634F0CA58C10F7A86622FAD0D756879FA301A80D((bool)G_B3_0, _stringLiteral36B30A763613205793C862E9B321707799F3267D, /*hidden argument*/NULL);
+		String_t* L_5 = ___s0;
+		int32_t L_6 = ___index1;
+		IL2CPP_RUNTIME_CLASS_INIT(CharUnicodeInfo_t753A11F0CF6C79D3C262266DAA5FD2A8FD40085F_il2cpp_TypeInfo_var);
+		int32_t L_7 = CharUnicodeInfo_GetUnicodeCategory_m0A7D6F95B25E74A83D25C440EB089151076DF224(L_5, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		int32_t L_8 = V_0;
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)((int32_t)11)))) <= ((uint32_t)2))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0039:
+	{
+		return (bool)0;
 	}
 }
 // System.Boolean System.Globalization.CharUnicodeInfo::IsWhiteSpace(System.Char)

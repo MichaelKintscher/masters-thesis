@@ -19586,7 +19586,7 @@ IL_004e:
 		__this->set_m_kernelEvent_3((ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 *)NULL);
 		ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 * L_13 = V_1;
 		NullCheck(L_13);
-		VirtActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_13);
+		VirtActionInvoker0::Invoke(13 /* System.Void System.Threading.WaitHandle::Close() */, L_13);
 	}
 
 IL_0072:
@@ -23839,7 +23839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ManualResetEventSlim_LazyInitializeEvent
 	{
 		ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 * L_6 = V_1;
 		NullCheck(L_6);
-		VirtActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_6);
+		VirtActionInvoker0::Invoke(13 /* System.Void System.Threading.WaitHandle::Close() */, L_6);
 		return (bool)0;
 	}
 
@@ -24572,7 +24572,7 @@ IL_003a:
 		Monitor_Enter_mC5B353DD83A0B0155DF6FBCC4DF5A580C25534C5(L_6, (bool*)(&V_2), /*hidden argument*/NULL);
 		ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 * L_7 = V_0;
 		NullCheck(L_7);
-		VirtActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_7);
+		VirtActionInvoker0::Invoke(13 /* System.Void System.Threading.WaitHandle::Close() */, L_7);
 		il2cpp_codegen_memory_barrier();
 		__this->set_m_eventObj_3((ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 *)NULL);
 		IL2CPP_LEAVE(0x5D, FINALLY_0053);
@@ -27944,7 +27944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SemaphoreSlim_Dispose_m8AFD387293E71859B
 		ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 * L_2 = __this->get_m_waitHandle_4();
 		il2cpp_codegen_memory_barrier();
 		NullCheck(L_2);
-		VirtActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_2);
+		VirtActionInvoker0::Invoke(13 /* System.Void System.Threading.WaitHandle::Close() */, L_2);
 		il2cpp_codegen_memory_barrier();
 		__this->set_m_waitHandle_4((ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 *)NULL);
 	}

@@ -122,6 +122,9 @@ public class ScatterPlotGenerator : MonoBehaviour
             // Create a new sphere to model the point.
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 
+            // Make the point a child of the chart.
+            sphere.transform.parent = this.gameObject.transform;
+
             // Scale the point according to the point scale set in the Unity editor.
             sphere.transform.localScale = new Vector3(this.PointScale, this.PointScale, this.PointScale);
 
@@ -129,7 +132,7 @@ public class ScatterPlotGenerator : MonoBehaviour
             //      Note that the "Z" value of the data is placed in the "Y"
             //      position. This is because Unity has the Y axis pointing
             //      up instead of the Z axis.
-            sphere.transform.position = new Vector3(
+            sphere.transform.localPosition = new Vector3(
                 (pointData.x / xGreatest) * this.ChartSize.x,
                 (pointData.z / zGreatest) * this.ChartSize.z,
                 (pointData.y / yGreatest) * this.ChartSize.y
@@ -194,7 +197,7 @@ public class ScatterPlotGenerator : MonoBehaviour
             //      Note that the "Z" value of the data is placed in the "Y"
             //      position. This is because Unity has the Y axis pointing
             //      up instead of the Z axis.
-            sphere.transform.position = (Vector3)pointData + (this.ChartSize / 2f);
+            sphere.transform.localPosition = (Vector3)pointData + (this.ChartSize / 2f);
 
             // Set the material for the point.
             Renderer renderer = sphere.GetComponent<Renderer>();

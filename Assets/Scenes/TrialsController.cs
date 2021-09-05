@@ -110,7 +110,7 @@ public class TrialsController : MonoBehaviour
         // Activate the next chart.
         this.ActiveChartIndex++;
 
-        if (this.ActiveChartIndex < this.Charts.Count)
+        if (this.ActiveChartIndex < this.OrderedNames.Length)
         {
             string currentTrialName = this.OrderedNames[this.ActiveChartIndex];
             this.Charts[currentTrialName].SetActive(true);
